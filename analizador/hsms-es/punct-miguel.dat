@@ -1,0 +1,24 @@
+, PUNCT Fc
+. PUNCT Fp
+: PUNCT Fd
+; PUNCT Fx
+\ PUNCT Fh
+/ PUNCT Fh
+| PUNCT Fh
+≺ PUNCT Fpa
+≻ PUNCT Fpt
+¿ PUNCT Fia
+? PUNCT Fit
+¡ PUNCT Faa
+! PUNCT Fat
+¶ PUNCT Fs
++ PUNCT Fz
+& y CC
+⅋ Y CC
+＆ Y CC
+🙰 Y CC
+🙱 Y CC
+🙲 Y CC
+🙳 Y CC
+🙵 Y CC
+

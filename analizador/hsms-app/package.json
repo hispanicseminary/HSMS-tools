@@ -1,0 +1,16 @@
+	{
+	  "name": "COSER",
+	  "main": "./html/index.html",
+	  "single-instance": false,
+	  "window": {
+		"toolbar": false,
+		"show": true,
+		"icon": "./img/hsms-seal.png",
+		"position": "center",
+		"width": 1200,
+		"height": 700
+	  },
+	  "dependencies": {
+		"sqlite3": "^3.1.1"
+	  }
+	}

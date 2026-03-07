@@ -1,0 +1,3 @@
+/HSMS/HSMS-CONVERSOR/PRUEBAS-HSMS2$
+
+/usr/local/bin/analyze -f old-es.cfg < TEXT.LEY.plain > TEXT.LEY.tagged

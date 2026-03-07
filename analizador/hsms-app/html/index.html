@@ -1,0 +1,851 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>analizador Corpus OSTA v.2.0 [textos antiguos]</title>
+<link rel="stylesheet" type="text/css" media="all" href="../css/widget.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../css/jquery-impromptu.min.css" />
+<link href="osta.css" type=text/css rel=stylesheet>
+<link href="../osta.css" type=text/css rel=stylesheet>
+<link href="../../osta.css" type=text/css rel=stylesheet>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="../js/findAndReplaceDOMText.js"></script>
+<script type="text/javascript" src="../js/jquery-impromptu.min.js"></script>
+<script type="text/javascript" src="../js/hsms.js"></script>
+
+<style type="text/css">
+#filescont {float:left; margin:10px;}
+#files {padding-right: 10px; padding-left: 20px; cursor:pointer;}
+#content {float:left; margin:10px; width: 98%;}
+#formulario {float:left; margin:10px;}
+
+#select_folder, #select_corpus, #select_file {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 16em;
+    top: 40%;
+    padding: 1em;
+	background-color: #c6c6c6;
+    /*background: #a13f43;*/
+    border-radius: 2em;
+    border: solid 1px #c6c6c6;
+    color: black;
+	/*float:left;*/
+	display: inline-block;
+}
+
+#select_folder:hover, #select_corpus:hover, #select_file:hover {
+    box-shadow: 0px 0px 20px #c6c6c6;
+    cursor: pointer;
+}
+#fileSelector {
+    display: none;
+}
+#folderSelector {
+    display: none;
+}
+#corpusSelector {
+    display: none;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+button {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+#barra {
+	width: 96%;
+	text-align: center;
+	border-radius: 25px;
+	background: linear-gradient(to bottom, rgb(160, 1, 0) 0%, rgb(70, 1, 0) 100%);
+/*	background: linear-gradient(to bottom, rgba(73,149,161,1) 0%, rgba(0,62,71,1) 100%);*/
+    padding: 20px; 
+}
+
+#filescont, #formulario {
+    border-radius: 25px;
+    background: url(../img/paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+}
+
+.borderClass{
+  border-color: darkBlue;
+  border-width:2px;
+  border-style: solid;
+  background-color: #ADD8E6;
+}
+
+match {
+  background-color: #ADD8E6;
+}
+</style>
+</head>
+<body>
+<div id="barra">
+<div id="select_file">
+    <span>Procesar uno o más textos</span>
+</div>
+<div id="select_corpus">
+    <span>Procesar corpus completo</span>
+</div>
+<div id="select_folder">
+    <span>Listar textos</span>
+</div>
+</div>
+<script type="text/javascript">
+var path = require('path');
+var nwDir = path.dirname(process.execPath);
+var hsmsDir = nwDir.replace(/[\\\/]node-webkit/, "");
+
+document.write('<input type="file" accept=".txt" nwworkingdir="' + hsmsDir + '" id="fileSelector" multiple/>');
+document.write('<input type="file" nwdirectory nwworkingdir="' + hsmsDir + '" id="folderSelector"/>');
+document.write('<input type="file" nwdirectory nwworkingdir="' + hsmsDir + '" id="corpusSelector"/>');
+//process.env.FREELINGSHARE = "C:\Users\Javier\Desktop\perl\apps\coser\freeling-3.1-c\data";
+</script>
+<div style="display: flex; align-items: center;"><input type="text" placeholder="Buscar" spellcheck="false" class="text-input" name="find" id="find" value=""><input style="padding: 5px;" value="Buscar" title="Buscar" id="buscar" type="button"/><input style="margin-left: 10px; padding: 5px;" value="Limpiar" title="Limpiar" id="limpiar_buscar" type="button"/><input style="padding: 5px;" value="Anterior" id="prev" type="button"/><input style="padding: 5px;" value="Siguiente" id="next" type="button"/><div style="color:blue;padding-left:10px;padding-right:10px;" id="ocurrencias"></div><div style="color:red;" id="warning"></div></div>
+<table width="100%" height="100%">
+<tr>
+<td valign="top" width="20%"><div id="filescont" style="height: 480px; overflow-x: auto; overflow-y: auto;"><ul id="files"><b>Cargar los textos mediante los botones superiores de la aplicación</b></ul></div></td>
+<td valign="top" width="65%"><div id="content" style="height: 100vh; overflow-x: auto; overflow-y: auto;"></div></td>
+<td valign="top" width="15%">
+	<div id="formulario">
+		<div style="text-align: center; width="100%""><img src="../img/ysop.png" alt="HSMS" width="70%"></div><BR>
+		<div><a id="verdes" onclick="verdes()" href="#" style="color: #279394">Ver análisis múltiple</a></div>
+		<BR>
+		<form>  <b>Forma:</b><br>
+			<input type="text" name="forma" id="forma" value=""><br>
+<!--			Forma normalizada:<br>
+-->
+			<input type="text" name="norma" id="norma" value="" style="display:none">
+
+			<br><b>Lema propuesto:</b><br>
+			<input type="text" name="lema"  id="lema" value="">
+<!--			<input name="zzz" type="button" id="quitaDias" onclick="quitardias();" title="Quitar diacríticos" value="ǟ → a"/><br>
+-->			<br><br><b>Etiqueta asignada:</b><br>
+			<input type="text" name="pos"   id="pos" value="">
+			<input name="xxx" type="button" id="ayudaPoS" onclick="ayudapos();" title="Ayuda para la creación de etiquetas" value="?"/><br>
+			<br><b>Otros análisis posibles:</b><br>
+			<textarea name="otros" id="otros" cols="20" rows="5" ... ></textarea><br>
+			<button type="button" id="guardar" onclick="addentry();">Guardar</button>
+		</form>
+	</div>
+</td>
+</tr>
+</table>
+</body>
+
+
+<script type="text/javascript">
+
+function  verdes () {
+	var a = document.getElementById("verdes");
+	var texto = a.innerHTML;
+	if  (texto == "No ver análisis múltiple") {
+		a.innerHTML = "Ver análisis múltiple";
+		$( ".word2" ).css("color" , "black");
+		$( ".word2" ).css("font-weight" , "normal");
+	}
+	else {
+		a.innerHTML = "No ver análisis múltiple";
+		$( ".word2" ).css("color" , "green");
+		$( ".word2" ).css("font-weight" , "bold");
+	}
+}
+
+function openFileDialog () {
+    var inputField = document.querySelector('#fileSelector');
+    inputField.addEventListener('change', function () {
+        var myfile = this.value;
+		inputField.value = "";
+		myfile = myfile.replace(/\\/g, "/");
+		if(myfile.substring(myfile.lastIndexOf("."))==".txt"){
+			//document.getElementById('content').innerHTML = "";
+			processFile(myfile);
+		}
+	
+    }, false);
+
+	document.getElementById("files").innerHTML = "<b>Elegir los archivos (TEXT.*.txt) con los textos que se desean lematizar y etiquetar gramaticalmente. <br><br>Este proceso puede durar entre <span style='color: red;'>1 y 3</span> minutos por texto, según el tamaño y la complejidad de cada uno.</b><br>";
+    inputField.click();
+}
+
+function openCorpusDialog () {
+
+    var inputField = $('#corpusSelector');
+	inputField.val('');
+    inputField.change(function(evt) {
+
+		var folderPathCorpus = $(this).val();
+		folderPathCorpus = folderPathCorpus.replace(/\\/g, "/");
+		document.getElementById("files").innerHTML = '<b>Se ha seleccionado la carpeta <span style="color: blue;">' +folderPathCorpus+ '</span>. Confirmar que se desea procesar dicha carpeta: <br><br><button type="button" id="buttonCorpus" onclick="processCorpus(\''+folderPathCorpus+'\');">Procesar carpeta...</button>';
+	
+		// Reset the selected value to empty ('')
+		//$(this).val('');
+    });
+
+	document.getElementById("files").innerHTML = "<b>Elegir una carpeta con todos los textos que se desean lematizar y etiquetar gramaticalmente. <br><br>Este proceso puede durar entre <span style='color: red;'>3 y 4 horas</span> según el número, tamaño y complejidad de los textos</b><br>";
+    inputField.trigger('click');
+}
+
+
+function processCorpus (folderPathCorpus) {
+alert(folderPathCorpus);
+		if (folderPathCorpus != "") {
+			document.getElementById("files").innerHTML = "<b>Textos procesados:</b><br><br>";		
+			folderPathCorpus = folderPathCorpus.replace(/\\/g, "/");
+			var folderPath = folderPathCorpus;
+			//console.log(folderPath);
+			var fs = require('fs');
+			var filenames = fs.readdirSync(folderPath);
+			var hsmsperl = nwDir.replace(/\\/g, "/");
+			hsmsperl = nwDir.replace(/[\\\/]node-webkit/, "");
+			var i;  
+			for (i = 0; i <filenames.length; i++) {  //Cyclic acquisition documents
+				if(filenames[i].substring(filenames[i].lastIndexOf("."))==".txt"){
+					var myTXTfile = folderPath+"/"+filenames[i];
+					myTXTfile = myTXTfile.replace(/\\/g, "/");
+					var myfolderPath = folderPath.replace(/\\/g, "/");
+					var myHTMLfile = myTXTfile.replace(/\.txt/, ".html");
+					var myHTMLfile2 = myHTMLfile.replace(/\.html/, "");
+					myHTMLfile2 = myHTMLfile2.replace(/.+\//, "");
+					var myHTMLfileb = myTXTfile.replace(/\.txt/, ".tagged.html");
+					var myHTMLfile2b = myHTMLfileb.replace(/\.html/, "");
+					myHTMLfile2b = myHTMLfile2b.replace(/.+\//, "");
+					// executes program
+					var execSync = require('child_process').execSync;
+					
+					//////////////////COMPILADO WIN//////////////////////// 
+					var child = execSync("\"" + hsmsperl + "/HSMS2XML2HTML.exe" + "\" " + '\"' + myTXTfile + '\"');
+					//////////////////LINUX//////////////////////// 
+					//var child = execSync(hsmsperl + "/HSMS2XML2HTML.pl " + '\"' + myTXTfile + '\"');
+					//////////////////WIN//////////////////////// 
+					//var child = execSync("C:/Users/Javier/Desktop/perl/bin/perl.exe " + hsmsperl + "/HSMS2XML2HTML.pl " + '\"' + myTXTfile + '\"') ;
+					
+					//console.log(myfile);
+					document.getElementById("files").innerHTML += "<li onClick=\"openFile(\'"+myHTMLfile+"\');\">"+myHTMLfile2+"</li>";
+					document.getElementById("files").innerHTML += "<li onClick=\"openFile(\'"+myHTMLfileb+"\');\">"+myHTMLfile2b+"</li>";
+				}
+			}
+		}
+}
+
+
+function openFolderDialog () {
+    var inputField = document.querySelector('#folderSelector');
+	var contenidos = "";
+    inputField.addEventListener('change', function () {
+		document.getElementById("files").innerHTML = "<b>Textos encontrados:</b><br><br>";
+		var fs = require('fs');
+        var folderPath = this.value;
+		inputField.value = "";
+		var filenames;
+		fs.readdir(folderPath, function (err, filenames) {   //"."On behalf of the current path of the file content
+			var i;  
+			for (i = 0; i <filenames.length; i++) {  //Cyclic acquisition documents
+				if(filenames[i].substring(filenames[i].lastIndexOf("."))==".html"){
+					var myHTMLfile = folderPath+"/"+filenames[i];
+					myHTMLfile = myHTMLfile.replace(/\\/g, "/");
+					var myfolderPath = folderPath.replace(/\\/g, "/");
+					var myHTMLfile2 = myHTMLfile.replace(/\.html/, "");
+					myHTMLfile2 = myHTMLfile2.replace(/.+\//, "");
+					document.getElementById("files").innerHTML += "<li onClick=\"openFile(\'"+myHTMLfile+"\');\">"+myHTMLfile2+"</li>";
+				}
+			}  
+		}); 
+    }, false);
+	document.getElementById("files").innerHTML = "<b>Elegir la carpeta con los textos que se desean visualizar</b><br><br>";
+    inputField.click();
+}
+
+function bindSelectFileClick () {
+    var button = document.querySelector('#select_file');
+    button.addEventListener('click', function () {
+        openFileDialog();
+    });
+}
+
+function bindSelectFolderClick () {
+    var button = document.querySelector('#select_folder');
+    button.addEventListener('click', function () {
+        openFolderDialog();
+    });
+}
+function bindSelectCorpusClick () {
+    var button = document.querySelector('#select_corpus');
+    button.addEventListener('click', function () {
+        openCorpusDialog();
+    });
+}
+
+
+function openFile(myfile){
+
+	//alert(myfile);
+
+	var myHTMLfile = myfile.replace(/\\/g, "/");
+	var myTXTfile = myHTMLfile.replace(/\.html/, ".txt");
+	//console.log("1" + myTXTfile);
+	myTXTfile = myTXTfile.replace(/\.tagged\.txt/, ".txt");
+	//console.log("2" + myTXTfile);
+
+	var fs = require('fs');
+	var text = fs.readFileSync(myHTMLfile, 'utf8');
+	
+	$("#analizar").remove();
+	document.getElementById("formulario").innerHTML += '<button type="button" id="analizar" style="margin-top: 10px;" onclick="processFile(\'' + myTXTfile + '\')">Reanalizar</button>';
+	document.getElementById('content').innerHTML = text;
+
+	var a = document.getElementById("verdes");
+	a.innerHTML = "Ver análisis múltiple";
+
+	$(".word").click(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		$(this).css("background-color","yellow");
+		$("#forma").val(forma);
+		$("#norma").val(res[0]);
+		$("#lema").val(res[1]);
+		$("#pos").val(res[2]);
+		$("#otros").val('');
+		$("#guardar").text('Modificar');
+	});
+
+	$(".word2").click(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		var otros = $(this).attr("data2-title");
+		 otros = otros.replace(/@/g, "\n");
+		 otros = otros.replace(/†/g, "•");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		$(this).css("background-color","yellow");
+		$("#forma").val(forma);
+		$("#norma").val(res[0]);
+		$("#lema").val(res[1]);
+		$("#pos").val(res[2]);
+		$("#otros").val(otros);
+		$("#guardar").text('Modificar');
+	});
+
+	$(".unknown").click(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • "); 
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		$(this).css("background-color","black");
+		$("#forma").val(forma);
+		$("#norma").val(res[0]);
+		$("#lema").val(res[1]);
+		res[2] = res[2].replace(/#.*/g, "");
+		$("#pos").val(res[2]);
+		$("#otros").val('');
+		$("#guardar").text('Añadir');
+	});
+	
+	$(".unknown2").click(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		$(this).css("background-color","purple");
+		$("#forma").val(forma);
+		$("#norma").val(res[0]);
+		$("#lema").val(res[1]);
+		res[2] = res[2].replace(/#.*/g, "");
+		$("#pos").val(res[2]);
+		$("#otros").val('');		
+		$("#guardar").text('Añadir');
+	});
+
+	$(".word").hover(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		var titulo = forma + ": " + res[1] + " • " + res[2];
+		//alert(titulo);
+		$(this).attr("data-title-hover", titulo);
+	});
+
+	$(".word2").hover(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		var titulo = forma + ": " + res[1] + " • " + res[2];
+		//alert(titulo);
+		$(this).attr("data-title-hover", titulo);
+	});
+
+	$(".unknown").hover(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		var titulo = forma + ": " + res[1] + " • " + res[2];
+		//alert(titulo);
+		$(this).attr("data-title-hover", titulo);
+	});
+
+	$(".unknown2").hover(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		var titulo = forma + ": " + res[1] + " • " + res[2];
+		//alert(titulo);
+		$(this).attr("data-title-hover", titulo);
+	});
+
+
+}
+
+function getSelectionHtml() {
+    var html = "";
+    if (typeof window.getSelection != "undefined") {
+        var sel = window.getSelection();
+        if (sel.rangeCount) {
+            var container = document.createElement("div");
+            for (var i = 0, len = sel.rangeCount; i < len; ++i) {
+                container.appendChild(sel.getRangeAt(i).cloneContents());
+            }
+            html = container.innerHTML;
+        }
+    } else if (typeof document.selection != "undefined") {
+        if (document.selection.type == "Text") {
+            html = document.selection.createRange().htmlText;
+        }
+    }
+    return(html);
+}
+
+function replaceSelectionWithHtml() {
+    var range, html;
+	html = getSelectionHtml();
+	html = '<div style="display: inline; background-color: yellow">' + html + '</div>';
+    if (window.getSelection && window.getSelection().getRangeAt) {
+        range = window.getSelection().getRangeAt(0);
+        range.deleteContents();
+        var div = document.createElement("div");
+        div.innerHTML = html;
+        var frag = document.createDocumentFragment(), child;
+        while ( (child = div.firstChild) ) {
+            frag.appendChild(child);
+        }
+        range.insertNode(frag);
+    } else if (document.selection && document.selection.createRange) {
+        range = document.selection.createRange();
+        range.pasteHTML(html);
+    }
+}
+
+function cc(myfile){
+
+	var selObj = window.getSelection();
+	var texto = selObj.toString();
+
+	if (texto == "") {alert("No se ha seleccionado ningún texto"); return;}
+	
+	alert(texto);
+	//alert(myfile);
+
+	var fs = require('fs');
+	var myTXTfile = myfile.replace(/\\/g, "/");
+	var textoall = fs.readFileSync(myTXTfile, 'utf8');
+
+	texto = texto.replace(/_/g, " ");
+	texto = texto.replace(/˽/g, "_");
+//	texto = texto.replace(/\[/g, "\\\[");
+//	texto = texto.replace(/\]/g, "\\\]");
+//	texto = texto.replace(/\?/g, "\\\?");
+	texto = escapeRegExp(texto);
+	texto = texto.replace(/[º°]/g, "[º°]");
+	var rex = new RegExp("(" + texto + ")");
+
+	textoall = textoall.replace(rex, "<CC>$1<\/CC>");
+	//console.log(textoall);
+	fs.writeFileSync(myTXTfile, textoall, 'utf8');
+
+	replaceSelectionWithHtml();
+}
+
+function escapeRegExp(str) {
+  return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+}
+ 
+function processFile(myfile){
+
+	//alert(myfile);
+
+	var fs = require('fs');
+	var hsmsperl = nwDir.replace(/\\/g, "/");
+	hsmsperl = nwDir.replace(/[\\\/]node-webkit/, "");
+
+	var myTXTfile = myfile.replace(/\\/g, "/");
+	var filenames = myTXTfile.split(";");
+
+
+	// executes program
+	//var sys = require('sys');
+	var execSync = require('child_process').execSync;
+	
+	//////////////////COMPILADO WIN//////////////////////// 
+	var child = execSync("\"" + hsmsperl + "/HSMS2XML2HTML.exe" + "\" " + '\"' + myTXTfile + '\"');
+	//////////////////LINUX//////////////////////// 
+	//var child = execSync(hsmsperl + "/HSMS2XML2HTML.pl " + '\"' + myTXTfile + '\"');
+	//////////////////WIN//////////////////////// 
+	//var child = execSync("C:/Users/Javier/Desktop/perl/bin/perl.exe " + hsmsperl + "/HSMS2XML2HTML.pl " + '\"' + myTXTfile + '\"');
+
+
+	document.getElementById("files").innerHTML = "<b>Textos:</b><br><br>";
+
+	var i;  
+	for (i = 0; i <filenames.length; i++) {  //Cyclic acquisition documents
+
+			var myHTMLfile = filenames[i].replace(/\.txt/, ".html");
+			var myHTMLfile2 = myHTMLfile.replace(/\.html/, "");
+			myHTMLfile2 = myHTMLfile2.replace(/.+\//, "");
+			var myHTMLfileb = filenames[i].replace(/\.txt/, ".tagged.html");
+			var myHTMLfile2b = myHTMLfileb.replace(/\.html/, "");
+			myHTMLfile2b = myHTMLfile2b.replace(/.+\//, "");
+			var myfolderPath = myHTMLfileb.replace(/TEXT\..+\.tagged\.html/, "");
+
+			document.getElementById("files").innerHTML += "<li onClick=\"openFile(\'"+myHTMLfile+"\');\">"+myHTMLfile2+"</li>";
+			document.getElementById("files").innerHTML += "<li onClick=\"openFile(\'"+myHTMLfileb+"\');\">"+myHTMLfile2b+"</li>";
+
+	}  
+
+
+	var myHTMLfileb = filenames[0].replace(/\.txt/, ".tagged.html");
+
+	//alert(myHTMLfileb);
+	
+	var text = fs.readFileSync(myHTMLfileb, 'utf8');
+	document.getElementById('content').innerHTML = text;
+
+
+	$("#analizar").remove();
+
+	document.getElementById("formulario").innerHTML += '<button type="button" id="analizar" style="margin-top: 10px;" onclick="processFile(\'' + filenames[0] + '\')">Reanalizar</button>';
+
+	var a = document.getElementById("verdes");
+	a.innerHTML = "Ver análisis múltiple";
+	
+	$(".word").click(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		$(this).css("background-color","yellow");
+		$("#forma").val(forma);
+		$("#norma").val(res[0]);
+		$("#lema").val(res[1]);
+		$("#pos").val(res[2]);
+		$("#otros").val('');
+		$("#guardar").text('Modificar');
+	});
+
+	$(".word2").click(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		var otros = $(this).attr("data2-title");
+		 otros = otros.replace(/@/g, "\n");
+		 otros = otros.replace(/†/g, "•");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		$(this).css("background-color","yellow");
+		$("#forma").val(forma);
+		$("#norma").val(res[0]);
+		$("#lema").val(res[1]);
+		$("#pos").val(res[2]);
+		$("#otros").val(otros);
+		$("#guardar").text('Modificar');
+	});
+
+	$(".unknown").click(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • "); 
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		$(this).css("background-color","black");
+		$("#forma").val(forma);
+		$("#norma").val(res[0]);
+		$("#lema").val(res[1]);
+		res[2] = res[2].replace(/#.*/g, "");
+		$("#pos").val(res[2]);
+		$("#otros").val('');
+		$("#guardar").text('Añadir');
+	});
+	
+	$(".unknown2").click(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		$(this).css("background-color","purple");
+		$("#forma").val(forma);
+		$("#norma").val(res[0]);
+		$("#lema").val(res[1]);
+		res[2] = res[2].replace(/#.*/g, "");
+		$("#pos").val(res[2]);
+		$("#otros").val('');		
+		$("#guardar").text('Añadir');
+	});
+
+	$(".word").hover(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		var titulo = forma + ": " + res[1] + " • " + res[2];
+		//alert(titulo);
+		$(this).attr("data-title-hover", titulo);
+	});
+
+	$(".word2").hover(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		var titulo = forma + ": " + res[1] + " • " + res[2];
+		//alert(titulo);
+		$(this).attr("data-title-hover", titulo);
+	});
+
+	$(".unknown").hover(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		var titulo = forma + ": " + res[1] + " • " + res[2];
+		//alert(titulo);
+		$(this).attr("data-title-hover", titulo);
+	});
+
+	$(".unknown2").hover(function () {
+		var forma =  $(this).text();
+		var lemapos = $(this).attr("data-title");
+		var res = lemapos.split(" • ");
+		//alert(forma + " -> " + res[0] + " = " + res[1]);
+		var titulo = forma + ": " + res[1] + " • " + res[2];
+		//alert(titulo);
+		$(this).attr("data-title-hover", titulo);
+	});
+
+}
+
+function addentry() {
+
+	var hsmsperl = nwDir.replace(/\\/g, "/");
+	hsmsperl = nwDir.replace(/[\\\/]node-webkit/, "");
+
+	var forma = $("#forma").val();
+	var normalizada = $("#norma").val();
+	var lema = $("#lema").val();
+	var pos = $("#pos").val();
+	var otros = $("#otros").val();
+	var action = $("#guardar").text();
+
+	if (otros) {
+		otros = otros.trim();
+		otros = otros.replace(/\n/g, "@");
+		otros = otros.replace(/•/g, "@");
+		
+	}
+	else {
+		otros = "XXX";
+	}
+
+	if (!forma) {alert("La caja «Forma» está vacía");}
+	else if (!lema) {alert("La caja «Lema»");}
+	else if (!pos) {alert("La caja «Etiqueta» está vacía");}
+	else {
+
+		if (forma.match(/ /)) {forma = forma.replace(/ +/g, "_");}
+		if (forma.match(/˽/)) {forma = forma.replace(/˽/g, "_");}
+		if (forma.match(/[\"“]/)) {forma = forma.replace(/[\"“]/g, "”");}
+		if (forma.match(/[\'‘]/)) {forma = forma.replace(/[\'‘]/g, "’");}
+		if (lema.match(/ /)) {lema = lema.replace(/ +/g, "_");}
+		if (lema.match(/˽/)) {lema = lema.replace(/˽/g, "_");}
+		if (lema.match(/[\"“]/)) {lema = lema.replace(/[\"“]/g, "”");}
+		if (lema.match(/[\'‘]/)) {lema = lema.replace(/[\'‘]/g, "’");}
+		if (otros.match(/ /)) {otros = otros.replace(/ +/g, "_");}
+		if (otros.match(/˽/)) {otros = otros.replace(/˽/g, "_");}
+		if (otros.match(/[\"“]/)) {otros = otros.replace(/[\"“]/g, "”");}
+		if (otros.match(/[\'‘]/)) {otros = otros.replace(/[\'‘]/g, "’");}
+		if (otros.match(/€/)) {otros = otros.replace(/€/g, "•");}
+	
+		var myAddition = forma + " " + normalizada + " " + lema + " " + pos + " " + otros + " " + action;
+ 
+		myAddition = myAddition.replace(/ƽ/g, "xsigmazx");
+		myAddition = myAddition.replace(/Ƽ/g, "xSigmazx");
+		//myAddition = myAddition.replace(/ζ/g, "xsigmazx");
+		//myAddition = myAddition.replace(/Ζ/g, "xSigmazx");
+		myAddition = myAddition.replace(/σ/g, "xsigmasx");
+		myAddition = myAddition.replace(/Σ/g, "xSigmasx");
+		myAddition = myAddition.replace(/ς/g, "xsigmacx");
+		myAddition = myAddition.replace(/∑/g, "xSigmacx");
+
+		var execSync = require('child_process').execSync;
+
+		///////////////// COMPILADO WIN /////////////////
+		var child = execSync("\"" + hsmsperl + "/dicc-hsms.exe" + "\" " + encodeURIComponent(myAddition) + '\"');
+		///////////////// LINUX /////////////////
+		//var child = execSync(hsmsperl + '/dicc-hsms.pl \"' + encodeURIComponent(myAddition) + '\"');
+		///////////////// WIN /////////////////
+		//var child = execSync("C:/Users/Javier/Desktop/perl/bin/perl.exe " + hsmsperl + '/dicc-hsms.pl \"' + encodeURIComponent(myAddition) + '\"');
+		
+		alert("Entrada modificada");
+	}
+}
+
+
+var container = document.getElementById('content');
+var warning = document.getElementById('warning');
+var input = document.getElementById('find');
+//var colors = ['yellow', 'green', 'blue', 'purple', '#E67A00', 'red'];
+var colors = ['#ADD8E6']; // var colors = ['yellow'];
+var instance;
+var inputHandler = function() {
+	instance && instance.revert();
+	warning.style.display = 'none';
+	if (input.value) {
+		var called = false;
+		try {
+			var regex = RegExp(input.value, 'gi');
+		} catch(e) {
+			warning.innerHTML = 'INVALID REGEX ಠ_ಠ';
+			warning.style.display = 'inline';
+			return;
+		}
+		try {
+			instance = findAndReplaceDOMText(container, {
+				portionMode: 'first',
+				find: regex,
+				wrap: 'match',
+				forceContext: findAndReplaceDOMText.NON_INLINE_PROSE
+			});
+		} catch(e) {
+			warning.innerHTML = 'Error: ' + e;
+			warning.style.display = 'inline';
+			throw e;
+			return;
+		}
+		if (!called) {
+			//warning.innerHTML = 'Sin resultados :(';
+			warning.style.display = 'inline';
+		}
+	}
+};
+
+
+function scrollToPosition(element) {
+    if (element !== undefined) {
+        $("#content").scrollTo(element, 200, {
+            margin: true, offset: -10
+        });
+    }
+}
+
+var position = 0;
+var buscar = $('#buscar');
+var limpiar_buscar = $('#limpiar_buscar');
+var next = $('#next');
+var prev = $('#prev');
+next.prop( "disabled", true );
+prev.prop( "disabled", true );
+var tokens = 0;
+var mi_match_element;
+
+limpiar_buscar.click(function(evt) {
+	$('#find').val('');
+	$('#buscar').click();
+	$('#prev_desambiguar').prop( "disabled", true );
+	$('#next_desambiguar').prop( "disabled", true);
+});
+
+buscar.click(function(evt) {
+	inputHandler();
+	position = -1;
+	tokens = $('match').length;
+	next.click();
+	if  (tokens === 0) {next.prop( "disabled", true); prev.prop( "disabled", true); $("#ocurrencias").html(""); warning.innerHTML = 'Sin resultados :(';}
+	else if  (tokens === 1) {
+	    warning.innerHTML = '';
+		next.prop( "disabled", true);
+		prev.prop( "disabled", true);
+		//$($('match')[0]).parent().click();
+		$("#ocurrencias").html("<span>1 de " + tokens + " ocurrencias</span>");
+		$($('match')).removeClass('borderClass');
+		$($('match')[0]).addClass('borderClass');
+	}
+	else {next.prop( "disabled", false );  prev.prop( "disabled", true); $("#ocurrencias").html("<span>1 de " + tokens + " ocurrencias</span>"); warning.innerHTML = '';}
+});
+
+
+next.click(function(evt) {
+	prev.prop( "disabled", false );
+	scrollToPosition($($('match')[position += 1]));
+	var fakeposition = position + 1;
+	//$($('match')[position]).parent().click();
+	$("#ocurrencias").html(fakeposition + " de <span>" + tokens + " ocurrencias</span>");
+	$($('match')).removeClass('borderClass');
+	$($('match')[position]).addClass('borderClass');
+	if (position === $('match').length - 1) {
+		next.prop( "disabled", true );
+	}
+});
+
+prev.click(function(evt) {
+	next.prop( "disabled", false );
+	scrollToPosition($($('match')[position -= 1]));
+	var fakeposition = position + 1;
+	//$($('match')[position]).parent().click();
+	$("#ocurrencias").html(fakeposition + " de <span>" + tokens + " ocurrencias</span>");
+	$($('match')).removeClass('borderClass');
+	$($('match')[position]).addClass('borderClass');
+	if (fakeposition === 1) {
+		prev.prop( "disabled", true );
+	}
+});
+
+// Runs when the browser has loaded the page
+window.onload = function () {
+    bindSelectFolderClick();
+    bindSelectFileClick();
+    bindSelectCorpusClick();
+};
+
+</script>
+</html>

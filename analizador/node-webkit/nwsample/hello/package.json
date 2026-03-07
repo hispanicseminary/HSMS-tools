@@ -1,0 +1,17 @@
+{
+	"name":"hello",
+	"main":"www/index.html",
+	"description": "demo app of node-webkit",
+  "version": "0.1.0",
+  "window": {
+    "title": "Hello World",
+    "icon": "link.png",
+    "toolbar": false,
+    "width": 850,
+    "height": 600,
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 800
+  }
+}

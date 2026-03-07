@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<style type="text/css">
+body,html{
+  height: 100%;
+		 background-image: url("http://wallpaperpassion.com/upload/20891/chess-image.jpg");
+		 background-repeat: no-repeat;
+		 background-position: right 0px bottom;
+     
+	}
+  footer
+  {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+  }
+#note {
+        position: absolute;
+        z-index: 6001;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #fde073;
+        text-align: center;
+        line-height: 2.5;
+        overflow: hidden; 
+        -webkit-box-shadow: 0 0 5px black;
+        -moz-box-shadow:    0 0 5px black;
+        box-shadow:         0 0 5px black;
+    }
+    .cssanimations.csstransforms #note {
+        -webkit-transform: translateY(-50px);
+        -webkit-animation: slideDown 2.5s 1.0s 1 ease forwards;
+        -moz-transform:    translateY(-50px);
+        -moz-animation:    slideDown 2.5s 1.0s 1 ease forwards;
+    }
+
+    #close {
+      position: absolute;
+      right: 10px;
+      top: 9px;
+      text-indent: -9999px;
+      background: url(img/close.png);
+      height: 16px;
+      width: 16px;
+      cursor: pointer;
+    }
+    .cssanimations.csstransforms #close {
+      display: none;
+    }
+    
+    @-webkit-keyframes slideDown {
+        0%, 100% { -webkit-transform: translateY(-50px); }
+        10%, 90% { -webkit-transform: translateY(0px); }
+    }
+    @-moz-keyframes slideDown {
+        0%, 100% { -moz-transform: translateY(-50px); }
+        10%, 90% { -moz-transform: translateY(0px); }
+    }
+</style>
+
+</head>
+<body>
+	 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Livestream Lite</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+            <a href="./profile.php" class="label label-default">S.Shivasurya</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="form-group">
+            
+            <div class="dropdown">
+  <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Settings
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile Settings</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Account Settings</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Reports</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log Out</a></li>
+  </ul>
+</div></div>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+
+    <div class="jumbotron" style="background:transparent;">
+     <div class="row">
+      <div class="container">
+      <div class="col-md-6" style="padding:10px;">
+<ul id="myTab" class="nav nav-tabs" style="color:white;background-color:black">
+   <li class="active">
+      <a href="#home" data-toggle="tab">
+         Status Update
+      </a>
+   </li>
+   <li><a href="#link" data-toggle="tab">Link Share</a></li>
+   <li class="dropdown">
+      <a href="#" id="myTabDrop1" class="dropdown-toggle" 
+         data-toggle="dropdown">Others
+         <b class="caret"></b>
+      </a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+         <li><a href="#photo" tabindex="-1" data-toggle="tab">Photo</a></li>
+         <li><a href="#media" tabindex="-1" data-toggle="tab">Media Updates</a></li>
+      </ul>
+   </li>
+</ul><div id="myTabContent" class="tab-content" style="opacity:1;">
+   <div class="tab-pane fade in active" id="home">
+     <!-- status update tab --><p><h3>Status Update : </h3></p>
+     <form class="form-horizontal" role="form">
+   <div class="form-group">
+      <div class="col-sm-12">
+         <textarea class="form-control" id="statusupdates" 
+            placeholder="Share plain text update..." rows="3"></textarea>
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-12">
+      <button  name="status" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Post Update</button>
+      <button  name="status" class="btn btn-sm btn-warning"><span class="glyphicon glyphicon-calendar"></span>&nbsp;Draft Update</button>
+      <button  name="status" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-remove-circle"></span>&nbsp;Cancel</button>
+      </div>
+   </div></form>
+   </div>
+   <div class="tab-pane fade" id="link">
+   <p><h3>Share a link : </h3></p>
+     <form class="form-horizontal" role="form">
+   <div class="form-group">
+      <div class="col-sm-12">
+         <input type="text" class="form-control" id="linkurl" 
+            placeholder="Paste a url here..." />
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-12">
+         <input type="text" class="form-control" id="imgurl" 
+            placeholder="Paste a image url here.." />
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-12">
+         <textarea class="form-control" id="desc" 
+            placeholder="Paste Your Title Here..." rows="3" ></textarea>
+      </div>
+   </div>
+
+   <div class="form-group">
+      <div class="col-sm-12">
+         <textarea class="form-control" id="desc" 
+            placeholder="Paste Your message Here..." rows="2" ></textarea>
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-12">
+         <textarea class="form-control" id="desc" 
+            placeholder="Paste a description here..." rows="3" ></textarea>
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-12">
+      <button  name="status" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Post Update</button>
+      <button  name="status" class="btn btn-sm btn-warning"><span class="glyphicon glyphicon-calendar"></span>&nbsp;Draft Update</button>
+      <button  name="status" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-remove-circle"></span>&nbsp;Cancel</button>
+      </div>
+   </div></form>
+      </div>
+   <div class="tab-pane fade" id="photo">
+   <!-- status photo tab -->
+   </div>
+   <div class="tab-pane fade" id="media">
+      <!-- media update tab -->
+   </div>
+</div>
+
+      <div> facebook | Linkedin | twitter </div>
+      </div>
+        </div>
+    </div>
+
+</div>
+      
+
+      <footer style="">
+      <div class="container" style="margin:0px;padding:0px;width:100%;color:white;">
+      <hr>
+        <p>&copy; s.shivasurya | i-visionblog.com - 2014  -  Home - Privacy Policy - Terms and Conditions - Cookies</p></div>
+      </footer>
+  
+
+</body>
+</html>
