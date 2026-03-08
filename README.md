@@ -1,5 +1,6 @@
 # HSMS-tools
 **Repository of tools used in the processing of the paleographical transcriptions**
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18912253.svg)](https://doi.org/10.5281/zenodo.18912253)
 
 ## analizador
 
