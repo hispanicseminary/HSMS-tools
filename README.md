@@ -2,6 +2,8 @@
 ## Repository of tools used in the processing of the paleographical transcriptions
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18912253.svg)](https://doi.org/10.5281/zenodo.18912253)
 
+There are two folders in this repository: 
+
 ## analizador
 
 This folder contains the _analizador_. To install it, you need to download the `analizador.zip` file from the repository and then extract it into a working folder. The paleographical transcriptions to be processed must be in their own folder. Although they can be located anywhere, even in the cloud, we recommend the following structure for better organization:
@@ -11,6 +13,12 @@ This folder contains the _analizador_. To install it, you need to download the `
 > `C:\HSMS-tools\textos` [*folder with the paleographical transcriptions*]
 
 The manual can be found here:  [https://hispanicseminary.org/analizador/](https://hispanicseminary.org/analizador/)
+
+## diccionario
+
+This folder contains the most recent version of `hsms.src`, the dictionary file used by FreeLing for text processing. To install, copy the file to `C:\HSMS-tools\analizador\hsms-es\`, or the corresponding folder in your local instalation.
+
+The manual explains how to edit the dictionary and troubleshoot known issues that may occur during text processing.
 
 ################################################################################
 
