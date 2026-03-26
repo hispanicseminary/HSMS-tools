@@ -12,7 +12,7 @@ This folder contains the _analizador_. To install it, you need to download the `
 > `C:\HSMS-tools\analizador` [*folder with the* Analizador Corpus OSTA]<br>
 > `C:\HSMS-tools\textos` [*folder with the paleographical transcriptions*]
 
-The manual can be found here:  [https://hispanicseminary.org/analizador/](https://hispanicseminary.org/analizador/)
+The manual can be found here:  [https://hispanicseminary.org/manuales/analizador/](https://hispanicseminary.org/manuales/analizador/)
 
 ## diccionario
 
