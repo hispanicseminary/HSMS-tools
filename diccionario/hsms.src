@@ -3301,6 +3301,7 @@ abastosamente abastosamente RM
 abat abad NCMS000
 abata abatir VMM03S0 abatir VMSP1S0 abatir VMSP3S0
 abatan abatir VMM03P0 abatir VMSP3P0
+abatays abatir VMSP2P0
 abate abatir VMIP3S0 abatir VMM02S0
 abatedores abatidor AQ0MP0 abatidor NCMP000
 abaten abatir VMIP3P0
@@ -3476,6 +3477,7 @@ abdarramias averramia NCFS000
 abdarramja averramia NCFS000
 abdaçia audacia NCFS000
 abdebda adeudar VMIP3S0 adeudar VMM02S0
+abdebdador adeudador NCMS000
 abdebdan adeudar VMIP3P0
 abdehel Abdehel NP000P0
 abdela Abdela NP000P0
@@ -4782,6 +4784,7 @@ aborresçra aborrecer VMIF3S0
 aborresçydo aborrecer VMP00SM
 aborrez aborrecer VMIP3S0 aborrecer VMM02S0
 aborrezca aborrecer VMM03S0 aborrecer VMSP1S0 aborrecer VMSP3S0
+aborrezcais aborrecer VMSP2P0
 aborrezcamos aborrecer VMM01P0 aborrecer VMSP1P0
 aborrezcan aborrecer VMM03P0 aborrecer VMSP3P0
 aborrezcas aborrecer VMSP2S0
@@ -5029,6 +5032,7 @@ abraçemoσ abrazar VMM01P0 abrazar VMSP1P0
 abraçen abrazar VMSP3P0
 abraçes abrazar VMSP2S0
 abraçeys abrazar VMSP2P0
+abraçijos abracijo NCMP000
 abraço abrazar VMIP1S0 abrazar VMIS3S0 abrazo NCMS000
 abraços abrazo NCMP000
 abraçrar abrazar VMN0000
@@ -5374,6 +5378,7 @@ absit absit I
 absolbjo absolver VMIS3S0
 absolon Absalón NP000P0
 absoluades absolver VMSP2P0
+absoluays absolver VMSP2P0
 absolucion absolución NCFS000
 absoluciones absolución NCFP000
 absolued absolver VMM02P0
@@ -5433,6 +5438,7 @@ absordo absurdo AQ0MS0
 absoron Absoron NP000P0
 absorta absorto AQ0FS0
 absoruer absorber VMN0000
+absoruera absorber VMIF3S0
 absoruieron absorber VMIS3P0
 absoruiese absorber VMSI1S0 absorber VMSI3S0
 absoruio absorber VMIS3S0
@@ -7057,6 +7063,7 @@ acetosso acetoso AQ0MS0
 acetosum acetoso AQ0MS0
 acetre acetre NCMS000
 acetrero cetrero NCMS000
+aceuilado acivilar VMP00SM
 aceutar aceptar VMN0000
 aceutaremos aceptar VMIF1P0 aceptar VMSF1P0
 aceutaua aceptar VMII1S0 aceptar VMII3S0
@@ -7100,6 +7107,7 @@ achada azada NCFS000
 achademia academia NCFS000
 achademica académico AQ0FS0 académico NCFS000
 achademico académico AQ0MS0 académico NCMS000
+achademicos académico AQ0MP0 académico NCMP000
 achademjcos académico AQ0MP0 académico NCMP000
 achaecera acaecer VMIF3S0
 achaeciere acaecer VMSF3S0
@@ -7112,6 +7120,7 @@ acham Acam NP000P0
 achaman Acaman NP000P0
 achamas acamas NCMP000
 achan Aquisgrán NP000G0
+achanto acanto NCMS000
 achaque achaque NCMS000
 achaqueauan achaquear VMII3P0
 achaquen achacar VMM03P0 achacar VMSP3P0
@@ -7128,6 +7137,7 @@ achar Achar NP000P0 Achar NP000G0 achar NCMS000 echar VMN0000
 achara Achar NP000G0
 acharan Acharan NP000P0
 acharias Acharias NP000P0
+acharnania Acarnania NP000G0
 acharon Acarón NP000G0
 achas hacha NCFP000
 achase echar VMSI3S0 echar VMSI1S0
@@ -7234,6 +7244,7 @@ acidentalmente accidentalmente RM
 acidente accidente NCMS000
 acidentes accidente NCMP000
 acidia acidia NCFS000
+acidioso acidioso AQ0MS0
 acidos ácido AQ0MP0 ácido NCMP000
 acienda encender VMM03S0 encender VMSP1S0 encender VMSP3S0
 aciendan encender VMM03P0 encender VMSP3P0
@@ -7745,6 +7756,7 @@ aconfortar confortar VMN0000
 acongojado acongojar VMP00SM acongojado AQ0MS0
 aconhortaua confortar VMII1S0 confortar VMII3S0
 aconito acónito NCMS000
+aconitos acónito NCMP000
 aconnosçer a+conocer SP+VM
 aconortada confortar VMP00SF
 aconortado confortar VMP00SM
@@ -8433,6 +8445,7 @@ acostumbran acostumbrar VMIP3P0
 acostumbrando acostumbrar VMG0000
 acostumbrar acostumbrar VMN0000
 acostumbrara acostumbrar VMIF3S0 acostumbrar VMSI1S0 acostumbrar VMSI3S0
+acostumbraran acostumbrar VMSI3P0 acostumbrar VMIF3P0
 acostumbraras acostumbrar VMIF2S0 acostumbrar VMSI2S0
 acostumbrare acostumbrar VMSF1S0 acostumbrar VMSF3S0 acostumbrar VMIF1S0
 acostumbraren acostumbrar VMSF3P0
@@ -8904,7 +8917,9 @@ actendio atender VMIS3S0
 actendra atender VMIF3S0
 actenta atento AQ0FS0
 actentos atento AQ0MP0
+acteo Acteo NP000P0
 actheon Acteón NP000P0
+actias accio AQ0FP0
 actica Actica NP000P0
 actico ático AQ0MS0
 acticos ático AQ0MP0 ático NCMP000
@@ -10481,6 +10496,7 @@ adonjs Adonis NP000P0
 adonnear a+donnear SP+VM
 adopcion adopción NCFS000
 adopta adoptar VMIP3S0 adoptar VMM02S0
+adoptacion adoptación NCFS000
 adoptada adoptado NCFS000 adoptar VMP00SF
 adoptado adoptado NCMS000 adoptar VMP00SM
 adoptados adoptado NCMP000 adoptar VMP00PM
@@ -10665,6 +10681,7 @@ adornara adornar VMIF3S0 adornar VMSI1S0 adornar VMSI3S0
 adornares adornar VMSF2S0
 adornarias adornar VMIC2S0
 adornaron adornar VMIS3P0
+adornas adornar VMIP2S0
 adornase adornar VMSI1S0 adornar VMSI3S0
 adornasen adornar VMSI3P0
 adornassen adornar VMSI3P0
@@ -11911,6 +11928,7 @@ affirmatiuos afirmativo AQ0MP0
 affirmaua afirmar VMII1S0 afirmar VMII3S0
 affirmauan afirmar VMII3P0
 affirmavan afirmar VMII3P0
+affirmaçion afirmación NCFS000
 affirmaçiones afirmación NCFP000
 affirme afirmar VMSP1S0 afirmar VMSP3S0 afirmar VMM03S0 afirmar VMIS1S0
 affirmen afirmar VMSP3P0
@@ -11944,6 +11962,7 @@ afflictiua aflictivo AQ0FS0
 afflicto aflicto AQ0MS0
 afflicçiones aflicción NCFP000
 affliga afligir VMSP1S0 afligir VMSP3S0 afligir VMM03S0
+affligan afligir VMM03P0 afligir VMSP3P0
 afflige afligir VMIP3S0 afligir VMM02S0
 affligen afligir VMIP3P0
 affligeria afligir VMIC1S0 afligir VMIC3S0
@@ -13124,6 +13143,7 @@ aggi Aggi NP000P0
 aggitanos aggitano NCMP000
 aggitas aggita NCCP000
 aggrauar agravar VMN0000
+aggrauios agravio NCMP000
 aggraujaren agraviar VMSF3P0
 aggressor agresor NCMS000
 agible agible AQ0CS0
@@ -13937,6 +13957,7 @@ agudamente agudamente RM
 agudas agudo AQ0FP0
 agudaσ agudo AQ0FP0
 agudençia agudencia NCFS000
+agudes agudeza NCFP000
 agudesa agudeza NCFS000
 agudet agudet NCMS000
 agudez agudeza NCFS000
@@ -14339,6 +14360,7 @@ ahayra Ahayra NP000P0
 ahaznalfarax Aznalfarache NP000G0
 ahe ahé RG
 ahechada ahechar VMP00SF
+ahechadura ahechadura NCFS000
 ahechaduras ahechadura NCFP000
 ahechar ahechar VMN0000
 ahechos ahecho AQ0MP0
@@ -14409,6 +14431,7 @@ ahitado ahitar VMP00SM
 ahitan ahitar VMIP3P0
 ahitar ahitar VMN0000
 ahito ahíto AQ0MS0 ahíto NCMS000
+ahitos ahíto AQ0MP0
 ahjran Ahiran NP000P0
 ahmad Ahmed NP000P0
 ahmahadi al_Mahdi NP000P0
@@ -14785,7 +14808,7 @@ ajeno ajeno AQ0MS0
 ajenos ajeno AQ0MP0
 ajenoσ ajeno AQ0MP0
 ajes aje NCMP000
-ajesilao Ajesilao NP000P0
+ajesilao Agesilao NP000P0
 ajete ajo NCMS000
 ajnoron Ajnoron NP000G0
 ajo ajo NCMS000
@@ -14973,6 +14996,7 @@ alaben alabar VMM03P0 alabar VMSP3P0
 alabes alabar VMSP2S0
 alabeses alavés AQ0CP0 alavés NCMP000
 alabeste alabar VMIS2S0
+alabeys alabeys VMSP2P0
 alabeσ alabar VMSP2S0
 alabique alambique NCMS000
 alabo alabar VMIP1S0 alabar VMIS3S0
@@ -15233,6 +15257,7 @@ alarta a+larta SP+NP
 alaryco Alarico NP000P0
 alarydos alarido NCMP000
 alarydoσ alarido NCMP000
+alarygo Alarico NP000P0
 alas ala NCFP000 a+las SP+DA
 alaschet alasce NCMS000
 alasoes Alasoes NP000G0
@@ -15338,6 +15363,8 @@ albalat Albalate NP000G0
 albalea Albalea NP000G0
 alban Albán NP000P0
 albana Albana NP000G0
+albanea Albanea NP000P0 Albanea NP000G0
+albaneo Albano NP000G0
 albaner Albaner NP000P0
 albanesa albanés AQ0FS0 albanés NCFS000
 albaneses albanés AQ0MP0 albanés NCMP000
@@ -15728,7 +15755,9 @@ alcaduçes arcaduz NCMP000
 alcafazes alcahaz NCMP000
 alcafdete Alcaudete NP000G0
 alcafeles alcajel NCMP000
+alcagoteria alcahuetería NCFS000
 alcagueta alcahuete NCFS000
+alcaguete alcahuete NCMS000
 alcaguetes alcahuete NCMP000
 alcahar alcafar NCMS000
 alcahazadas alcahazar VMP00PF
@@ -16108,7 +16137,9 @@ alcibiado Alcibíades NP000P0
 alcides Alcides NP000P0
 alcierço cierzo NCMS000
 alcinoo Alcínoo NP000P0
+alcione alción NCMS000
 alciones alción NCMP000
+alcionidas alciónides NCMP000
 alcmena Alcmena NP000P0
 alcoba alcoba NCFS000
 alcobaça Alcobaza NP000G0
@@ -16300,6 +16331,7 @@ aldolfo Adolfo NP000P0
 aldonça Aldonza NP000P0
 aldormjderas adormidera NCFP000
 aldouin Alduino NP000P0
+aldrete Aldrete NP000G0
 aldubul aldubul NCMS000
 aldulterio adulterio NCMS000
 alduznabaro Alduznavarro NP000P0
@@ -16472,6 +16504,7 @@ alemayn Alemany NP000P0
 alemaña Alemania NP000G0
 alemañas Alemania NP000G0
 alemañes alemán AQ0MP0 alemán NCMP000
+alemañia Alemania NP000G0
 alemañja Alemania NP000G0
 alemañya Alemania NP000G0
 alementales elemental AQ0CP0
@@ -17321,6 +17354,7 @@ alimpiados limpiar VMP00PM
 alimpiadura limpiadura NCFS000
 alimpiaduras limpiadura NCFP000
 alimpiaes limpiar VMIP2P0
+alimpiamento limpiamento NCMS000
 alimpiamiento limpiamiento NCMS000
 alimpiamientos limpiamiento NCMP000
 alimpiamjento limpiamiento NCMS000
@@ -18080,6 +18114,7 @@ allumbre alumbre NCMS000
 allumme alumbre NCMS000
 allunbre alumbre NCMS000
 alluno Alluno NP000G0
+alluuio aluvio AQ0MS0
 ally allí RG
 allya allá RG
 allymaymon Alimaimón NP000P0
@@ -18474,6 +18509,7 @@ almorçar almorzar VMN0000
 almorço almorzar VMIS3S0
 almorƽaua almorzar VMII1S0 almorzar VMII3S0
 almorƽo almuerzo NCMS000
+almos almo NCMP000
 almosma limosna NCFS000
 almosna limosna NCFS000
 almosnas limosna NCFP000
@@ -18573,6 +18609,8 @@ alnado alnado NCMS000
 alnafat alnafat NCMS000
 alnarget alnargez NCMS000
 alnas alna NCFP000
+alnedos alnedo NCMP000
+alno alno NCMS000
 alo a+lo SP+PP
 alobogres allogrobo AQ0MP0 allogrobo NCMP000
 alod laúd NCMS000
@@ -18773,6 +18811,7 @@ alpas Alpes NP000G0
 alpatracio Alpatracio NP000P0
 alpatrasio Alpatrasio NP000P0
 alpayçar alpaizar NCMS000
+alpe Alpes NP000G0
 alpechin alpechín NCMS000
 alpecħin alpechín NCMS000
 alpedrete Alpedrete NP000G0
@@ -20156,6 +20195,7 @@ amarillos amarillo AQ0MP0 amarillo NCMP000
 amarillura amarillura NCFS000
 amarilluras amarillura NCFP000
 amarionados amarionado AQ0MP0
+amariticos amarítico AQ0MP0
 amarja amar VMIC1S0 amar VMIC3S0
 amarje amar VMIC1S0 amar VMIC3S0
 amarjella amarillo AQ0FS0
@@ -20274,7 +20314,7 @@ amataste matar VMIS2S0
 amataua matar VMII1S0 matar VMII3S0
 amatauan matar VMII3P0
 amate matar VMSP1S0 matar VMSP3S0 matar VMM03S0 matar VMIS1S0
-amatedes amatar VMSP2P0
+amatedes matar VMSP2P0
 amatemos matar VMM01P0 matar VMSP1P0
 amaten matar VMSP3P0
 amateos amateos NCMP000
@@ -21675,6 +21715,7 @@ anafil añafil NCMS000
 anafiles añafil NCMP000
 anagallus anagálide NCMP000
 anageno Anageno NP000P0
+anagogico anagógico AQ0MS0
 anal anal AQ0CS0 anal NCMS000
 analdo Hainaut NP000G0
 analecta analecta NCFS000
@@ -22035,6 +22076,7 @@ andido andar VMIS3S0
 andiedo andar VMG0000
 andieron andar VMIS3P0
 andit andar VMIS1S0
+andiuiesse andar VMSI1S0 andar VMSI3S0
 andivia endibia NCFS000
 andjdo andar VMIS3S0
 andjt andar VMIS1S0
@@ -22806,6 +22848,7 @@ annublado anublar VMP00SM
 annudo anudar VMIP1S0 anudar VMIS3S0
 annulados anular VMP00PM
 annulamos anular VMIP1P0
+annular anular VMN0000
 annulasse anular VMSI1S0 anular VMSI3S0
 annullado anular VMP00SM
 annullamos anular VMIP1P0 anular VMIS1P0
@@ -24718,6 +24761,7 @@ apease apear VMSI1S0 apear VMSI3S0
 apeasen apear VMSI3P0
 apeasse apear VMSI1S0 apear VMSI3S0
 apeassen apear VMSI3P0
+apeastes apear VMIP2P0
 apeaua apear VMII1S0 apear VMII3S0
 apeauan apear VMII3P0
 apeays apear VMIP2P0
@@ -25875,6 +25919,7 @@ apostando apostar VMG0000
 apostar apostar VMN0000
 apostara apostar VMIF3S0 apostar VMSI1S0 apostar VMSI3S0
 apostare apostar VMSF1S0 apostar VMSF3S0 apostar VMIF1S0
+apostaren apostar VMSF3P0
 apostaron apostar VMIS3P0
 apostasia apostasía NCFS000
 apostasias apostasía NCFP000
@@ -26170,6 +26215,8 @@ appegaron apegar VMIS3P0
 appeillido apellido NCMS000
 appeillidos apellido NCMP000
 appela apelar VMIP3S0 apelar VMM02S0
+appelacion apelación NCFS000
+appelado apelar VMP00SM
 appelando apelar VMG0000
 appelaron apelar VMIS3P0
 appelat apelar VMM02P0
@@ -26303,6 +26350,7 @@ appostolical apostolical AQ0CS0
 appostolico apostólico AQ0MS0 apostólico NCMS000
 appostoligo apostólico NCMS000 apostólico NCMS000
 appostolos apóstol NCMP000
+apprehendiente aprehendiente AQ0CS0 aprehendiente NCCS000
 apprehendo aprehender VMIP1S0
 apprehensa aprehender VMP00SF
 apprehension aprehensión NCFS000
@@ -26607,6 +26655,7 @@ aprendiendo aprender VMG0000
 aprendiente aprender VMPP0SC
 aprendientes aprendiente NCMP000
 aprendiera aprender VMSI1S0 aprender VMSI3S0
+aprendierades aprender VMSI2P0
 aprendieramos aprender VMSI1P0
 aprendieran aprender VMSI3P0
 aprendiere aprender VMSF1S0 aprender VMSF3S0
@@ -27408,6 +27457,7 @@ apuñean apuñear VMIP3P0
 apuñear apuñear VMN0000
 apuñearan apuñear VMSI3P0 apuñear VMIF3P0
 apuñearon apuñear VMIS3P0
+apuñeassen apuñear VMSI3P0
 apuñeauamos apuñear VMII1P0
 apuñeauan apuñear VMII3P0
 apyadare apiadar VMSF1S0 apiadar VMSF3S0 apiadar VMIF1S0
@@ -27691,6 +27741,7 @@ aquj aquí RG
 aqujen a+qujen SP+PR
 aqujlon aquilón NCMS000
 aqujlonar aquilonal AQ0CS0
+aqujno Aquino NP000G0
 aqujstado aquistar VMP00SM
 aqujtania Aquitania NP000G0
 aqujtanja Aquitania NP000G0
@@ -28142,6 +28193,7 @@ archenbaudo Archibaldo NP000P0
 archero arquero NCMS000
 archeros arquero NCMP000
 archerres Archerres NP000P0
+archesilao Arquelao NP000P0
 archeste Archeste NP000G0
 archetas arca NCFP000
 archia Arquia NP000P0
@@ -30269,6 +30321,7 @@ arrobaran arrobar VMSI3P0 arrobar VMIF3P0
 arrobas arroba NCFP000
 arrocado arrocado AQ0MS0
 arrocinado arrocinado AQ0MS0
+arrodea rodear VMIP3S0 rodear VMM02S0
 arrodeada rodear VMP00SF
 arrodeando rodear VMG0000
 arrodearia rodear VMIC1S0 rodear VMIC3S0
@@ -32130,6 +32183,7 @@ aspiramientos aspiramiento NCMP000
 aspiramjento aspiramiento NCMS000
 aspiramos aspirar VMIP1P0 aspirar VMIS1P0
 aspiran aspirar VMIP3P0
+aspirando aspirar VMG0000
 aspirar aspirar VMN0000
 aspirara aspirar VMIF3S0 aspirar VMSI1S0 aspirar VMSI3S0
 aspiration aspiración NCFS000
@@ -33463,6 +33517,7 @@ atahut ataúd NCMS000
 ataia atajar VMIP3S0 atajar VMM02S0
 ataiada atajar VMP00SF
 ataiadores atajador AQ0MP0 atajador NCMP000
+ataiando atajar VMG0000
 ataiar atajar VMN0000
 ataiaron atajar VMIS3P0
 ataies atajar VMSP2S0
@@ -33718,6 +33773,7 @@ atauian ataviar VMIP3P0
 atauiando ataviar VMG0000
 atauiar ataviar VMN0000
 atauiaron ataviar VMIS3P0
+atauias ataviar VMIP2S0
 atauiasen ataviar VMSI3P0
 atauiasse ataviar VMSI1S0 ataviar VMSI3S0
 atauiassen ataviar VMSI3P0
@@ -34087,6 +34143,7 @@ aterraua aterrar VMII1S0 aterrar VMII3S0
 aterrauan aterrar VMII3P0
 aterrenno a+terreno SP+NC
 aterrezca terrecer VMM03S0 terrecer VMSP1S0 terrecer VMSP3S0
+aterreçer terrecer VMN0000
 aterro aterrar VMIP1S0 aterrar VMIS3S0
 ates atar VMSP2S0
 atesare atesar VMSF1S0 atesar VMSF3S0 atesar VMIF1S0
@@ -34821,6 +34878,7 @@ atreueria atrever VMIC1S0 atrever VMIC3S0
 atreueriades atrever VMIC2P0
 atreuerian atrever VMIC3P0
 atreuerie atrever VMIC1S0 atrever VMIC3S0
+atreuerseha atreuer+se+ha VM+PP+VA
 atreues atrever VMIP2S0
 atreuesada atravesar VMP00SF
 atreuessadas atravesar VMP00PF
@@ -35005,7 +35063,7 @@ atribuyha atribuir VMSP1S0 atribuir VMSP3S0 atribuir VMM03S0
 atribuyhan atribuir VMSP3P0
 atribuymiento atribuimiento NCMS000
 atribuymos atribuir VMIS1P0
-atribuyo atribuir VMIP1S0
+atribuyo atribuir VMIP1S0 atribuir VMIS3S0
 atribuyr atribuir VMN0000
 atribuyria atribuir VMIC1S0 atribuir VMIC3S0
 atribuçion atribución NCFS000
@@ -35156,6 +35214,7 @@ attilla Atila NP000P0
 attillo Atilio NP000P0
 attinan Attinan NP000P0
 attio Accio NP000G0
+attiuo activo AQ0MS0
 attlas Atlas NP000G0
 atto acto NCMS000 apto AQ0MS0 apto NCMS000
 attodas a+todas SP+DI/PI
@@ -35205,7 +35264,7 @@ attribuye atribuir VMIP3S0 atribuir VMM02S0
 attribuyen atribuir VMIP3P0
 attribuyendo atribuir VMG0000
 attribuyessen atribuir VMSI3P0
-attribuyo atribuir VMIP1S0
+attribuyo atribuir VMIP1S0 atribuir VMIS3S0
 attribuyr atribuir VMN0000
 attricion atrición NCFS000
 atu a+tu SP+DP
@@ -35299,6 +35358,7 @@ atyenpra templar VMIP3S0 templar VMM02S0
 atyença Atienza NP000G0
 atyesta atestar VMIP3S0 atestar VMM02S0
 atyhox atihox NCMS000
+atyla Atila NP000P0
 atylla Atila NP000P0
 atymçar atíncar NCMS000
 atyna Atyna NP000G0
@@ -37678,6 +37738,7 @@ axeas exea NCFP000
 axeb jebe NCMS000
 axedrea ajedrea NCFS000
 axedres ajedrez NCMS000
+axedrex ajedrez NCMS000
 axedrez ajedrez NCMS000
 axedrezes ajedrez NCMP000
 axedreƽ ajedrez NCMS000
@@ -38931,6 +38992,7 @@ açoto azotar VMIP1S0 azotar VMIS3S0
 açoţasen azotar VMSI3P0
 açrafan azafrán NCMS000
 açrafran azafrán NCMS000
+açtion acción NCFS000
 açtor azor NCMS000
 açtorac estoraque NCMS000
 açubre azumbre NCCS000
@@ -40655,6 +40717,7 @@ barthelome Bartolomé NP000P0
 bartholo Bartolo NP000P0
 bartholome Bartolomé NP000P0
 bartholomeo Bartolomé NP000P0
+barthulo Bartolo NP000P0
 bartoleme Bartolomé NP000P0
 bartollome Bartolomé NP000P0
 bartolo Bartolo NP000P0
@@ -42274,6 +42337,7 @@ bendezian bendecir VMII3P0
 bendezid bendecir VMM02P0
 bendezida bendecir VMP00SF
 bendezidas bendecir VMP00PF
+bendezideras bendecidero NCFP000
 bendezido bendecir VMP00SM
 bendezidos bendecir VMP00PM
 bendezien bendecir VMII3P0
@@ -43808,6 +43872,7 @@ bienauenturanϛa bienaventuranza NCFS000
 bienauenturanϛas bienaventuranza NCFP000
 bienauenturat bienaventurado AQ0MS0 bienaventurado NCMS000
 bienauenturoso bienventuroso AQ0MS0
+bienauenturosos bienaventuroso AQ0MP0 bienaventuroso NCMP000
 bienaueturada bienaventurado AQ0FS0 bienaventurado NCFS000
 bienaueturança bienaventuranza NCFS000
 bienaventurada bienaventurado AQ0FS0 bienaventurado NCFS000
@@ -43853,6 +43918,7 @@ bienffetrias behetría NCFP000
 bienhablado bienhablado AQ0MS0
 bienhazedor bienhechor AQ0MS0 bienhechor NCMS000
 bienhazer bienfacer NCMS000
+bienhechor bienhechor AQ0MS0 bienhechor NCMS000
 bienhechores bienhechor NCMP000 bienhechor AQ0MP0
 bienlibrar bienlibrar VMN0000
 bienlo bieldo NCMS000
@@ -44108,6 +44174,7 @@ bis bis NCMS000 bis RG
 bisa bissa NCMS000
 bisabuela bisabuelo NCFS000
 bisabuelas bisabuelo NCFP000
+bisabuello bisabuelo NCMS000
 bisabuelo bisabuelo NCMS000
 bisabuelos bisabuelo NCMP000
 bisagante Basagange NP000P0
@@ -44493,6 +44560,7 @@ biza biza NCFS000 bizo AQ0FS0
 bizancia bizancio AQ0FS0
 bizancio Bizancio NP000G0
 bizancium besante NCMS000
+bizantinos bizantino AQ0MP0 bizantino NCMP000
 bizantio Bizancio NP000G0
 bizançio Bizancio NP000G0
 bizanço Bizancio NP000G0
@@ -44844,6 +44912,7 @@ blasfemar blasfemar VMN0000
 blasfemara blasfemar VMIF3S0 blasfemar VMSI1S0 blasfemar VMSI3S0
 blasfemare blasfemar VMSF1S0 blasfemar VMSF3S0 blasfemar VMIF1S0
 blasfemaremos blasfemar VMIF1P0 blasfemar VMSF1P0
+blasfemarian blasfemar VMIC3P0
 blasfemaron blasfemar VMIS3P0
 blasfemas blasfemar VMIP2S0 blasfemo AQ0FP0 blasfemo NCFP000
 blasfemase blasfemar VMSI1S0 blasfemar VMSI3S0
@@ -44857,6 +44926,7 @@ blasfeme blasfemar VMSP1S0 blasfemar VMSP3S0 blasfemar VMM03S0 blasfemar VMIS1S0
 blasfememos blasfemar VMM01P0 blasfemar VMSP1P0
 blasfemen blasfemar VMM03P0 blasfemar VMSP3P0
 blasfemes blasfemar VMSP2S0
+blasfemeys blasfemar VMSP2P0
 blasfemia blasfemia NCFS000
 blasfemiando blasfemar VMG0000
 blasfemias blasfemia NCFP000
@@ -45896,7 +45966,7 @@ borzegujs borceguí NCMP000
 borzeguyes borceguí NCMP000
 borçellar borcellar NCMS000
 borçellares borcellar NCMP000
-bos vosotros PP2CP000 te PP2CP000
+bos vosotros PP2CP000 te PP2CP000 voz NCFS000
 bosa bosar VMIP3S0 bosar VMM02S0 Bosa NP000G0
 bosado bosado NCMS000
 bosadura bosadura NCFS000
@@ -47259,6 +47329,7 @@ burburata Borburata NP000G0
 burchinilda Brunegilda NP000P0
 burdegano burdégano NCMS000
 burdel burdel NCMS000
+burdelero burdelero NCMS000
 burdeles burdel NCMP000
 burdeo Burdeos NP000G0
 burdeos Burdeos NP000G0
@@ -48636,7 +48707,7 @@ cajeron caer VMIS3P0
 cajes caer VMSI1S0 caer VMSI3S0
 cajo cajo NCMS000 caer VMIS3S0
 cajos cajo NCMP000
-cal caloría NCFN000
+cal cal NCFS000 calle NCFS000 ca+le CS+PP
 cala cala NCFS000 calar VMIP3S0 calar VMM02S0 callar VMIP3S0 callar VMIP1S0 callar VMM02S0 ca+la CS+DA/PP
 calabacillas calabacilla NCFP000
 calabacinate calabacinate NCMS000
@@ -49428,6 +49499,7 @@ caluiello Calvillo NP000P0
 caluillo Calvillo NP000P0
 calujdat calvedad NCFS000
 calumnia calumnia NCFS000 calumniar VMIP3S0 calumniar VMM02S0
+calumniador calumniador AQ0MS0 calumniador NCMS000
 calumniadores calumniador AQ0MP0 calumniador NCMP000
 calumniar calumniar VMN0000
 calumnias calumnia NCFP000 calumniar VMIP2S0
@@ -51210,6 +51282,7 @@ caplieptas capleta NCFP000
 caplieuta capleta NCFS000
 caplona Caplona NP000G0
 capo capar VMIP1S0 capar VMIS3S0
+capodoçia Capadocia NP000G0
 capolada capolar VMP00SF
 capon capón NCMS000
 caponados caponar VMP00PM
@@ -51694,6 +51767,7 @@ cardonio Cardonio NP000P0
 cardos cardo NCMP000
 cardoyl Cardoil NP000G0
 cardoçio Cardocio NP000P0
+carduel carduel NCMS000
 cardula cordula NCFS000
 cardumen cardumen NCMS000
 carduzado carduzar VMP00SM
@@ -52376,6 +52450,7 @@ carruajes carruaje NCMP000
 carruca carruca NCFS000
 carruchano Carruchano NP000P0
 carruchas carrucha NCFP000
+carrylles carril NCMP000
 carryllo Carrillo NP000P0
 carryon Carrión NP000G0
 cars car CS
@@ -53202,6 +53277,7 @@ catalanas catalán AQ0FP0 catalán NCFP000
 catalanes catalán AQ0MP0 catalán NCMP000
 catalanos Catalanos NP000G0
 catalans catalán AQ0MP0 catalán NCMP000
+cataldo Cataldo NP000P0
 catalectico cataléctico AQ0MS0 cataléctico NCMS000
 catalensia catalepsia NCFS000
 catalina Catalina NP000P0 catalina NCFS000
@@ -54295,6 +54371,7 @@ caya caer VMII3S0 caer VMM03S0 caer VMSP1S0 caer VMSP3S0
 cayada cayada NCFS000
 cayades caer VMSP2P0
 cayado cayado NCMS000
+cayais caer VMSP2P0
 cayalles caya+les VM+PP
 cayam Cayam NP000P0
 cayamos caer VMII1P0
@@ -54366,6 +54443,8 @@ caygays caer VMSP2P0
 caygo caer VMIP1S0 caer VMIS3S0
 cayha caer VMII1S0 caer VMII3S0
 cayhan caer VMII3P0
+cayia caer VMII1S0 caer VMII3S0
+cayian caer VMII3P0
 cayido caer VMP00SM
 cayin Caín NP000P0
 cayll calle NCFS000
@@ -55593,6 +55672,7 @@ cecilia Sicilia NP000G0 Cecilia NP000P0
 ceciliana siciliano AQ0FS0 siciliano NCFS000
 ceciliano siciliano AQ0MS0 siciliano NCMS000
 cecilianos siciliano AQ0MP0 siciliano NCMP000
+cecilias Sicilia NP000G0
 cecilio Cecilio NP000P0
 cecilius Cecilio NP000P0
 cecilla Sicilia NP000G0
@@ -58263,6 +58343,7 @@ circundo circundar VMIP1S0 circundar VMIS3S0
 circunferencia circunferencia NCFS000
 circunferencias circunferencia NCFP000
 circunfirencia circunferencia NCFS000
+circunflexo circunflejo NCMS000
 circunfleẍo circunflejo NCMS000
 circunloquios circunloquio NCMP000
 circunrrodea circumrodear VMIP3S0 circumrodear VMM02S0
@@ -58518,6 +58599,7 @@ ciznes cisne NCMP000
 ciçaña cizaña NCFS000
 ciçero Cicerón NP000P0
 ciçeron Cicerón NP000P0
+ciçiones cición NCFP000
 ciña ceñir VMM03S0 ceñir VMSP1S0 ceñir VMSP3S0
 ciñades ceñir VMSP2P0
 ciñan ceñir VMM03P0 ceñir VMSP3P0
@@ -59369,6 +59451,7 @@ cobdiciemos codiciar VMM01P0 codiciar VMSP1P0
 cobdicien codiciar VMM03P0 codiciar VMSP3P0
 cobdicies codiciar VMSP2S0
 cobdicieste codiciar VMIS2S0
+cobdicieys codiciar VMSP2P0
 cobdicillo codicilo NCMS000
 cobdicillos codicilo NCMP000
 cobdicilos codicilo NCMP000
@@ -59452,6 +59535,7 @@ cobdjçiosos codicioso AQ0MP0 codicioso NCFS000
 cobdo codo NCMS000
 cobdos codo NCMP000
 cobdyçia codicia NCFS000 codiciar VMIP3S0 codiciar VMM02S0
+cobdyçiar codiciar VMN0000
 cobdyçiosa codicioso AQ0FS0 codicioso NCFS000
 cobeeiado cobejar VMP00SM
 cobellana Covellana NP000G0
@@ -60109,6 +60193,7 @@ cognocida conocer VMP00SF conocido AQ0FS0
 cognociendo conocer VMG0000
 cognocier conocer VMSF3S0
 cognocio conocer VMIS3S0
+cognombres cognombre NCMP000
 cognominado cognominar VMP00SM
 cognominados cognominar VMP00PM
 cognomjnado cognominar VMP00SM
@@ -60448,6 +60533,7 @@ colchero colchero NCMS000
 colchon colchón NCMS000
 colchones colchón NCMP000
 colchos Colcos NP000G0
+colco Colcos NP000G0
 colcos Colcos NP000G0
 colcotar colcótar NCMS000
 colcħa colcha NCFS000
@@ -60658,6 +60744,7 @@ collechos coger VMP00PM
 collecion colección NCFS000
 collectas colecta NCFP000
 collection colección NCFS000
+collectiua colectivo AQ0FS0
 collectiuo colectivo AQ0MS0
 collectiuos colectivo AQ0MP0
 collectorales colectoral NCMP000
@@ -60668,6 +60755,7 @@ collegiada colegiar VMP00SF
 collegial colegial AQ0CS0 colegial NCMS000
 collegiales colegial AQ0CP0
 collegidas colegir VMP00PF
+collegido colegir VMP00SM
 collegio colegiar VMIP1S0 colegiar VMIS3S0 colegio NCMS000
 collegios colegio NCMP000
 collegir colegir VMN0000
@@ -61700,7 +61788,8 @@ comica cómico AQ0FS0 cómico NCFS000
 comicial comicial AQ0CS0
 comicio comicio NCMS000
 comicios comicio NCMP000
-comico cómico NCMS000
+comico cómico AQ0MS0 cómico NCMS000
+comicos cómico AQ0MP0 cómico NCMP000
 comida comer VMP00SF comida NCFS000
 comidan comedir VMM03P0 comedir VMSP3P0
 comidas comer VMP00PF comida NCFP000
@@ -61997,6 +62086,7 @@ commodo comer VMP00SM
 commol commo+le CS+PP
 commoquier comoquiera RG
 commos como+se PR+PP
+commouer conmover VMN0000
 commouerian conmover VMIC3P0
 commouida conmover VMP00SF
 commouido conmover VMP00SM
@@ -62367,6 +62457,7 @@ compellido compeler VMP00SM
 compellidos compeler VMP00PM
 compelliendo compeler VMG0000
 compellir compeler VMN0000
+compelo compeler VMIP1S0
 compendio compendio NCMS000
 compendios compendio NCMP000
 compendiosa compendioso AQ0FS0
@@ -62563,6 +62654,7 @@ compliese cumplir VMSI1S0 cumplir VMSI3S0
 compliesen cumplir VMSI3P0
 compliesse cumplir VMSI1S0 cumplir VMSI3S0
 compliessen cumplir VMSI3P0
+compliesses cumplir VMSI2S0
 complimento cumplimiento NCMS000
 complimiento cumplimiento NCMS000
 complimientos cumplimiento NCMP000
@@ -62933,6 +63025,7 @@ compungido compungir VMP00SM
 compungidos compungir VMP00PM
 compungieron compungir VMIS3P0
 compungir compungir VMN0000
+compunçion compunción NCFS000
 compuse componer VMIS1S0
 compusicion composición NCFS000
 compusicionada composicionar VMP00SF
@@ -63144,6 +63237,7 @@ comutado conmutar VMP00SM
 comutando conmutar VMG0000
 comutar conmutar VMN0000
 comutariamos conmutar VMIC1P0
+comutasse conmutar VMSI1S0 conmutar VMSI3S0
 comutatiua conmutativo AQ0FS0
 comute conmutar VMSP3S0 conmutar VMIS1S0 conmutar VMSP1S0
 comuto conmutar VMIP1S0 conmutar VMIS3S0
@@ -63486,6 +63580,7 @@ concebir concebir VMN0000
 concebira concebir VMIF3S0
 concebiras concebir VMIF2S0
 concebiria concebir VMIC1S0 concebir VMIC3S0
+concebis concebir VMIP2P0
 concebisse concebir VMSI1S0 concebir VMSI3S0
 concebiste concebir VMIS2S0
 concebistes concebir VMIS2P0
@@ -63616,6 +63711,7 @@ conceyo concejo NCMS000
 conceyos concejo NCMP000
 concha concha NCFS000
 conchas concha NCFP000
+conchauar conchabar VMN0000
 conchello Conchello NP000P0
 concheta concheta NCFS000
 conchicas concha NCFP000
@@ -63751,6 +63847,7 @@ concluyes concluir VMIP2S0
 concluyese concluir VMSI1S0 concluir VMSI3S0
 concluyesse concluir VMSI1S0 concluir VMSI3S0
 concluyessen concluir VMSI3P0
+concluyio concluir VMIP1S0 concluir VMIS3S0
 concluymos concluir VMIS1P0
 concluyo concluir VMIP1S0 concluir VMIS3S0
 concluyr concluir VMN0000
@@ -63762,6 +63859,7 @@ concluyria concluir VMIC1S0 concluir VMIC3S0
 concluyriamos concluir VMIC1P0
 concluys concluir VMIP2P0
 concluyste concluir VMIS2S0
+concluystes concluir VMIS2P0
 concluyó concluir VMIS3S0
 concluσion conclusión NCFS000
 concluσjon conclusión NCFS000
@@ -64115,6 +64213,7 @@ condençado condensar VMP00SM
 condençando condensar VMG0000
 condençar condensar VMN0000
 condepna condena NCFS000 condenar VMIP3S0 condenar VMM02S0
+condepnacion condenación NCFS000
 condepnada condenado NCFS000 condenar VMP00SF
 condepnadas condenado NCFP000 condenar VMP00PF
 condepnado condenado NCMS000 condenar VMP00SM
@@ -64132,6 +64231,7 @@ condepnas condena NCFP000 condenar VMIP2S0
 condepnase condenar VMSI1S0 condenar VMSI3S0
 condepnasen condenar VMSI3P0
 condepnasse condenar VMSI1S0 condenar VMSI3S0
+condepnassemos condenar VMSI1P0
 condepnassen condenar VMSI3P0
 condepnaste condenar VMIS2S0
 condepnaçion condenación NCFS000
@@ -65435,6 +65535,7 @@ coniugados conjugar VMP00PM
 coniugal conyugal AQ0CS0
 coniugation conjugación NCFS000
 coniugationes conjugación NCFP000
+coniugaçion conjugación NCFS000
 coniuge cónyuge NCCS000
 coniugio conyugio NCMS000
 coniunccion conjunción NCFS000
@@ -67308,6 +67409,7 @@ conqujrio conquerir VMIS3S0
 conqujrir conquerir VMN0000
 conqujrjo conquerir VMIS3S0
 conqujryo conquerir VMIS3S0
+conqujsso conquistar VMIS3S0
 conqujsta conquista NCFS000 conquistar VMIP3S0 conquistar VMM02S0 conquerir VMP00SF
 conqujstada conquistar VMP00SF
 conqujstadas conquistar VMP00PF
@@ -67514,6 +67616,7 @@ conseguieren conseguir VMSF3P0
 conseguieron conseguir VMIS3P0
 conseguimiento conseguimiento NCMS000
 conseguimos conseguir VMIP1P0 conseguir VMIS1P0
+conseguio conseguir VMIS3S0
 conseguir conseguir VMN0000
 conseguira conseguir VMIF3S0
 conseguiran conseguir VMIF3P0
@@ -68192,6 +68295,7 @@ consolatoria consolatorio AQ0FS0
 consolatorias consolatorio AQ0FP0
 consolatorio consolatorio AQ0MS0
 consolatorios consolatorio AQ0MP0
+consolatorja consolatorio AQ0FS0 consolatoria NCFS000
 consolaua consolar VMII1S0 consolar VMII3S0
 consolauan consolar VMII3P0
 consolava consolar VMII1S0 consolar VMII3S0
@@ -68608,6 +68712,7 @@ constantjnoble Constantinopla NP000G0
 constantjnopla Constantinopla NP000G0
 constantment constantemente RM
 constanz Constancio NP000P0
+constanza Constanza NP000P0
 constanç Constancio NP000P0
 constança Constanza NP000P0
 constançia constancia NCFS000
@@ -69793,6 +69898,7 @@ continuativas continuativo AQ0FP0
 continuaua continuar VMII1S0 continuar VMII3S0
 continuauamos continuar VMII1P0
 continuauan continuar VMII3P0
+continuays continuar VMIP2P0
 continuaçion continuación NCFS000
 continuaçiones continuación NCFP000
 continue continuar VMSP1S0 continuar VMSP3S0 continuar VMM03S0 continuar VMIS1S0
@@ -70398,10 +70504,15 @@ contribuydo contribuir VMP00SM
 contribuye contribuir VMIP3S0 contribuir VMM02S0
 contribuyen contribuir VMIP3P0
 contribuyendo contribuir VMG0000
+contribuyera contribuir VMSI1S0 contribuir VMSI3S0
+contribuyeron contribuir VMIS3P0
 contribuyes contribuir VMIP2S0
 contribuyesen contribuir VMSI3P0
 contribuyesse contribuir VMSI1S0 contribuir VMSI3S0
 contribuyessen contribuir VMSI3P0
+contribuyian contribuir VMII3P0
+contribuyio contribuir VMIP1S0 contribuir VMIS3S0
+contribuyo contribuir VMIP1S0 contribuir VMIS3S0
 contribuyr contribuir VMN0000
 contribuçion contribución NCFS000
 contribuçiones contribución NCFP000
@@ -70767,6 +70878,7 @@ conuersantes conversar VMPP0SC conversante AQ0CP0
 conuersar conversar VMN0000
 conuersara conversar VMIF3S0 conversar VMSI1S0 conversar VMSI3S0
 conuersaras conversar VMIF2S0 conversar VMSI2S0
+conuersare conversar VMSF1S0 conversar VMSF3S0 conversar VMIF1S0
 conuersaren conversar VMSF3P0
 conuersaron conversar VMIS3P0
 conuersas conversar VMIP2S0 converso AQ0FP0 converso NCFP000
@@ -72101,6 +72213,10 @@ cornjsa cornisa NCFS000
 corno cuerno NCMS000
 cornomaran Cornomaran NP000P0
 cornos cuerno NCMP000
+cornouarzano Cornobarceno NP000G0
+cornouarzeno Cornobarceno NP000G0
+cornouarçano Cornobarceno NP000G0
+cornovarzano Cornobarceno NP000G0
 cornu cuerno NCMS000
 cornualla Cornualles NP000G0
 cornuallia Cornualles NP000G0
@@ -72355,6 +72471,7 @@ corregira corregir VMIF3S0
 corregiran corregir VMIF3P0
 corregire corregir VMIF1S0
 corregiria corregir VMIC1S0 corregir VMIC3S0
+corregis corregir VMIP2P0
 corregja corregir VMII1S0 corregir VMII3S0
 corregjmjento corregimiento NCMS000
 corregjr corregir VMN0000
@@ -72488,6 +72605,7 @@ corriga corregir VMM03S0 corregir VMSP1S0 corregir VMSP3S0
 corrigades corregir VMSP2P0
 corrigan corregir VMSP3P0 corregir VMM02P0
 corrigas corregir VMSP2S0
+corrigays corregir VMSP2P0
 corrige corregir VMIP3S0 corregir VMM02S0
 corrigen corregir VMIP3P0
 corrigendo corregir VMG0000
@@ -72904,6 +73022,7 @@ cortaredes cortar VMSF2P0 cortar VMIF2P0
 cortaremos cortar VMIF1P0 cortar VMSF1P0
 cortaren cortar VMSF3P0
 cortares cortar VMSF2S0
+cortareys cortar VMSF2P0 cortar VMIF2P0
 cortaria cortar VMIC1S0 cortar VMIC3S0
 cortarian cortar VMIC3P0
 cortarias cortar VMIC2S0
@@ -74519,6 +74638,7 @@ creey creer VMIS1S0
 creeya creer VMII1S0 creer VMII3S0
 creeydo creer VMP00SM
 creeyendo creer VMG0000
+creeyia creer VMII1S0 creer VMII3S0
 creeyra creer VMIF3S0
 creeys crear VMSP2P0 creer VMIP2P0
 creeσ creer VMSP2S0 crear VMIP2S0
@@ -77748,6 +77868,7 @@ dabas dar VMII2S0
 dabaxo de+abaxo SP+RG
 dabbora Dabora NP000G0
 dabid David NP000P0
+dabio Dibri NP000P0
 dabit David NP000P0
 dabri Dabri NP000P0
 dabril de+abril SP+NC
@@ -77881,6 +78002,7 @@ dalafonte Dalafonte NP000P0
 dalahedo de+alahedo SP+NP
 dalahoaz de+alahoaz SP+NP
 dalamagna de+alamagna SP+NP
+dalamanna de+alamanna SP+NP
 dalamanya de+alamanya SP+NP
 dalambre de+alambre SP+NC
 dalarcon de+alarcon SP+NP
@@ -78618,6 +78740,7 @@ darlehe dar+le+he VM+PP+VA
 darlehemos dar+le+hemos VM+PP+VA
 darlemos dar+le+emos VM+PP+VA
 darles de+arles SP+NP
+darleyan dar+le+yan VM+PP+VA
 darleyedes dar+le+yedes VM+PP+VA
 darleys dar+l+eys VM+PP+VA
 darlie dar+le+ie VM+PP+VA
@@ -78718,6 +78841,7 @@ dativo dativo AQ0MS0 dativo NCMS000
 dativos dativo AQ0MP0 dativo NCMP000
 dato dar VMP00SM Dato NP000G0
 datos dato NCMP000
+dattilo dáctilo NCMS000
 datyles dátil NCMP000
 daua dar VMII1S0 dar VMII3S0
 dauades dar VMII2P0
@@ -78738,6 +78862,7 @@ dauci dauco NCMS000
 dauco dauco NCMS000
 daudalla de+audalla SP+NP
 daudo Daudo NP000P0
+dauellaneda de+auellaneda SP+NP
 dauena de+auena SP+NC
 dauentura de+auentura SP+NC
 dauer de+auer SP+VM/NC
@@ -80384,6 +80509,7 @@ defforme deformar VMSP1S0 deformar VMSP3S0 deformar VMM03S0 deformar VMIS1S0 def
 defformjdad deformidad NCFS000
 defformo deformar VMIP1S0 deformar VMIS3S0
 deffuera defuera RG
+deffunctos difunto AQ0MP0 difunto NCMP000
 deffunto difunto AQ0MS0 difunto NCMS000
 deffuntos difunto AQ0MP0 difunto NCMP000
 deficil difícil AQ0CS0
@@ -80433,6 +80559,7 @@ defiçiente deficiente AQ0CS0 deficiente NCCS000
 defiçile difícil AQ0CS0
 defjnjtiba definitivo AQ0FS0
 defleẍo deflejo NCMS000
+defloracion desfloración NCFS000
 deflorada deflorar VMP00SF
 deflorando desflorar VMG0000
 deflorare desflorar VMSF1S0 desflorar VMSF3S0 desflorar VMIF1S0
@@ -80624,6 +80751,7 @@ deguoillaredes degollar VMSF2P0 degollar VMIF2P0
 degustacion degustación NCFS000
 degustador degustador NCMS000
 degustar degustar VMN0000
+degustaçiones degustación NCFP000
 dehaia dhulhidjah NCMS000
 dehambridos deshambrido AQ0MP0 deshambrir VMP00PM
 dehendedor defendedor AQ0MS0 defendedor NCMS000
@@ -80806,6 +80934,7 @@ delegar delegar VMN0000
 delegara delegar VMIF3S0 delegar VMSI1S0 delegar VMSI3S0
 delegaçion delegación NCFS000
 deleguyr de+eleguyr SP+VM
+deleictos delito NCMP000
 deleido desleer VMP00SM
 deleidos desleer VMP00PM
 deleir desleír VMN0000
@@ -81782,6 +81911,7 @@ denemjgos de+enemjgos SP+NC
 denero dinero NCMS000
 denesgreçe denegrecer VMIP3S0 denegrecer VMM02S0
 denesgreçer denegrecer VMN0000
+denfendera denfender VMIF3S0
 denfermar de+enfermar SP+VM
 denfermedades de+enfermedades SP+NC
 denganos de+enganos SP+NC
@@ -82340,6 +82470,8 @@ deposaron despojar VMIS3P0
 deposasen desposar VMSI3P0
 deposicion deposición NCFS000
 deposiciones deposición NCFP000
+deposieron deponer VMIS3P0
+deposiessen deponer VMSI3P0
 deposita depositar VMIP3S0 depositar VMM02S0
 depositacion depositación NCFS000
 depositada depositar VMP00SF
@@ -83976,6 +84108,7 @@ desarmase desarmar VMSI1S0 desarmar VMSI3S0
 desarmasen desarmar VMSI3P0
 desarmasse desarmar VMSI1S0 desarmar VMSI3S0
 desarmassen desarmar VMSI3P0
+desarmastes desarmar VMIP2P0
 desarmaua desarmar VMII1S0 desarmar VMII3S0
 desarmauan desarmar VMII3P0
 desarme desarmar VMSP1S0 desarmar VMSP3S0 desarmar VMM03S0 desarmar VMIS1S0 desarme NCMS000
@@ -84350,6 +84483,7 @@ desbaruamiento desbarbamiento NCMS000
 desbaruar desbarbar VMN0000
 desbarvada desbarbado AQ0FS0
 desbarvado desbarbado AQ0MS0
+desbastadas desbastar VMP00PF
 desbastar desbastar VMN0000
 desbastecida desabastecer VMP00SF
 desbastecido desabastecer VMP00SM
@@ -84991,6 +85125,7 @@ descobrira descubrir VMIF3S0
 descobriran descubrir VMIF3P0
 descobriras descubrir VMIF2S0
 descobrire descubrir VMIF1S0
+descobrires descubrir VMSF2S0
 descobriria descubrir VMIC1S0 descubrir VMIC3S0
 descobririen descubrir VMIC3P0
 descobris descubrir VMIP2P0
@@ -85103,6 +85238,7 @@ descomedida descomedido AQ0FS0 descomedido NCFS000 descomedir VMP00SF
 descomedidas descomedido AQ0FP0 descomedido NCFP000 descomedir VMP00PF
 descomedido descomedido AQ0MS0 descomedido NCMS000 descomedir VMP00SM
 descomedidos descomedido AQ0MP0 descomedido NCMP000 descomedir VMP00PM
+descomedimiento descomedimiento NCMS000
 descomedimientos descomedimiento NCMP000
 descomedir descomedir VMN0000
 descomidio descomedir VMIS3S0
@@ -85372,6 +85508,7 @@ desconoscientes desconocer VMPP0PC
 desconosciese desconocer VMSI1S0 desconocer VMSI3S0
 desconoscimiento desconocimiento NCMS000
 desconoscimientos desconocimiento NCMP000
+desconoscio desconocer VMIS3S0
 desconosçe desconocer VMIP3S0 desconocer VMM02S0
 desconosçen desconocer VMIP3P0
 desconosçençia desconocencia NCFS000
@@ -87005,6 +87142,7 @@ deseruidor deservidor NCMS000
 deseruidores deservidor NCMP000
 deseruidos deservir VMP00PM
 deseruiendo deservir VMG0000
+deseruiente deserviente AQ0CS0
 deseruiera deservir VMSI1S0 deservir VMSI3S0
 deseruieron deservir VMIS3P0
 deseruiessen deservir VMSI3P0
@@ -88114,6 +88252,7 @@ desir decir VMN0000
 desires decir NCMP000
 desirgo de+sirgo SP+NC
 desirua deservir VMM03S0 deservir VMSP1S0 deservir VMSP3S0
+desiruays deservir VMSP2P0
 desirue deservir VMIP3S0 deservir VMM02S0
 desiruen deservir VMIP3P0
 desiruiendo deservir VMG0000
@@ -88663,6 +88802,7 @@ desmerecimientos desmerecimiento NCMP000
 desmerejones de+esmerejones SP+NC
 desmeresce desmerecer VMIP3S0 desmerecer VMM02S0
 desmerescer desmerecer VMN0000
+desmeresces desmerecer VMIP2S0
 desmerescimiento desmerecimiento NCMS000
 desmerescimjento desmerecimiento NCMS000
 desmereszer desmerecer VMN0000
@@ -88891,6 +89031,7 @@ desobedesce desobedecer VMIP3S0 desobedecer VMM02S0
 desobedescer desobedecer VMN0000
 desobedesciendo desobedecer VMG0000
 desobedesciessen desobedecer VMSI3P0
+desobedescio desobedecer VMIS3S0
 desobedesçen desobedecer VMIP3P0
 desobedesçer desobedecer VMN0000
 desobedesçieron desobedecer VMIS3P0
@@ -91303,6 +91444,7 @@ desterramientos desterramiento NCMP000
 desterramjendo desterramiento NCMS000
 desterramjento desterramiento NCMS000
 desterrando desterrar VMG0000
+desterrante desterrante AQ0CS0 desterrante NCCS000
 desterrar desterrar VMN0000
 desterrara desterrar VMIF3S0 desterrar VMSI1S0 desterrar VMSI3S0
 desterraran desterrar VMSI3P0 desterrar VMIF3P0
@@ -93821,6 +93963,7 @@ dezmado diezmar VMP00SM
 dezmados diezmar VMP00PM
 dezmar diezmar VMN0000
 dezmara diezmar VMIF3S0 diezmar VMSI1S0 diezmar VMSI3S0
+dezmare diezmar VMSF1S0 diezmar VMSF3S0
 dezmaren diezmar VMSF3P0
 dezmasen diezmar VMSI3P0
 dezmassen diezmar VMSI3P0
@@ -94636,6 +94779,7 @@ dictaua dictar VMII1S0 dictar VMII3S0
 dicte dictar VMSP1S0 dictar VMSP3S0 dictar VMM03S0 dictar VMIS1S0
 dictemos dictar VMM01P0 dictar VMSP1P0
 diction dicción NCFS000
+dictiones dicción NCFP000
 dictis Dictis NP000G0
 dictissima dicto AQ0FS0
 dicto decir VMP00SM
@@ -94760,6 +94904,8 @@ diezisiete diecisiete MC0000
 diezma décima NCFS000 décimo MOFS00
 diezman diezmar VMIP3P0
 diezmas diezmo NCFP000
+diezmaua diezmar VMII1S0 diezmar VMII3S0
+diezme diezmar VMM03S0 diezmar VMSP1S0 diezmar VMSP3S0
 diezmen diezmar VMM03P0 diezmar VMSP3P0
 diezmil 10000 MC0000
 diezmill 10000 MC0000
@@ -94915,6 +95061,7 @@ diffieren diferir VMIP3P0
 diffies Difíes NP000P0
 diffine definir VMIP3S0 definir VMM02S0
 diffinen definir VMIP3P0
+diffinian definir VMII3P0
 diffinicion definición NCFS000
 diffiniciones definición NCFP000
 diffinida definir VMP00SF
@@ -95199,6 +95346,7 @@ dilacion dilación NCFS000
 dilaciones dilación NCFP000
 dilamos Dilamos NP000P0
 dilapidador dilapidador AQ0MS0 dilapidador NCMS000
+dilapidar dilapidar VMN0000
 dilata dilatar VMIP3S0 dilatar VMM02S0
 dilataba dilatar VMII1S0 dilatar VMII3S0
 dilatablemente dilatablemente RM
@@ -95269,6 +95417,7 @@ dilicias delicia NCFP000
 dilicion dilección NCFS000
 diligencia diligencia NCFS000
 diligencias diligencia NCFP000
+diligenciero diligenciero NCMS000
 diligenciosa diligencioso AQ0FS0
 diligenciosos diligencioso AQ0MP0
 diligencja diligencia NCFS000
@@ -95485,6 +95634,7 @@ diogenito Diogénito NP000P0
 diolle dio+lle VM+PP
 diomades Diomades NP000P0
 diomana Diomana NP000P0
+diomede Diomedes NP000P0
 diomedes Diomedes NP000P0
 diomedis Diomedes NP000P0
 diomides Diomedes NP000P0
@@ -95551,6 +95701,7 @@ dipensar dispensar VMN0000
 diphthongadas diptongar VMP00PF
 diphthongo diptongo NCMS000
 diphthongos diptongo NCMP000
+diphtongados diptongar VMP00PM
 diphtongo diptongo NCMS000
 dipre de+ipre SP+NP
 diproporcionada desproporcionar VMP00SF
@@ -96553,6 +96704,7 @@ dissimulation disimulación NCFS000
 dissimulaua disimular VMII1S0 disimular VMII3S0
 dissimulauan disimular VMII3P0
 dissimulava disimular VMII1S0 disimular VMII3S0
+dissimulays disimular VMIP2P0
 dissimulaçion disimulación NCFS000
 dissimule disimular VMSP1S0 disimular VMSP3S0 disimular VMM03S0 disimular VMIS1S0
 dissimuledes disimular VMSP2P0
@@ -97635,6 +97787,7 @@ diçipulos discípulo NCMP000
 diçipuloσ discípulo NCMP000
 diçir decir VMN0000
 diçjpulo discípulo NCMS000
+diçtion dicción NCFS000
 diççiendo decir VMG0000
 diña digno AQ0FS0
 diño digno AQ0MS0
@@ -98082,10 +98235,10 @@ doblezna dobleznar VMIP3S0 dobleznar VMM02S0
 dobleƽes doblez NCMP000
 doblitas de+oblitas SP+NP
 dobllado doblar VMP00SM
-doblo doblar VMIP1S0 doblar VMIS3S0
+doblo doblar VMIP1S0 doblar VMIS3S0 doblo NCMS000
 doblon doblón NCMS000
 doblones doblón NCMP000
-doblos duplo NCMP000
+doblos doblo NCMP000
 dobrada doblar VMP00SF
 dobradas doblar VMP00PF
 dobrado doblar VMP00SM
@@ -98163,6 +98316,7 @@ documentes documento NCMP000
 documento documento NCMS000
 documentos documento NCMP000
 doda Doda NP000P0
+dodam Dodava NP000P0
 dodamim Dodamim NP000P0
 dodamin Dodamin NP000P0
 dodanim Dodamim NP000P0
@@ -98321,7 +98475,7 @@ dollor dolor NCMS000
 dollorida dolorido AQ0FS0 dolorir VMP00SF
 dollorosamente dolorosamente RM
 dolmedo de+olmedo SP+NP
-dolo do+lo VM/RG+PP duelo NCMS000
+dolo do+lo VM/RG+PP dolo NCMS000
 dolobella Dolabela NP000P0
 dolobello Dolabela NP000P0
 dolobeo Dolabela NP000P0
@@ -98358,7 +98512,7 @@ dolorosso doloroso AQ0MS0
 doloroσos doloroso AQ0MP0
 doloryda dolorido AQ0FS0 dolorir VMP00SF
 dolorydo dolorido AQ0MS0 dolorir VMP00SM
-dolos do+los VM/RG+PP
+dolos do+los VM/RG+PP dolo NCMP000 duelo NCMP000
 dolosa doloso AQ0FS0
 dolosas doloso AQ0FP0
 doloso doloso AQ0MS0
@@ -98745,6 +98899,7 @@ dorjent de+orjent SP+NC
 dorliens de+orliens SP+NP
 dormamos dormir VMM01P0 dormir VMSP1P0
 dormecer adormecer VMN0000
+dormeria dormir VMIC1S0 dormir VMIC3S0
 dormesçidas adormecer VMP00PF
 dormi dormir VMIS1S0
 dormia dormir VMII1S0 dormir VMII3S0
@@ -99052,6 +99207,7 @@ doñear doñear VMN0000
 doñegil doñeguil AQ0CS0
 doñeguil doñeguil AQ0CS0
 doñegujl doñeguil AQ0CS0
+doñegujles doñeguil AQ0CP0
 doñeo doñeo NCMS000
 doñeos doñeo NCMP000
 doñeoσ doñeo NCMP000
@@ -101152,6 +101308,7 @@ elamj elami NCMS000
 elamjento helamiento NCMS000
 elando helar VMG0000
 elanjco Elánico NP000P0
+elante helante AQ0CS0
 elar helar VMN0000
 elaran helar VMSI3P0 helar VMIF3P0
 elare helar VMSF1S0 helar VMSF3S0 helar VMIF1S0
@@ -101568,6 +101725,7 @@ elixatas elixato AQ0FP0
 elixido elegir VMP00SM
 elizabad Helizabad NP000P0
 elizabeth Isabel NP000P0
+elizaer Eliezer NP000P0
 elizeos elíseo AQ0MP0 elíseo NCMP000
 eliçe Elice NP000P0
 eliçion elección NCFS000
@@ -102042,6 +102200,7 @@ embermegecia embermejecer VMII1S0 embermejecer VMII3S0
 embermegecida embermejecer VMP00SF
 embermegecio embermejecer VMIS3S0
 embermegesca embermejecer VMSP1S0 embermejecer VMSP3S0 embermejecer VMM03S0
+embermegescio embermejecer VMIS3S0
 embermegeçe embermejecer VMIP3S0 embermejecer VMM02S0
 embermeieçe embermejecer VMIP3S0 embermejecer VMM02S0
 embermejar embermejar VMN0000
@@ -102361,7 +102520,9 @@ embriagestas embriaguez NCFP000
 embriageza embriaguez NCFS000
 embriago embriagar VMIP1S0 embriagar VMIS3S0 embriago NCMS000 embriago AQ0MS0
 embriagos embriago AQ0MP0
+embriague embriagar VMSP1S0 embriagar VMSP3S0 embriagar VMM03S0 embriagar VMIS1S0
 embriagues embriaguez NCFS000
+embriagueys embriagar VMSP2P0
 embriaguez embriaguez NCFS000
 embriagueza embriaguez NCFS000
 embriaguezas embriaguez NCFP000
@@ -102411,6 +102572,7 @@ embusca em+busca SP+NC
 embuscadas emboscada NCFP000
 embuscar emboscar VMN0000
 embuste embuste NCMS000
+embustes embuste NCMP000
 embutamos embutir VMM01P0 embutir VMSP1P0
 embutes embutir VMIP2S0
 embutida embutir VMP00SF
@@ -102707,6 +102869,7 @@ empacħo empacho NCMS000
 empadronado empadronar VMP00SM
 empadronados empadronar VMP00PM
 empadronamiento empadronamiento NCMS000
+empadronan empadronar VMIP3P0
 empadronar empadronar VMN0000
 empadronaren empadronar VMSF3P0
 empajar empajar VMN0000
@@ -103111,6 +103274,7 @@ empeçimientos empecimiento NCMP000
 empeçio empecer VMIS3S0
 empeço empezar VMIS3S0
 empeçoron empezar VMIS3P0
+empeña empeñar VMIP3S0 empeñar VMM02S0
 empeñada empeñar VMP00SF
 empeñadas empeñar VMP00PF
 empeñado empeñar VMP00SM
@@ -103512,6 +103676,7 @@ emprestados emprestar VMP00PM
 emprestamiento emprestamiento NCMS000
 emprestamo empréstamo NCMS000
 emprestamos emprestar VMIP1P0 emprestar VMIS1P0
+emprestan emprestar VMIP3P0
 emprestando emprestar VMG0000
 emprestantes emprestante AQ0CP0
 emprestar emprestar VMN0000
@@ -103521,6 +103686,7 @@ emprestare emprestar VMSF1S0 emprestar VMSF3S0 emprestar VMIF1S0
 emprestaremos emprestar VMIF1P0 emprestar VMSF1P0
 emprestaren emprestar VMSF3P0
 emprestares emprestar VMSF2S0
+emprestaria emprestar VMIC1S0 emprestar VMIC3S0
 emprestaron emprestar VMIS3P0
 emprestase emprestar VMSI1S0 emprestar VMSI3S0
 emprestasen emprestar VMSI3P0
@@ -103915,6 +104081,7 @@ enares Henares NP000G0
 enaries en+aries SP+NC
 enarmar armar VMN0000
 enarmonar enarmonar VMN0000
+enarmono enarmonar VMIS3S0
 enarra narrar VMIP3S0 narrar VMM02S0
 enarracion enarración NCFS000
 enarradas narrar VMP00PF
@@ -105323,6 +105490,7 @@ encenssarios incensario NCMP000
 encensser incensario NCMS000
 encensseres incensario NCMP000
 encentamiento encentamiento NCMS000
+encentar encentar VMN0000
 encentasen encentar VMSI3P0
 encentrico excéntrico NCMS000
 encenço incienso NCMS000
@@ -105532,6 +105700,7 @@ enclinado inclinar VMP00SM
 enclinados inclinar VMP00PM
 enclinamiento inclinamiento NCMS000
 enclinamjento inclinamiento NCMS000
+enclinan inclinar VMIP3P0
 enclinando inclinar VMG0000
 enclinar inclinar VMN0000
 enclinaremos inclinar VMIF1P0 inclinar VMSF1P0
@@ -106695,6 +106864,7 @@ enduro endurar VMIP1S0 endurar VMIS3S0
 endustriadores industriador AQ0MP0 industriador NCMP000
 endustriadoσ industriar VMP00PM
 enduxo inducir VMIS3S0
+enduze inducir VMIP3S0 inducir VMM02S0
 enduzen inducir VMIP3P0
 enduzida inducir VMP00SF
 enduzido inducir VMP00SM
@@ -108435,12 +108605,16 @@ enhilado enhilar VMP00SM
 enhilados enhilar VMP00PM
 enhilar enhilar VMN0000
 enhora en+hora SP+NC
+enhorca ahorcar VMIP3S0 ahorcar VMM02S0
 enhorcado ahorcar VMP00SM
 enhorcados ahorcar VMP00PM
+enhorcan ahorcar VMIP3P0
+enhorcar ahorcar VMN0000
 enhorcauan ahorcar VMII3P0
 enhorco ahorcar VMIS3S0
 enhormes enorme AQ0CP0
 enhornar enhornar VMN0000
+enhorquen ahorcar VMSP3P0
 enhotado enhotar VMP00SM
 enhuziado enfiuzar VMP00SM
 enhyestas enhiesto AQ0FP0
@@ -112707,6 +112881,7 @@ entrelos entre+los SP+DA
 entremedia entremedio AQ0FS0
 entremediana entremediano AQ0FS0 entremediano NCFS000
 entremedianeros medianero NCMP000
+entremediano entremediano AQ0MS0
 entremedianos entremediano AQ0MP0 entremediano NCMP000
 entremedias entremedio AQ0FP0
 entremedio entremedio AQ0MS0
@@ -113645,6 +113820,7 @@ enuna en+una SP+DI/PI
 enunas en+unas SP+DI/PI
 enuno en+uno SP+PI
 enunos en+unos SP+DI/PI
+enunçiaçion enunciación NCFS000
 enuocase embocar VMSI1S0 embocar VMSI3S0
 enuolgadura envolgadura NCFS000
 enuolopada envolver VMP00SF
@@ -113770,6 +113946,7 @@ enveninados envenenar VMP00PM envenenado NCMP000
 envenjnado envenenar VMP00SM
 envenjnesçida enveninecer VMP00SF
 envenjnesçidas enveninecer VMP00PF
+envençion invención NCFS000
 enverdeçen enverdecer VMIP3P0
 enverdeçer enverdecer VMN0000
 envergonamjento envergonzamiento NCMS000
@@ -113860,6 +114037,7 @@ envileze envilecer VMIP3S0 envilecer VMM02S0
 envileçen envilecer VMIP3P0
 envileçer envilecer VMN0000
 envileçes envilecer VMIP2S0
+envileçidos envilecer VMP00PM
 envileƽeσ envilecer VMIP2S0
 envillescer envilecer VMN0000
 envillesçer envilecer VMN0000
@@ -114195,6 +114373,7 @@ ençegada cegar VMP00SF
 ençegado cegar VMP00SM
 ençegados cegar VMP00PM
 ençegar cegar VMN0000
+ençela encelar VMIP3S0 encelar VMM02S0
 ençelada encelar VMP00SF
 ençeladas encelar VMP00PF
 ençelado encelar VMP00SM
@@ -116780,6 +116959,7 @@ escojeras escoger VMIF2S0
 escojeredes escoger VMIF2P0
 escojeria escoger VMIC1S0 escoger VMIC3S0
 escojeron escoger VMIS3P0
+escojes escoger VMIP2S0
 escojesedes escoger VMSI2P0
 escojesen escoger VMSI3P0
 escojesses escoger VMSI2S0
@@ -117273,6 +117453,7 @@ escreujra escribir VMIF3S0
 escreujras escribir VMIF2S0
 escreujre escribir VMIF1S0
 escreujremos escribir VMIF1P0
+escreujria escribir VMIC1S0 escribir VMIC3S0
 escreujste escribir VMIS2S0
 escreujstes escribir VMIS2P0
 escreujt escribir VMM02P0
@@ -117552,6 +117733,7 @@ escrudinnassen escudriñar VMSI3P0
 escrudiñador escudriñador NCMS000
 escrufulas escrófula NCFP000
 escrujdo escribir VMP00SM
+escrupolos escrúpulo NCMP000
 escrupulo escrúpulo NCMS000
 escrupulos escrúpulo NCMP000
 escrupulosa escrupuloso AQ0FS0
@@ -118119,6 +118301,7 @@ esdevino esdevenir VMIS3S0
 esdormjdos desdormir VMP00PM
 esdras Esdras NP000P0
 esdray Esdray NP000G0
+esdre Esdras NP000P0
 esdron Esdron NP000P0
 esdrubal Asdrúbal NP000P0
 ese ese DD0MS0 ese PD0MS000
@@ -120830,6 +121013,7 @@ essambre enjambre NCMS000
 essaminada examinar VMP00SF
 essaminadas examinar VMP00PF
 essamjnados examinar VMP00PM
+essamjnat examinar VMM02P0
 essançonarios ascensionario AQ0MP0
 essar Essar NP000P0
 essas ese DD0FP0 ese PD0FP000
@@ -121986,6 +122170,7 @@ estirpado extirpar VMP00SM
 estirpados estirpar VMP00PM
 estirpando extirpar VMG0000
 estirpar extirpar VMN0000
+estirpara estirpar VMIF3S0 estirpar VMSI1S0 estirpar VMSI3S0
 estirparon extirpar VMIS3P0
 estirpaua estirpar VMII1S0 estirpar VMII3S0
 estirpauan extirpar VMII3P0
@@ -123405,6 +123590,7 @@ està estar VAIP3S0 estar VAM02S0
 estàba estar VAII1S0 estar VAII3S0
 estàban estar VAII3P0
 está estar VAIP3S0 estar VAM02S0
+estâ estar VAIP3S0 estar VAM02S0
 estè estar VAM03S0 estar VASP1S0 estar VASP3S0
 esté estar VAM03S0 estar VASP1S0 estar VASP3S0
 esuaecidos desvaecer VMP00PM
@@ -124536,6 +124722,7 @@ executaste ejecutar VMIS2S0
 executastes ejecutar VMIS2P0
 executauan ejecutar VMII3P0
 execute ejecutar VMSP1S0 ejecutar VMSP3S0 ejecutar VMM03S0 ejecutar VMIS1S0
+executedes ejecutar VMSP2P0
 executemos ejecutar VMM01P0 ejecutar VMSP1P0
 executen ejecutar VMSP3P0
 executeys ejecutar VMSP2P0
@@ -125445,6 +125632,7 @@ extimados estimar VMP00PM
 extiman estimar VMIP3P0
 extimando estimar VMG0000
 extimaredes estimar VMSF2P0 estimar VMIF2P0
+extimaron estimar VMIS3P0
 extimas estima NCFP000 estimar VMIP2S0
 extimasse estimar VMSI1S0 estimar VMSI3S0
 extimatiua estimativa NCFS000 estimativo AQ0FS0
@@ -127830,6 +128018,7 @@ fauorezca favorecer VMSP1S0 favorecer VMSP3S0 favorecer VMM03S0
 fauorezcan favorecer VMM03P0 favorecer VMSP3P0
 fauorezcas favorecer VMSP2S0
 fauorezcays favorecer VMSP2P0
+fauorezco favorecer VMIP1S0
 fauoreçe favorecer VMIP3S0 favorecer VMM02S0
 fauoreçen favorecer VMIP3P0
 fauoreçer favorecer VMN0000
@@ -128805,6 +128994,7 @@ fengido fingir VMP00SM
 fengidos fingir VMP00PM
 fengir fingir VMN0000
 fengira fingir VMIF3S0
+fengistes fingir VMIP2P0
 fengyr fingir VMN0000
 fenicea Fenicia NP000G0
 fenices fenicio AQ0MP0 fenicio NCMP000
@@ -129223,6 +129413,7 @@ fertilissima fértil AQ0FS0
 fertilissimas fértil AQ0FP0
 fertilissimo fértil AQ0MS0
 fertilizar fertilizar VMN0000
+fertinjdad fertilidad NCFS000
 ferua hervir VMSP1S0 hervir VMSP3S0 hervir VMM03S0
 ferue hervir VMIP3S0 hervir VMM02S0
 feruelas férula NCFP000
@@ -129480,6 +129671,7 @@ feziestes hacer VMIS2P0 hacer VMSP2P0
 fezimos hacer VMIS1P0
 fezioron hacer VMIS3P0
 fezisen hacer VMSI3P0
+fezissen hacer VMSI3P0
 fezist hacer VMIS2S0
 feziste hacer VMIS2S0
 fezistes hacer VMIS2P0
@@ -130626,6 +130818,7 @@ ffyjo hijo NCMS000
 ffylosofo filósofo NCMS000
 ffyn fin NCMS000
 ffyna finar VMIP3S0 finar VMM02S0 fino AQ0FS0
+ffynado finar VMP00SM
 ffynal final AQ0CS0 final NCMS000
 ffynasse finar VMSI1S0 finar VMSI3S0
 ffyncar hincar VMN0000
@@ -131926,6 +132119,7 @@ fizio hacer VMIS3S0
 fizion facción NCFS000
 fizioron hacer VMIS3P0
 fiziren hacer VMSF3P0
+fizisse hacer VMSI1S0 hacer VMSI3S0
 fizissen hacer VMSI3P0
 fizist hacer VMIS2S0
 fiziste hacer VMIS2S0
@@ -133353,6 +133547,7 @@ formicatjuo formicativo AQ0MS0
 formico fórmico AQ0MS0
 formidable formidable AQ0CS0
 formidables formidable AQ0CP0
+formidolosa formidoloso AQ0FS0
 formiga hormiga NCFS000
 formigante hormigante AQ0CS0
 formigas hormiga NCFP000
@@ -134022,6 +134217,7 @@ fragar fraguar VMN0000
 fragaria fragaria NCFS000
 fragaron fregar VMIS3P0
 fragata fragata NCFS000
+fragelidad fragilidad NCFS000
 fragello flagelo NCMS000
 fragellos Fragellos NP000G0
 fragil frágil AQ0CS0
@@ -134117,6 +134313,7 @@ francisco Francisco NP000P0 francisco AQ0MS0
 franciscos francisco AQ0MP0
 francisqujna Francisquina NP000P0
 franciσcoσ francisco AQ0MP0 francisco NCMP000
+francjsco Francisco NP000P0
 franclifort Fráncfort NP000G0
 franclifurc Fráncfort NP000G0
 franco franco AQ0MS0 franco NCMS000
@@ -134428,6 +134625,7 @@ frequentamjento frecuentamiento NCMS000
 frequentando frecuentar VMG0000
 frequentar frecuentar VMN0000
 frequentaren frecuentar VMSF3P0
+frequentatiuo frecuentativo AQ0MS0
 frequentatiuos frecuentativo AQ0MP0
 frequentava frecuentar VMII1S0 frecuentar VMII3S0
 frequente frecuente AQ0CS0
@@ -134577,6 +134775,7 @@ frigido frígido AQ0MS0
 frigidos frígido AQ0MP0
 frigio frigio AQ0MS0 frigio NCMS000
 frigios frigio AQ0MP0 frigio NCMP000
+frigoriento frigoriento AQ0MS0
 frijoles frijol NCMP000
 frinato Frinato NP000P0
 frindas Frindas NP000P0
@@ -137449,6 +137648,7 @@ gazajado gasajar VMP00SM gasajado NCMS000
 gazan Gazan NP000G0
 gazapo gazapo NCMS000
 gazara Gazara NP000G0
+gazaram Gézer NP000G0
 gazarim Gazirín NP000G0
 gazarin Gazarín NP000G0
 gaze yacer VMIP3S0 yacer VMM02S0
@@ -138216,6 +138416,7 @@ gigon Gihón NP000G0
 gigua giga NCFS000
 giguantea giganteo AQ0FS0
 gija guija NCFS000
+gijarro guijarro NCMS000
 gijas guija NCFP000
 gijon Gijón NP000G0
 gil Gil NP000P0
@@ -139139,6 +139340,7 @@ gormaz Gormaz NP000G0
 gornida guarnir VMP00SF
 gornjdo guarnir VMP00SM
 goron Gorón NP000G0
+gorostiçu Gorostizu NP000G0
 gorra gorra NCFS000
 gorras gorra NCFP000
 gorria Gorria NP000P0
@@ -139633,6 +139835,7 @@ gradesced agradecer VMM02P0
 gradescemos agradecer VMIP1P0
 gradescen agradecer VMIP3P0
 gradescer agradecer VMN0000
+gradescera agradecer VMIF3S0
 gradescere agradecer VMIF1S0
 gradesceria agradecer VMIC1S0 agradecer VMIC3S0
 gradescerien agradecer VMIC3P0
@@ -139821,6 +140024,7 @@ granadiella Granadilla NP000G0
 granadilla Granadilla NP000G0
 granadinas granadino AQ0FP0 granadino NCFP000
 granadino granadino AQ0MS0 granadino NCMS000
+granadis granadí AQ0CP0 granadí NCCP000
 granadjno granadino AQ0MS0 granadino NCMS000
 granado granado NCMS000 granado AQ0MS0
 granados granado NCMP000 granado AQ0MP0
@@ -140025,6 +140229,7 @@ grasa grasa NCFS000 graso AQ0FS0
 grasandor Grasandor NP000P0
 grasas grasa NCFP000 graso AQ0FP0
 graseria grasería NCFS000
+graseza graseza NCFS000
 grasienta grasiento AQ0FS0
 grasientas grasiento AQ0FP0
 grasinda Grasinda NP000P0
@@ -140581,6 +140786,7 @@ grupadas grupada NCFP000
 grupo grupo NCMS000
 grupos grupo NCMP000
 grusedunbre grosedumbre NCFS000
+grussura grosura NCFS000
 gruta gruta NCFS000
 grutafora Grutafora NP000P0
 grutas gruta NCFP000
@@ -141487,6 +141693,7 @@ guerreen guerrear VMM03P0 guerrear VMSP3P0
 guerreo guerrear VMIP1S0 guerrear VMIS3S0
 guerrera guerrera NCFS000 guerrero AQ0FS0 guerrero NCFS000
 guerreras guerrera NCFP000 guerrero AQ0FP0 guerrero NCFP000
+guerreria guerrería NCFS000
 guerrerias guerrería NCFP000
 guerrero guerrero AQ0MS0 guerrero NCMS000
 guerreros guerrero AQ0MP0 guerrero NCMP000
@@ -141693,6 +141900,7 @@ guirguiesca guirguiesca NCFS000
 guirlanda guirnalda NCFS000
 guirlandas guirnalda NCFP000
 guirnalda guirnalda NCFS000
+guirnaldados guirnaldar VMP00PM
 guirnaldas guirnalda NCFP000
 guirnaldeta guirnalda NCFS000
 guis guisa NCFS000
@@ -142045,6 +142253,7 @@ gurbjndo Gurbindo NP000G0
 gurecan Guyuk_Kan NP000P0
 gurgonio Gurgonio NP000P0
 gurgulacion gorgolación NCFS000
+gurgulio curculio NCMS000
 gurrea Urrea NP000P0
 gurreas Gurrea NP000P0
 gurria Gurria NP000G0
@@ -142115,6 +142324,7 @@ gustatiua gustativo AQ0FS0
 gustatiuos gustativo AQ0MP0
 gustaua gustar VMII1S0 gustar VMII3S0
 gustauan gustar VMII3P0
+gustays gustar VMIP2P0
 gustaçion gustación NCFS000
 guste gustar VMSP1S0 gustar VMSP3S0 gustar VMM03S0 gustar VMIS1S0
 gustemos gustar VMM01P0 gustar VMSP1P0
@@ -142330,6 +142540,7 @@ gyrion Gerión NP000P0
 gyriones Gerión NP000P0
 gyron Girón NP000P0
 gyrones Girón NP000P0
+gyryon Gerión NP000P0
 gysa guisa NCFS000
 gysalayco Guisalarico NP000P0
 gyso guisar VMSI3S0
@@ -144481,6 +144692,7 @@ herieron herir VMIS3P0
 herigone Herigone NP000P0
 herilus Herilus NP000P0
 herimato Herimato NP000G0
+herimos herir VMIP1P0 herir VMIS1P0
 herinda Herinda NP000P0
 herio herir VMIS3S0
 herir herir VMN0000
@@ -144852,10 +145064,12 @@ hervido hervir VMP00SM
 herviente hervir VMPP0SC hirviente AQ0CS0
 hervientemente hervientemente RM
 hervientes hervir VMPP0PC hirviente AQ0CP0
+hervigio Ervigio NP000P0
 hervir hervir VMN0000
 hervor hervor NCMS000
 hervores hervor NCMP000
 hervyendo hervir VMG0000
+hervygyo Ervigio NP000P0
 herydas herida NCFP000 herir VMP00PF
 herydien heredar VMM03P0 heredar VMSP3P0
 herydo herido NCMS000 herir VMP00SM
@@ -145011,6 +145225,7 @@ hiba ir VMII1S0 ir VMII3S0
 hibamos ir VMII1P0
 hiban ir VMII3P0
 hiberia Iberia NP000G0
+hibernicos hibérnico AQ0MP0 hibérnico NCMP000
 hiberos ibero AQ0MP0 ibero NCMP000
 hibiertas abrir VMP00PF
 hibosech Hibosech NP000P0
@@ -145968,6 +146183,7 @@ hondea hondear VMIP3S0 hondear VMM02S0
 hondero hondero NCMS000
 honderos hondero NCMP000
 hondida hundir VMP00SF hundido AQ0FS0
+hondidas hundir VMP00PF
 hondido hundir VMP00SM
 hondidos hundir VMP00PM
 hondiessen hundir VMSI3P0
@@ -146239,6 +146455,7 @@ horaden horadar VMM03P0 horadar VMSP3P0
 horado horadar VMIP1S0 horadar VMIS3S0 horado NCMS000
 horadores orador NCMP000
 horados horado NCMP000
+horambrera horambrera NCFS000
 horando orar VMG0000
 horar orar VMN0000
 horario horario AQ0MS0 horario NCMS000
@@ -146247,6 +146464,7 @@ horasemos orar VMSI1P0
 horatio Horacio NP000P0
 horatorio oratorio NCMS000
 horauan orar VMII3P0
+horaçio Horacio NP000P0
 horaña huraño AQ0FS0
 horba Horba NP000G0
 horbana Orbana NP000P0
@@ -146434,6 +146652,7 @@ horras horro AQ0FP0
 horre horro AQ0CS0
 horrenda horrendo AQ0FS0
 horrendas horrendo AQ0FP0
+horrendo horrendo AQ0MS0
 horres horro AQ0CP0
 horribilidad horribilidad NCFS000
 horribilidat horribilidad NCFS000
@@ -146573,6 +146792,7 @@ hostinados obstinado AQ0MP0
 hostiones ostión NCMP000
 hostras ostra NCFP000
 hostygan hostigar VMIP3P0
+hotalora Otalora NP000G0
 hotas hotas NCFP000
 hote hoto NCMS000
 hoto hoto NCMS000
@@ -147442,6 +147662,7 @@ hurtaran hurtar VMSI3P0 hurtar VMIF3P0
 hurtaras hurtar VMIF2S0 hurtar VMSI2S0
 hurtare hurtar VMSF1S0 hurtar VMSF3S0 hurtar VMIF1S0
 hurtaren hurtar VMSF3P0
+hurtares hurtar VMSF2S0
 hurtaron hurtar VMIS3P0
 hurtase hurtar VMSI1S0 hurtar VMSI3S0
 hurtasse hurtar VMSI1S0 hurtar VMSI3S0
@@ -147454,6 +147675,8 @@ hurtays hurtar VMIP2P0
 hurte hurtar VMSP1S0 hurtar VMSP3S0 hurtar VMM03S0 hurtar VMIS1S0
 hurtemos hurtar VMM01P0 hurtar VMSP1P0
 hurten hurtar VMM03P0 hurtar VMSP3P0
+hurtes hurtar VMSP2S0
+hurteys hurtar VMSP2P0
 hurtible hurtible AQ0CS0
 hurtiblemente hurtiblemente RM
 hurtillos hurto NCMP000
@@ -147462,6 +147685,7 @@ hurto hurtar VMIP1S0 hurtar VMIS3S0 hurto NCMS000
 hurtos hurto NCMP000
 huruega Noruega NP000G0
 hurueña Urueña NP000G0
+huruio orujo NCMS000
 hurus Hurus NP000P0
 hus Hus NP000P0
 husa usar VMIP3S0 usar VMM02S0
@@ -147813,6 +148037,7 @@ hyias hijo NCFP000
 hyio hijo NCMS000
 hyios hijo NCMP000
 hyjas hijo NCFP000
+hyjes Hijes NP000G0
 hylado hilar VMP00SM
 hylar hilar VMN0000
 hylario Hilario NP000P0
@@ -147880,6 +148105,7 @@ hyrigontis irigontis NCMP000
 hyrio herir VMIS3S0
 hyrmos hyrmos NCMS000
 hyruiendo hervir VMG0000
+hyruz Iruz NP000G0
 hysaac Isaac NP000P0
 hysacar Isacar NP000P0
 hyscal hiscal NCMS000
@@ -147965,8 +148191,10 @@ iacobitas jacobita AQ0CP0 jacobita NCCP000
 iacobo Jacobo NP000P0
 iacomo Giacomo NP000P0
 iacop Jacob NP000P0
+iacta jactar VMIP3S0 jactar VMM02S0
 iactamientos jactamiento NCMP000
 iactancia jactancia NCFS000
+iactanciosas jactancioso AQ0FP0
 iactantia jactancia NCFS000
 iactançia jactancia NCFS000
 iactaua jactar VMII1S0 jactar VMII3S0
@@ -149041,6 +149269,7 @@ imploro implorar VMIP1S0 implorar VMIS3S0
 impone imponer VMIP3S0
 imponen imponer VMIP3P0
 imponer imponer VMN0000
+imponga imponer VMSP1S0 imponer VMSP3S0
 impongo imponer VMIP1S0
 imponia imponer VMII1S0 imponer VMII3S0
 imponian imponer VMII3S0
@@ -149188,6 +149417,7 @@ improprias impropio AQ0FP0
 improprio impropio AQ0MS0
 improuar improbar VMN0000
 improuaua improbar VMII1S0 improbar VMII3S0
+improuidencia improvidencia NCFS000
 improuisa improviso AQ0FS0
 improuisament improvisamente RM
 improuisas improviso AQ0FP0
@@ -149378,11 +149608,13 @@ incendio incendio NCMS000
 incendios incendio NCMP000
 incens incienso NCMS000
 incensa incenso AQ0FS0
+incensar incensar VMN0000
 incensario incensario NCMS000
 incensarios incensario NCMP000
 incenso incienso NCMS000
 incensos incienso NCMP000
 incentiuo incentivo NCMS000
+incentiuos incentivo NCMP000
 incentivo incentivo NCMS000
 incerta incierto AQ0FS0
 incertedumbre incertidumbre NCFS000
@@ -149441,6 +149673,7 @@ inchira henchir VMIF3S0
 inchiron henchir VMIS3P0
 inchit henchir VMM02P0
 incho hincar VMIS3S0
+inchoatiuo incoativo AQ0MS0
 inchoatiuos incoativo AQ0MP0
 incibaciones incibación NCFP000
 incida incidir VMM03S0 incidir VMSP1S0 incidir VMSP3S0
@@ -149842,6 +150075,7 @@ indebitamente indebidamente RM
 indecente indecente AQ0CS0
 indecible indecible AQ0CS0
 indeciso indeciso AQ0MS0
+indeclinable indeclinable AQ0CS0
 indefensa indefenso AQ0FS0
 indeffenso indefenso AQ0MS0
 indeffenssibles indefensible AQ0CP0
@@ -150282,6 +150516,7 @@ infernados infernado AQ0MP0 infernado NCMP000
 infernal infernal AQ0CS0
 infernales infernal AQ0CP0
 infernando infernar VMG0000
+infernar infernar VMN0000
 infernas inferno AQ0FP0
 inferno inferno AQ0MS0
 infernos inferno AQ0MP0
@@ -151019,6 +151254,7 @@ inominia ignominia NCFS000
 inominiosa ignominioso AQ0FS0
 inominiosos ignominioso AQ0MP0
 inonestas inhonesto AQ0FP0
+inonestos inhonesto AQ0MP0
 inope inope AQ0CS0
 inopia inopia NCFS000
 inopinable inopinable AQ0CS0
@@ -151262,6 +151498,7 @@ inquietasen inquietar VMSI3P0
 inquietasse inquietar VMSI1S0 inquietar VMSI3S0
 inquietassen inquietar VMSI3P0
 inquietaua inquietar VMII1S0 inquietar VMII3S0
+inquieten inquietar VMSP3P0
 inquieto inquietar VMIP1S0 inquietar VMIS3S0 inquieto AQ0MS0
 inquietos inquieto AQ0MP0
 inquietud inquietud NCFS000
@@ -151322,12 +151559,14 @@ insanidad insanidad NCFS000
 insano insano AQ0MS0
 insanos insano AQ0MP0
 insaçiable insaciable AQ0CS0
+inscientes insciente AQ0CP0
 inscripciones inscripción NCFP000
 inscrutabiles inescrutable AQ0CP0
 insectiles insectil AQ0CP0
 inseguir inseguir VMN0000
 insencero incensario NCMS000
 insensatas insensato AQ0FP0 insensato NCFP000
+insensato insensato AQ0MS0 insensato NCMS000
 insensatos insensato AQ0MP0 insensato NCMP000
 insensibilidad insensibilidad NCFS000
 insensibilidat insensibilidad NCFS000
@@ -151369,6 +151608,7 @@ insinias insignia NCFP000
 insinua insinuar VMIP3S0 insinuar VMM02S0
 insinuacion insinuación NCFS000
 insinuado insinuar VMP00SM
+insinuar insinuar VMN0000
 insinuo insinuar VMIP1S0 insinuar VMIS3S0
 insipada insípido AQ0FS0
 insipida insípido AQ0FS0
@@ -151578,6 +151818,7 @@ insulas ínsula NCFP000
 insultacion insultación NCFS000
 insultaciones insultación NCFP000
 insultan insultar VMIP3P0
+insultar insultar VMN0000
 insulto insulto NCMS000
 insultos insulto NCMP000
 insumo insumo NCMS000
@@ -151676,6 +151917,7 @@ intentasse intentar VMSI3S0
 intentauan intentar VMII3P0
 intente intentar VMSP1S0 intentar VMSP3S0 intentar VMM03S0 intentar VMIS1S0
 intention intención NCFS000
+intentiua intentivo AQ0FS0
 intento intentar VMIP1S0 intentar VMIS3S0 intento NCMS000
 intentos intento NCMP000
 intençion intención NCFS000
@@ -151698,6 +151940,7 @@ intercessora intercesor AQ0FS0 intercesor NCFS000
 intercessoras intercesor AQ0FP0 intercesor NCFP000
 intercessores intercesor AQ0MP0 intercesor NCMP000
 interclusa intercluso AQ0FS0
+interdize interdecir VMIP3S0
 interes interés NCMS000
 interese interés NCMS000
 intereses interés NCMP000
@@ -152293,11 +152536,13 @@ inxerido injerir VMP00SM
 inxerir injerir VMN0000
 inxerta injerto AQ0FS0 injerir VMP00SF
 inxertas injerto AQ0FP0 injerir VMP00PF
+inxiere ingerir VMIP3S0 ingerir VMM02S0
 inxieren injerir VMIP3P0
 inxiero injerir VMIP1S0
 inxiertos injerto NCMP000
 inxiriendo injerir VMG0000
 inxirieren injerir VMSF3P0
+inxirio injerir VMIS3S0
 inxundia enjundia NCFS000
 inxundias enjundia NCFP000
 inyco inicuo AQ0MS0
@@ -152310,6 +152555,7 @@ inçendios incendio NCMP000
 inçensar incensar VMN0000
 inçensario incensario NCMS000
 inçensarios incensario NCMP000
+inçensauan incensar VMII3P0
 inçensores incensor AQ0MP0 incensor NCMP000
 inçensso incienso NCMS000
 inçentiuo incentivo NCMS000
@@ -152672,6 +152918,7 @@ isperia Hesperia NP000G0
 ispigas espiga NCFP000
 ispinacas espinaca NCFP000
 ispino espino NCMS000
+isquibel Esquivel NP000P0
 isquierda izquierdo AQ0FS0 izquierda NCFS000
 isquierdas izquierdo AQ0FP0 izquierda NCFP000
 isquierdo izquierdo AQ0MS0
@@ -152801,6 +153048,7 @@ iudas Judas NP000P0
 iudayca judaica NCFS000 judaico AQ0FS0
 iudayco judaico AQ0MS0
 iudaysmo judaísmo NCMS000
+iudayzantes judaizante AQ0CP0 judaizante NCCP000
 iudayzaua judaizar VMII1S0 judaizar VMII3S0
 iudayzauan judaizar VMII3P0
 iudea Judea NP000G0
@@ -153009,6 +153257,7 @@ iullio julio NCMS000 Julio NP000P0
 iulljo Julio NP000P0
 iulyan Julián NP000P0
 iumenta jumento NCFS000
+iumentas jumento NCFP000
 iuncada juncada NCFS000
 iuncia juncia NCFS000
 iunciana junciana NCFS000
@@ -153422,6 +153671,7 @@ ixtra exir VMIF3S0
 izacar Isacar NP000P0
 izagar Isacar NP000P0
 izar Izar NP000G0
+izcoto Escoto NP000P0
 izid Izid NP000P0
 izquierda izquierdo AQ0FS0 izquierda NCFS000
 izquierdas izquierdo AQ0FP0 izquierda NCFP000
@@ -155216,6 +155466,7 @@ jnhonesta inhonesto AQ0FS0
 jnhonesto inhonesto AQ0MS0
 jnhumana inhumano AQ0FS0
 jnhumanas inhumano AQ0FP0
+jnhumanidad inhumanidad NCFS000
 jnhumanjdat inhumanidad NCFS000
 jnhumano inhumano AQ0MS0
 jnhumanos inhumano AQ0MP0
@@ -155777,6 +156028,7 @@ jnsto instar VMIP1S0 instar VMIS3S0
 jnstruccion instrucción NCFS000
 jnstrucion instrucción NCFS000
 jnstructa instruir VMP00SF
+jnstruction instrucción NCFS000
 jnstrucçion instrucción NCFS000
 jnstruhia instruir VMII1S0 instruir VMII3S0
 jnstruidas instruir VMP00PF
@@ -156093,6 +156345,7 @@ jnuentarjo inventario NCMS000
 jnuentaron inventar VMIS3P0
 jnuentas invenir VMP00PF
 jnuentase inventar VMSI1S0 inventar VMSI3S0
+jnuentaste inventar VMIS2S0
 jnuentiones invención NCFP000
 jnuentiuas inventivo AQ0FP0 inventiva NCFP000
 jnuentiuo inventivo AQ0MS0
@@ -156424,6 +156677,7 @@ jolinar ajolinar NCMS000
 jometricos geométrico AQ0MP0
 jona Jonás NP000P0
 jonas Jonás NP000P0
+jonatan Jonatán NP000P0
 jonatas Jonatán NP000P0
 jonatha Jonatán NP000P0
 jonathan Jonatán NP000P0
@@ -156716,7 +156970,7 @@ judaisassen judaizar VMSI3P0
 judaismo judaísmo NCMS000
 judaizar judaizar VMN0000
 judaizassen judaizar VMSI3P0
-judas Judas NP000P0 judas NCMN000
+judas Judas NP000P0
 judayca judaica NCFS000 judaico AQ0FS0
 judaycas judaico AQ0FP0
 judayco judaico AQ0MS0
@@ -156844,6 +157098,7 @@ juegan jugar VMIP3P0
 juegaren jugar VMSF3P0
 juegas jugar VMIP2S0
 juegaσ jugar VMIP2S0
+juege jugar VMM03S0 jugar VMSP1S0 jugar VMSP3S0
 juegen jugar VMM03P0 jugar VMSP3P0
 juego juego NCMS000 jugar VMIP1S0
 juegos juego NCMP000
@@ -156893,6 +157148,7 @@ jugar jugar VMN0000 juzgar VMN0000
 jugara jugar VMIF3S0 jugar VMSI1S0 jugar VMSI3S0
 jugaran jugar VMSI3P0 jugar VMIF3P0
 jugaras jugar VMIF2S0 jugar VMSI2S0
+jugardes jugar VMIF2P0 jugar VMSF2P0
 jugare jugar VMSF1S0 jugar VMSF3S0 jugar VMIF1S0
 jugaredes jugar VMSF2P0 jugar VMIF2P0
 jugaremos jugar VMIF1P0 jugar VMSF1P0
@@ -156902,6 +157158,7 @@ jugares jugar VMSF2S0
 jugareys jugar VMIF2P0 jugar VMSF2P0
 jugaria jugar VMIC1S0 jugar VMIC3S0
 jugarian jugar VMIC3P0
+jugarias jugar VMIC2S0
 jugarie jugar VMIC1S0 jugar VMIC3S0
 jugaron jugar VMIS3P0
 jugarta Yugurta NP000P0
@@ -156947,6 +157204,7 @@ jugosa jugoso AQ0FS0
 jugosas jugoso AQ0FP0
 jugoso jugoso AQ0MS0
 jugraleσ juglar NCMP000 juglar AQ0MP0
+juguays jugar VMIP2P0
 jugue jugar VMSP1S0 jugar VMSP3S0 jugar VMM03S0 jugar VMIS1S0
 juguedes juzgar VMSP2P0
 juguemos jugar VMM01P0 jugar VMSP1P0
@@ -157102,8 +157360,11 @@ juncoσ junco NCMP000
 juncta junta NCFS000 juntar VMIP3S0 juntar VMM02S0 junto AQ0FS0
 junctados juntar VMP00PM
 junctamente juntamente RM
+junctando juntar VMG0000
 junctaremos juntar VMIF1P0 juntar VMSF1P0
+junctaron juntar VMIS3P0
 junctas junto AQ0FP0
+junctauan juntar VMII3P0
 juncto juncto AQ0MS0 junto RG
 junctos junto AQ0MP0
 juncturas junturas NCFP000
@@ -159301,6 +159562,7 @@ laudas lauda NCFP000 laudar VMIP2S0
 laudassen laudar VMSI3P0
 laudat laudar VMM02P0
 laudatissimo laudado AQ0MS0
+laudatiuo laudativo AQ0MS0
 laudato Laudato NP000P0
 laudaua laudar VMII1S0 laudar VMII3S0
 laudauan laudar VMII3P0
@@ -160083,6 +160345,7 @@ legionarios legionario AQ0MP0 legionario NCMP000
 legiones legión NCFP000
 legionjarjos legionario NCMP000
 legiptima legítimo AQ0FS0
+legiptimo legítimo AQ0MS0
 legiptimos legítimo AQ0MP0
 legiptjma legitimar VMIP3S0 legítimo AQ0FS0 legítima NCFS000
 legiptjmados legitimar VMP00PM
@@ -160574,6 +160837,7 @@ leristela Leristela NP000P0
 lerma Lerma NP000G0
 lermedilla Armedilla NP000G0
 lerne Lerna NP000G0
+leryda Lérida NP000G0
 les le PP3CPD00
 lesa leso AQ0FS0
 lesare dejar VMSF1S0 dejar VMSF3S0 dejar VMIF1S0
@@ -162063,6 +162327,7 @@ limpiaste limpiar VMIS2S0
 limpiat limpiar VMM02P0
 limpiaua limpiar VMII1S0 limpiar VMII3S0
 limpiauan limpiar VMII3P0
+limpiays limpiar VMIP2P0
 limpidas limpio AQ0FP0
 limpidat limpiedad NCFS000
 limpie limpiar VMSP1S0 limpiar VMSP3S0 limpiar VMM03S0 limpiar VMIS1S0
@@ -162464,6 +162729,7 @@ lisso liso AQ0MS0 liso NCMS000
 lissobona Lisboa NP000G0
 lissonia lisonja NCFS000
 lissonjero lisonjero AQ0MS0 lisonjero NCMS000
+lissuarte Lisuarte NP000P0
 lissyon lesión NCFS000
 lista lista NCFS000 listo AQ0FS0 Lista NP000G0
 listada listar VMP00SF
@@ -162523,6 +162789,7 @@ lithuania Lituania NP000G0
 litifica letificar VMIP3S0 letificar VMM02S0
 litificantes letificar VMPP0PC
 litigaban litigar VMII3P0
+litigad litigar VMM02P0
 litigado litigar VMP00SM
 litigamos litigar VMIP1P0 litigar VMIS1P0
 litigan litigar VMIP3P0
@@ -162535,6 +162802,7 @@ litigare litigar VMSF1S0 litigar VMSF3S0 litigar VMIF1S0
 litigaron litigar VMIS3P0
 litigase litigar VMSI1S0 litigar VMSI3S0
 litigasse litigar VMSI1S0 litigar VMSI3S0
+litigaua litigar VMII1S0 litigar VMII3S0
 litigauan litigar VMII3P0
 litigio litigio NCMS000
 litigios litigio NCMP000
@@ -164854,6 +165122,7 @@ lucilo Lucilo NP000P0
 lucimana Lucimana NP000P0
 lucimiento lucimiento NCMS000
 lucina Lucina NP000P0
+lucinia lucinia NCFS000
 lucinio Lucinio NP000P0
 lucinius Lucinio NP000P0
 lucinjo Licinio NP000P0
@@ -164876,6 +165145,7 @@ lucrezia Lucrecia NP000P0
 lucreçia Lucrecia NP000P0
 lucreçio Lucrecio NP000P0
 lucro lucro NCMS000
+lucto luto NCMS000
 luctuosa luctuoso AQ0FS0
 lucubrentas lucubrento AQ0FP0
 lucullo Lúculo NP000P0
@@ -166382,6 +166652,7 @@ madrjnas madrina NCFP000
 madrona matrona NCFS000
 madronas matrona NCFP000
 madrones matrona NCFP000
+madroniz Madroñiz NP000G0
 madronnas matrona NCFP000
 madronnos madroño NCMP000
 madrono madroño NCMS000
@@ -167537,11 +167808,16 @@ malfiestos manifestar VMP00PM manifiesto AQ0MP0
 malfretia malfetría NCFS000
 malganada malganar VMP00SF
 malganadas malganar VMP00PF
+malganado malganar VMP00SM
+malganar malganar VMN0000
+malganassen malganar VMSI3P0
+malganastes malganar VMIS2P0
 malganiza Malganiza NP000P0
 malgardo Malgardo NP000P0
 malgarida Malgarida NP000P0
 malgastaba malgastar VMII1S0 malgastar VMII3S0
 malgastan malgastar VMIP3P0
+malgasto malgastar VMIP1S0 malgastar VMIS3S0
 malgesi Malgesi NP000P0
 malgilana malgilana NCFS000
 malgistralmente malgistralmente RM
@@ -168152,6 +168428,7 @@ mancebya mancebía NCFS000
 mancedonio macedonio AQ0MS0 macedonio NCMS000
 mancellienco mancillento AQ0MS0 mancillento NCMS000
 manceres máncer NCMP000 máncer AQ0MP0
+manceua mancebo AQ0FS0 mancebo NCFS000
 mancha mancha NCFS000 manchar VMIP3S0 manchar VMM02S0
 manchada manchar VMP00SF
 manchadas manchar VMP00PF
@@ -168325,6 +168602,7 @@ mandragulas mandrágora NCFP000
 mandrastro mastranto NCMS000
 mandril mandril NCMS000
 mandron Mandrón NP000P0
+mandrones mandrón NCMP000
 mandubias mandubie NCFP000
 mandubies mandubie NCFP000
 mandubis mandubie NCFP000
@@ -168481,6 +168759,7 @@ manifestare manifestar VMSF1S0 manifestar VMSF3S0 manifestar VMIF1S0
 manifestaremos manifestar VMIF1P0 manifestar VMSF1P0
 manifestaren manifestar VMSF3P0
 manifestaria manifestar VMIC1S0 manifestar VMIC3S0
+manifestarian manifestar VMIC3P0
 manifestaron manifestar VMIS3P0
 manifestas manifesto AQ0FP0
 manifestase manifestar VMSI1S0 manifestar VMSI3S0
@@ -169040,6 +169319,7 @@ mantouiese mantener VMSI1S0 mantener VMSI3S0
 mantouiesen mantener VMSI3P0
 mantouiesse mantener VMSI1S0 mantener VMSI3S0
 mantouiessen mantener VMSI3P0
+mantouiesses mantener VMSI2S0
 mantouiestes mantener VMIS2P0
 mantouioron mantener VMIS3P0
 mantouist mantener VMIS2S0
@@ -171202,6 +171482,7 @@ maçegualeσ macegual NCMP000
 maçeo Maceo NP000P0
 maçer Macro NP000P0
 maçera macerar VMIP3S0 macerar VMM02S0 macero NCFS000
+maçeraçion maceración NCFS000
 maçero macerar VMIP1S0 macerar VMIS3S0 macero NCMS000
 maçeros macero NCMP000
 maçeta maceta NCFS000
@@ -171665,6 +171946,7 @@ medran medrar VMIP3P0
 medrano Medrano NP000G0
 medrar medrar VMN0000
 medrara medrar VMIF3S0 medrar VMSI1S0 medrar VMSI3S0
+medraran medrar VMSI3P0 medrar VMIF3P0
 medrare medrar VMSF1S0 medrar VMSF3S0 medrar VMIF1S0
 medrariamos medrar VMIC1P0
 medras medra NCFP000 medrar VMIP2S0
@@ -171976,6 +172258,7 @@ meleza Molosia NP000G0
 melezimamjento medicinamiento NCMS000
 melezimas medicina NCFP000 medicinar VMIP2S0
 melezina medicina NCFS000 medicinar VMIP3S0 medicinar VMM02S0
+melezinable medicinable AQ0CS0
 melezinables medicinable AQ0CP0
 melezinada medicinar VMP00SF
 melezinado medicinar VMP00SM
@@ -173417,6 +173700,7 @@ meresceremos merecer VMIF1P0
 meresceren merecer VMSF3P0
 meresceria merecer VMIC1S0 merecer VMIC3S0
 meresceriades merecer VMSI2P0
+merescerian merecer VMIC3P0
 merescerie merecer VMIC1S0 merecer VMIC3S0
 meresces merecer VMIP2S0
 meresceymientos merecimiento NCMP000
@@ -173714,6 +173998,7 @@ meritorio meritorio AQ0MS0 meritorio NCMS000
 meritorios meritorio AQ0MP0 meritorio NCMP000
 meritos mérito NCMP000
 meritoσ mérito NCMP000
+merittos mérito NCMP000
 meriz Mériz NP000G0
 merjeljna Mergelina NP000P0
 merjndades merindad NCFP000
@@ -175198,6 +175483,7 @@ ministrando ministrar VMG0000
 ministrante ministrante AQ0CS0 ministrante NCCS000
 ministrantes ministrante AQ0CP0 ministrante NCCP000
 ministrar ministrar VMN0000
+ministrare ministrar VMSF1S0 ministrar VMSF3S0 ministrar VMIF1S0
 ministraron ministrar VMIS3P0
 ministras ministro NCFP000 ministrar VMIP2S0
 ministrasse ministrar VMSI1S0 ministrar VMSI3S0
@@ -175513,6 +175799,7 @@ misagero mensajero NCMS000
 misageros mensajero AQ0MP0 mensajero NCMP000
 misahel Misael NP000P0
 misal misal NCMS000
+misalla Misala NP000P0
 misanthropos misántropo NCMP000
 misas misa NCFP000
 misatgero mensajero AQ0MS0 mensajero NCMS000
@@ -175556,6 +175843,7 @@ miserjcordia misericordia NCFS000
 misero mísero AQ0MS0 misero AQ0MS0
 miseros mísero AQ0MP0 misero AQ0MP0
 miserrima misero AQ0FS0
+miserrimo mísero AQ0MS0
 miserycordia misericordia NCFS000
 miserycordiosas misericordioso AQ0FP0
 misibi Misibi NP000G0
@@ -176697,6 +176985,7 @@ molia moler VMII1S0 moler VMII3S0
 molian moler VMII3P0
 molibdos molibdo NCMP000
 molicia mollicia NCFS000
+molicies molicie NCFS000
 molico Molico NP000P0
 molida moler VMP00SF
 molidas moler VMP00PF
@@ -180128,6 +180417,7 @@ nacor Nacor NP000P0
 nacras nacra NCFP000
 nacrian nacer VMIC3P0
 nacrie nacer VMIC1S0 nacer VMIC3S0
+nactural natural AQ0CS0 natural NCCS000
 nacyo nacer VMIS3S0
 nada nada NCFS000 nada PI0CS000 nacer VMP00SF nada RG nadar VMIP3S0 nadar VMM02S0
 nadaa Nadaa NP000P0
@@ -181538,6 +181828,7 @@ nepantla Nepantla NP000G0
 nepanto Naupacto NP000G0
 nephanda nefando AQ0FS0
 nephandas nefando AQ0FP0
+nephandissima nefando AQ0FS0
 nephando nefando AQ0MS0
 nepharias nefario AQ0FP0
 nephario nefario AQ0MS0
@@ -181900,6 +182191,7 @@ niames ñame NCMP000
 nibel nivel NCMS000
 nibelar nivelar VMN0000
 niburin Niburin NP000P0
+nicanaor Nicanor NP000P0
 nicanor Nicanor NP000P0
 nicaotas nicaota NCFP000
 nicaragua Nicaragua NP000G0
@@ -182183,6 +182475,7 @@ nivelado nivelar VMP00SM
 niça Niza NP000G0
 niçena Nicena NP000G0
 niçeno niceno AQ0MS0 niceno NCMS000
+niçibi Nísibis NP000G0
 niña niño AQ0FS0 niño NCFS000
 niñas niño AQ0FP0 niño NCFP000
 niñera niñera NCFS000 niñero AQ0FS0
@@ -183103,6 +183396,7 @@ nouacios novacio NCMP000
 nouaenta noventa MC0000
 nouaentenas noventena NCFP000
 nouaias navaja NCFP000
+noual noval AQ0CS0
 noualios novalio NCMP000
 nouamente nuevamente RM
 nouanta noventa MC0000
@@ -185221,8 +185515,11 @@ ofenio Ofenio NP000P0
 ofensa ofensa NCFS000
 ofensada ofender VMP00SF
 ofensado ofensar VMP00SM ofensado AQ0MS0
+ofensador ofensador NCMS000
 ofensados ofensar VMP00PM
+ofensante ofensante AQ0CS0 ofensante NCCS000
 ofensar ofensar VMN0000
+ofensaron ofensar VMIS3P0
 ofensas ofensa NCFP000
 ofensibles ofensible AQ0CP0
 ofension ofensión NCFS000
@@ -185302,6 +185599,7 @@ offertion infurción NCFS000
 offertorio ofertorio NCMS000
 offesia Ofesia NP000P0
 offessia Ofesia NP000P0
+offialte Efialtes NP000P0
 officia oficiar VMIP3S0 oficiar VMM02S0
 officiada oficiar VMP00SF
 official oficial AQ0CS0 oficial NCCS000
@@ -185856,6 +186154,7 @@ oiσte oír VMIS2S0
 oj oír VMIS1S0
 oja hoja NCFS000
 ojadas ojada NCFP000 ojar VMP00PF
+ojados aojar VMP00PM
 ojala ojalá I ojalá RG
 ojales ojal NCMP000 ojalar VMSP2S0
 ojarra Ojarra NP000P0
@@ -186831,6 +187130,7 @@ ongido ungir VMP00SM
 ongir ungir VMN0000
 ongria Hungría NP000G0
 ongrria Hungría NP000G0
+onia Onías NP000P0
 onias Onías NP000P0
 onica ónice NCMS000
 onichines oniquino NCMP000
@@ -187318,6 +187618,7 @@ opprimio oprimir VMIS3S0
 opprimir oprimir VMN0000
 opprimjdos oprimir VMP00PM
 opprimo oprimir VMIP1S0
+opprobio oprobio NCMS000
 opprovia oprobio AQ0FS0
 oppuesta oponer VMP00SF opuesto AQ0FS0
 oppuestas oponer VMP00PF opuesto AQ0FP0
@@ -188549,6 +188850,7 @@ oscuro oscuro AQ0MS0
 oscuros oscuro AQ0MP0
 osdrubal Asdrúbal NP000P0
 ose osar VMSP1S0 osar VMSP3S0 osar VMM03S0 osar VMIS1S0 o+se CC+PP
+osea Oseas NP000P0
 oseas Oseas NP000P0
 osedes osar VMSP2P0
 osee Osee NP000P0 Osee NP000G0
@@ -188727,6 +189029,7 @@ ostension ostensión NCFS000
 ostensiuas ostensivo AQ0FP0
 ostentacion ostentación NCFS000
 ostentar ostentar VMN0000
+ostentaren ostentar VMSF3P0
 ostentaçion ostentación NCFS000
 ostento ostento NCMS000
 ostes hueste NCFP000
@@ -189551,6 +189854,7 @@ ozcades oír VMSP2P0
 ozcan oír VMSP3P0
 ozcas oír VMSP2S0
 oze osar VMSP1S0 osar VMSP3S0 osar VMM03S0 osar VMIS1S0
+ozechia Ocozías NP000P0
 ozen Ozén NP000P0
 ozena ocena NCFS000
 ozi Ozi NP000P0
@@ -189569,6 +189873,7 @@ ozmjn Ozmín NP000P0
 ozni Ozni NP000P0
 oznittanos oznitano NCMP000
 ozo osar VMIP1S0 osar VMIS3S0
+ozochia Ocozías NP000P0
 ozorio Osorio NP000P0
 ozosio Orosio NP000P0
 ozquauarte Ezcabarte NP000G0
@@ -190337,6 +190642,7 @@ palestino palestino AQ0MS0 palestino NCMS000
 palestinos palestino AQ0MP0 palestino NCMP000
 palestjna Palestina NP000G0
 palestra palestra NCFS000
+palestre Palestra NP000P0
 palestrina Palestina NP000G0
 palestyna Palestina NP000G0
 palet Palet NP000P0
@@ -191737,6 +192043,7 @@ paro parar VMIP1S0 parar VMIS3S0 parir VMIP1S0 paro NCMS000
 parochales parroquial AQ0CP0
 parochial parroquial AQ0CS0
 parochianos parroquiano NCMP000 parroquiano AQ0MP0
+paroemiam paremia NCFP000
 paromientes paro+mientes VM+NC
 paros paro+se VM+PP Paros NP000G0
 parosita Parosita NP000G0
@@ -191894,6 +192201,7 @@ participa participar VMIP3S0 participar VMM02S0
 participables participable AQ0CP0
 participacion participación NCFS000
 participaciones participación NCFP000
+participad participar VMM02P0
 participada participar VMP00SF
 participado participar VMP00SM
 participados participar VMP00PM
@@ -191917,9 +192225,11 @@ participasemos participar VMSI1P0
 participasen participar VMSI3P0
 participasse participar VMSI1S0 participar VMSI3S0
 participassen participar VMSI3P0
+participaste participar VMIS2S0
 participation participación NCFS000
 participaua participar VMII1S0 participar VMII3S0
 participauan participar VMII3P0
+participays participar VMIP2P0
 participaçion participación NCFS000
 participe participar VMSP1S0 participar VMSP3S0 participar VMM03S0 participar VMIS1S0
 participemos participar VMM01P0 participar VMSP1P0
@@ -192531,6 +192841,7 @@ passeasse pasear VMSI1S0 pasear VMSI3S0
 passeassen pasear VMSI3P0
 passeaua pasear VMII1S0 pasear VMII3S0
 passeauan pasear VMII3P0
+passeays pasear VMIP2P0
 passedes pasar VMSP2P0
 passee pasear VMSP1S0 pasear VMSP3S0 pasear VMM03S0 pasear VMIS1S0
 passeis pasar VMSP2P0
@@ -193408,6 +193719,7 @@ pechemos pechar VMM01P0 pechar VMSP1P0
 pechen pechar VMM03P0 pechar VMSP3P0
 pechera pechera NCFS000 pechero AQ0FS0
 pecheras pechera NCFP000 pechero AQ0FP0
+pecheria pechería NCFS000
 pecherias pechería NCFP000
 pechero pechero NCMS000 pechero AQ0MS0
 pecheros pechero NCMP000 pechero AQ0MP0
@@ -193695,6 +194007,7 @@ pedrigo predicar VMIP1S0 predicar VMIS3S0
 pedrigoso pedregoso AQ0MS0
 pedrique predicar VMSP1S0 predicar VMSP3S0 predicar VMM03S0 predicar VMIS1S0
 pedrisca pedrisca NCFS000
+pedriscales pedriscal NCMP000
 pedrisco pedrisco NCMS000
 pedriscos pedrisco NCMP000
 pedriuannes Pedribañez NP000P0
@@ -194106,6 +194419,7 @@ pellego pellejo NCMS000
 pellegos pellejo NCMP000
 pelleia pelleja NCFS000
 pelleias pelleja NCFP000
+pelleiero pellejero NCMS000
 pelleieros pellejero NCMP000
 pelleio pellejo NCMS000
 pelleios pellejo NCMP000
@@ -194730,6 +195044,7 @@ penthatheuco pentateuco NCMS000
 penthecostes pentecostés NCMN000
 pentheo Penteo NP000P0
 penthesona Pentesona NP000G0
+pentimemeri pentemímero NCMP000
 pentinados pentinar VMP00PM
 pentiquinestra Pintiquinestra NP000P0
 penuel Penuel NP000G0 Penuel NP000P0
@@ -194828,23 +195143,23 @@ pequenina pequeño AQ0FS0 pequeña NCFS000
 pequenna pequeño AQ0FS0 pequeño NCFS000
 pequennas pequeño AQ0FP0 pequeño NCFP000
 pequennez pequeñez NCFS000
-pequenniellos pequeño AQDMP0
-pequennjtas pequeño AQDFP0
+pequenniellos pequeño AQ0MP0
+pequennjtas pequeño AQ0FP0
 pequenno pequeño AQ0MS0 pequeño NCMS000
 pequennos pequeño AQ0MP0 pequeño NCMP000
-pequennuela pequeño AQDFS0
-pequennuelas pequeño AQDFP0
+pequennuela pequeño AQ0FS0
+pequennuelas pequeño AQ0FP0
 pequennuello pequeño AQ0MS0
 pequennuellos pequeño AQ0MP0 pequeño NCMP000
-pequennuelo pequeño AQDMS0
-pequennuelos pequeño AQDMP0
+pequennuelo pequeño AQ0MS0
+pequennuelos pequeño AQ0MP0
 pequeno pequeño AQ0MS0 pequeño NCMS000
 pequenos pequeño AQ0MP0 pequeño NCMP000
 pequenoσ pequeño AQ0MP0 pequeño NCMP000
-pequenuela pequeño AQDFS0
+pequenuela pequeño AQ0FS0
 pequenuelas pequeño AQ0FP0
 pequenuelo pequeño AQ0MS0
-pequenuelos pequeño AQDMP0
+pequenuelos pequeño AQ0MP0
 pequenya pequeño AQ0FS0 pequeño NCFS000
 pequenyas pequeño AQ0FP0 pequeño NCFP000
 pequenyez pequeñez NCFS000
@@ -194874,11 +195189,11 @@ pequeñitos pequeño AQ0MP0 pequeño NCMP000
 pequeño pequeño AQ0MS0 pequeño NCMS000
 pequeños pequeño AQ0MP0 pequeño NCMP000
 pequeñoσ pequeño AQ0MP0 pequeño NCMP000
-pequeñuela pequeño AQDFS0
-pequeñuelas pequeño AQDFP0
+pequeñuela pequeño AQ0FS0
+pequeñuelas pequeño AQ0FP0
 pequeñuelaσ pequeño AQ0FP0
 pequeñuella pequeño AQ0FS0
-pequeñuelo pequeño AQDMS0
+pequeñuelo pequeño AQ0MS0
 pequeñuelos pequeño AQ0MP0 pequeño NCMP000
 pequeñya pequeño AQ0FS0 pequeño NCFS000
 pequienas pequeño AQ0FP0 pequeño NCFP000
@@ -195659,6 +195974,7 @@ perfetissima perfecto AQ0FS0
 perfetissimos perfecto AQ0MP0
 perfeto perfecto AQ0MS0 perfecto NCMS000
 perfetos perfecto AQ0MP0 perfecto NCMP000
+perfetto perfecto AQ0MS0
 perfeytamente perfectamente RM
 perfeçion perfección NCFS000
 perfeçiones perfección NCFP000
@@ -195894,6 +196210,7 @@ perjudicar perjudicar VMN0000
 perjudicase perjudicar VMSI1S0 perjudicar VMSI3S0
 perjudicasse perjudicar VMSI1S0 perjudicar VMSI3S0
 perjudicassen perjudicar VMSI3P0
+perjudicaua perjudicar VMII1S0 perjudicar VMII3S0
 perjudicial perjudicial AQ0CS0
 perjudiciales perjudicial AQ0CP0
 perjudico perjudicar VMIP1S0 perjudicar VMIS3S0
@@ -195927,6 +196244,7 @@ perjurare perjurar VMSF1S0 perjurar VMSF3S0 perjurar VMIF1S0
 perjuraremos perjurar VMIF1P0 perjurar VMSF1P0
 perjuraria perjurar VMIC1S0 perjurar VMIC3S0
 perjuraron perjurar VMIS3P0
+perjuras perjurar VMIP2S0
 perjurase perjurar VMSI1S0 perjurar VMSI3S0
 perjurasedes perjurar VMSI2P0
 perjurasen perjurar VMSI3P0
@@ -195936,6 +196254,7 @@ perjuraσte perjurar VMIS2S0
 perjure perjurar VMSP1S0 perjurar VMSP3S0 perjurar VMM03S0 perjurar VMIS1S0
 perjuredes perjurar VMSI2P0
 perjures perjurar VMSP2S0
+perjureys perjurar VMSP2P0
 perjurio perjurio NCMS000
 perjurios perjurio NCMP000
 perjurjos perjuro NCMP000
@@ -196008,6 +196327,7 @@ permanecido permanecer VMP00SM
 permaneciendo permanecer VMG0000
 permaneciente permaneciente AQ0CS0
 permanecientes permaneciente AQ0CP0
+permanecieran permanecer VMSI3P0
 permanecieron permanecer VMIS3P0
 permaneciesse permanecer VMSI1S0 permanecer VMSI3S0
 permanecio permanecer VMIS3S0
@@ -196259,6 +196579,7 @@ peroxismos paroxismo NCMP000
 peroσ perro NCMP000
 perparatiuo preparativo AQ0MS0 preparativo NCMS000
 perpectuamente perpetuamente RM
+perpectuo perpetuo AQ0MS0
 perpendicle perpendículo AQ0CS0 perpendículo NCMS000
 perpendicles perpendículo NCMP000
 perpendiculares perpendicular AQ0CP0
@@ -197477,6 +197798,7 @@ pesuños pesuño NCMP000
 pesyma pésimo AQ0FS0
 pesçe pez NCMS000
 pesçes pez NCMP000
+pesçeçillo pez NCMS000
 pesçuezo pescuezo NCMS000
 petacas petaca NCFP000
 petafe epitafio NCMS000
@@ -198943,6 +199265,7 @@ pitagoricos pitagórico AQ0MP0 pitagórico NCMP000
 pitaguseas Pitiusas NP000G0
 pitahayas pitahaya NCFP000
 pitamo epítimo NCMS000
+pitancia pitanza NCFS000
 pitança pitanza NCFS000
 pitanças pitanza NCFP000
 pitar pitar VMN0000
@@ -201109,6 +201432,7 @@ poluorizaçion polvorización NCFS000
 poluorize polvorizar VMSP1S0 polvorizar VMSP3S0 polvorizar VMM03S0 polvorizar VMIS1S0
 poluorizen polvorizar VMSP3P0
 poluorizo polvorizar VMIP1S0 polvorizar VMIS3S0
+poluoriçada polvorizar VMP00SF
 poluoriçadas polvorizar VMP00PF
 poluoriƽa polvorizar VMIP3S0 polvorizar VMM02S0
 poluoriƽada pulverizar VMP00SF
@@ -202480,6 +202804,7 @@ posseereys poseer VMIF2P0
 posseerian poseer VMIC3P0
 posseeron poseer VMIS3P0
 possees poseer VMIP2S0
+posseeyia poseer VMII1S0 poseer VMII3S0
 posseeys poseer VMIP2P0
 possehe poseer VMIP3S0 poseer VMM02S0
 possehedor poseedor AQ0MS0 poseedor NCMS000
@@ -202621,6 +202946,7 @@ postero postero NCMS000
 posteros postero NCMP000
 postes poste NCMP000
 posteta posteta NCFS000
+postetas posteta NCFP000
 posthumas póstumo AQ0FP0
 posthumo póstumo AQ0MS0
 postiella postilla NCFS000
@@ -202845,6 +203171,7 @@ poulada poblar VMP00SF
 pouladas poblar VMP00PF
 poular poblar VMN0000
 poullar poblar VMN0000
+pouo pobo NCMS000
 pouorosas pavoroso AQ0FP0
 pouos pobo NCMP000
 poure pobre AQ0CS0 pobre NCCS000
@@ -203034,6 +203361,7 @@ prauament pravamente RM
 prauas pravo AQ0FP0
 prauedad pravedad NCFS000
 prauia Pravia NP000G0
+prauidad pravedad NCFS000
 prauillos Pablo NP000P0
 prauissimas pravo AQ0FP0
 prauo pravo AQ0MS0
@@ -204118,6 +204446,7 @@ preposiciones preposición NCFP000
 preposision preposición NCFS000
 preposition preposición NCFS000
 prepositiones preposición NCFP000
+prepositiua prepositivo AQ0FS0
 preposito prepósito NCMS000
 prepositos prepósito NCMP000
 prepositus prepósito NCMS000
@@ -204545,6 +204874,7 @@ prestastes prestar VMIS2P0
 prestatissimo prestado AQ0MS0
 prestaua prestar VMII1S0 prestar VMII3S0
 prestauan prestar VMII3P0
+prestays prestar VMIP2P0
 preste prestar VMSP1S0 prestar VMSP3S0 prestar VMM03S0 prestar VMIS1S0 preste NCMS000
 prestedad prestedad NCFS000
 prestedunbre prestedumbre NCFS000
@@ -204631,6 +204961,7 @@ presumjmos presumir VMIS1P0
 presumjo presumir VMIS3S0
 presumjr presumir VMN0000
 presumjra presumir VMIF3S0
+presumjstes presumir VMIS2P0
 presumjt presumir VMM02P0
 presummiere presumir VMSF1S0 presumir VMSF3S0
 presummio presumir VMIS3S0
@@ -204777,6 +205108,7 @@ pretechoσ pertecho NCMP000
 pretencion pretensión NCMS000
 pretenda pretender VMM03S0 pretender VMSP1S0 pretender VMSP3S0
 pretendan pretender VMM03P0 pretender VMSP3P0
+pretendays pretender VMSP2P0
 pretende pretender VMIP3S0 pretender VMM02S0
 pretendeis pretender VMIP2P0
 pretendemos pretender VMIP1P0
@@ -205660,6 +205992,7 @@ pristico pístico AQ0MS0
 pristigiatores prestigiador AQ0MP0 prestigiador NCMP000
 pristina prístino AQ0FS0
 pristines Prestines NP000P0
+prisurosa presuroso AQ0FS0
 prisyera prender VMSI1S0 prender VMSI3S0
 prisyeran prender VMSI3P0
 prisyere prender VMSF3S0
@@ -206093,6 +206426,7 @@ procreados procrear VMP00PM
 procreamiento procreamiento NCMS000
 procrean procrear VMIP3P0
 procrear procrear VMN0000
+procrearon procrear VMIS3P0
 procreasse procrear VMSI1S0 procrear VMSI3S0
 procreaua procrear VMII1S0 procrear VMII3S0
 procreaçion procreación NCFS000
@@ -206516,6 +206850,7 @@ profiriendo proferir VMG0000
 profirieron proferir VMIS3P0
 profiriestes proferir VMIS2P0
 profirio proferir VMIS3S0
+profirir proferir VMN0000
 profision profesión NCFS000
 profission profesión NCFS000
 profissiones profesión NCFP000
@@ -206638,6 +206973,7 @@ prohibimos prohibir VMIP1P0 prohibir VMIS1P0
 prohibio prohibir VMIS3S0
 prohibir prohibir VMN0000
 prohibira prohibir VMIF3S0
+prohibis prohibir VMIP2P0
 prohibitas prohibir VMP00PF
 prohibitiua prohibitivo AQ0FS0
 prohibitiuas prohibitivo AQ0FP0
@@ -207046,6 +207382,7 @@ pronunciasse pronunciar VMSI1S0 pronunciar VMSI3S0
 pronunciassen pronunciar VMSI3P0
 pronunciaua pronunciar VMII1S0 pronunciar VMII3S0
 pronunciauan pronunciar VMII3P0
+pronunciaçion pronunciación NCFS000
 pronuncie pronunciar VMSP1S0 pronunciar VMSP3S0 pronunciar VMM03S0 pronunciar VMIS1S0
 pronuncien pronunciar VMM03P0 pronunciar VMSP3P0
 pronuncio pronunciar VMIP1S0 pronunciar VMIS3S0 pronuncio NCMS000
@@ -207505,6 +207842,7 @@ prosegujr proseguir VMN0000
 prosegujra proseguir VMIF3S0
 prosegujremos proseguir VMIF1P0
 proselito prosélito NCMS000
+proselitos prosélito NCMP000
 prosequir proseguir VMN0000
 proserpina Proserpina NP000P0
 proserpjna Proserpina NP000P0
@@ -208189,6 +208527,7 @@ prouoque provocar VMSP1S0 provocar VMSP3S0 provocar VMM03S0 provocar VMIS1S0
 prouoquemos provocar VMM01P0 provocar VMSP1P0
 prouoquen provocar VMM03P0 provocar VMSP3P0
 prouoques provocar VMSP2S0
+prouoqueys provocar VMSP2P0
 prouos probo AQ0MP0
 prouperanax Pertinax NP000P0
 prouyene provenir VMIP3S0
@@ -209450,6 +209789,7 @@ puntada puntada NCFS000
 puntadas puntada NCFP000
 puntadaσ puntada NCFP000
 puntado puntar VMP00SM
+puntados puntar VMP00PM
 puntadura puntadura NCFS000
 puntal puntal NCMS000
 puntales puntal NCMP000
@@ -209804,6 +210144,7 @@ pussiesen poner VMSI3P0
 pussiesse poner VMSI1S0 poner VMSI3S0
 pussiessen poner VMSI3P0
 pussilanjmjdat pusilanimidad NCFS000
+pussistes poner VMIS2P0
 pusso poner VMIS3S0
 pussyeron poner VMIS3P0
 pustas poner VMP00PF
@@ -211332,7 +211673,7 @@ quessimos querer VMIS1P0
 quesso queso NCMS000 que+esso CS+PD
 quessyera querer VMSI1S0 querer VMSI3S0
 quessystes querer VAIS2P0
-questa que+esta CS+DD
+questa que+esta CS+DD que+esta CS+VA
 questaba que+estaba CS+VA
 questaban que+estaban CS+VA
 questadeσ que+estadeσ CS+VA
@@ -211363,6 +211704,7 @@ questiones cuestión NCFP000
 questioneσ cuestión NCFP000
 questjon cuestión NCFS000
 questo que+esto CS+PD
+questonce que+estonce CS+CS/RG
 questonçes que+estonçes CS+RG
 questor cuestor NCMS000
 questores cuestor NCMP000
@@ -211950,6 +212292,7 @@ quitado quitar VMP00SM
 quitador quitador AQ0MS0 quitador NCMS000
 quitadora quitador AQ0FS0 quitador NCFS000
 quitados quitar VMP00PM
+quitadura quitadura NCFS000
 quitalles quitar VMN0000
 quitam quitar VMIP3P0
 quitament quitamente RM
@@ -212554,6 +212897,7 @@ racana Racana NP000G0
 racha racha NCFS000
 rachas racha NCFP000
 rachasse rachar VMSI1S0 rachar VMSI3S0
+rachayn Rapha NP000P0
 rachel Raquel NP000P0
 racheta raqueta NCFS000
 rachiel Rachiel NP000P0
@@ -214134,6 +214478,7 @@ recamos recamo NCMP000
 recanton recantón NCMS000
 recapdada recaudar VMP00SF
 recapdado recaudar VMP00SM
+recapdan recaudar VMIP3P0
 recapdar recaudar VMN0000
 recapdo recaudo NCMS000
 recapitulacion recapitulación NCFS000
@@ -214407,6 +214752,7 @@ reciban recibir VMM03P0 recibir VMSP3P0
 recibas recibir VMSP2S0
 recibays recibir VMSP2P0
 recibe recibir VMIP3S0 recibir VMM02S0
+recibemos recibir VMIP1P0 recibir VMIS1P0
 reciben recibir VMIP3P0
 reciberemos recibir VMIF1P0
 recibereys recibir VMIF2P0
@@ -214445,7 +214791,7 @@ recibieremos recibir VMSF1P0
 recibieren recibir VMSF3P0
 recibieres recibir VMSF2S0
 recibieron recibir VMIS3P0
-recibies recibí NCMP000 recibir VMSI1S0 recibir VMSI3S0
+recibies recibir VMSI1S0 recibir VMSI3S0
 recibiese recibir VMSI1S0 recibir VMSI3S0
 recibiesemos recibir VMSI1P0
 recibiesen recibir VMSI3P0
@@ -214479,7 +214825,7 @@ recibirie recibir VMIC1S0 recibir VMIC3S0
 recibirien recibir VMIC3P0
 recibirja recibir VMIC1S0 recibir VMIC3S0
 recibiron recibir VMIS3P0
-recibis recibir VMIP2P0 recibí NCMP000
+recibis recibir VMIP2P0
 recibissen recibir VMSI3P0
 recibiste recibir VMIS2S0
 recibistes recibir VMIS2P0
@@ -214636,6 +214982,7 @@ recobrassen recobrar VMSI3P0
 recobraste recobrar VMIS2S0
 recobraua recobrar VMII1S0 recobrar VMII3S0
 recobrauan recobrar VMII3P0
+recobrays recobrar VMIP2P0
 recobraçion recobración NCFS000
 recobre recobrar VMSP1S0 recobrar VMSP3S0 recobrar VMM03S0 recobrar VMIS1S0
 recobredes recobrar VMSP2P0
@@ -214724,6 +215071,7 @@ recognosçiendo reconocer VMG0000
 recognosçio reconocer VMIS3S0
 recognoçcan reconocer VMM03P0 reconocer VMSP3P0
 recogo recoger VMIS3S0
+recoien recoger VMIP3P0
 recoier recoger VMN0000
 recoio recoger VMIP1S0
 recoja recoger VMM03S0 recoger VMSP1S0 recoger VMSP3S0
@@ -215258,6 +215606,7 @@ recresçen recrecer VMIP3P0
 recresçer recrecer VMN0000
 recresçera recrecer VMIF3S0
 recresçia recrecer VMII1S0 recrecer VMII3S0
+recresçida recrecer VMP00SF
 recresçie recrecer VMII1S0 recrecer VMII3S0
 recresçieren recrecer VMSF3P0
 recresçieron recrecer VMIS3P0
@@ -215534,6 +215883,7 @@ redannuelo redaño NCMS000
 redanuelo redaño NCMS000
 redargucion redargución NCFS000
 redarguid redargüir VMM02P0
+redarguidos redargüir VMP00PM
 redarguiendo redargüir VMG0000
 redarguir redargüir VMN0000
 redarguit redargüir VMM02P0
@@ -215662,6 +216012,7 @@ redimiessen redimir VMSI3P0
 redimio redimir VMIS3S0
 redimir redimir VMN0000
 redimira redimir VMIF3S0
+redimiran redimir VMIF3P0
 redimire redimir VMIF1S0
 redimiremos redimir VMIF1P0
 redimisse redimir VMSI1S0 redimir VMSI3S0
@@ -216307,6 +216658,7 @@ refusemos rehusar VMM01P0 rehusar VMSP1P0
 refusest rehusar VMIS2S0
 refusion refusión NCFS000
 refuso rehusar VMIP1S0 rehusar VMIS3S0
+refussar rehusar VMN0000
 refutado refutar VMP00SM
 refutar refutar VMN0000
 refutara refutar VMIF3S0 refutar VMSI1S0 refutar VMSI3S0
@@ -217988,6 +218340,7 @@ renaçido renacer VMP00SM
 renaçieron renacer VMIS3P0
 renca renco AQ0FS0 renco NCFS000
 rencilla rencilla NCFS000
+rencilloso rencilloso AQ0MS0
 rencle rencle NCMS000
 rencles rencle NCMP000
 renco renco AQ0MS0 renco NCMS000
@@ -218119,6 +218472,7 @@ renegaste renegar VMIS2S0
 renegaua renegar VMII1S0 renegar VMII3S0
 renegauan renegar VMII3P0
 renegays renegar VMIP2P0
+renegeys renegar VMSP2P0
 renego renegar VMIP1S0 renegar VMIS3S0
 renegrida renegrido AQ0FS0
 renegue renegar VMSP1S0 renegar VMSP3S0 renegar VMM03S0 renegar VMIS1S0
@@ -218141,6 +218495,7 @@ rengloneσ renglón NCMP000
 renicion renición NCFS000
 reniega renegar VMIP3S0 renegar VMM02S0
 reniegan renegar VMIP3P0
+reniegas renegar VMIP2S0
 reniego renegar VMIP1S0 renegar VMIS3S0 reniego NCMS000
 reniegos reniego NCMP000
 reniegue renegar VMM03S0 renegar VMSP1S0 renegar VMSP3S0
@@ -218186,6 +218541,7 @@ renombrados renombrado AQ0MP0
 renombrauan renombrar VMII3P0
 renombre renombre NCMS000
 renombres renombre NCMP000
+renombro renombrar VMIP1S0 renombrar VMIS3S0
 renon riñón NCMS000
 renonada riñonada NCFS000
 renonbra renombrar VMIP3S0 renombrar VMM02S0
@@ -218444,6 +218800,7 @@ repartidos repartir VMP00PM
 repartidoσ repartir VMP00PM
 repartiendo repartir VMG0000
 repartieran repartir VMSI3P0
+repartieren repartir VMSF3P0
 repartieron repartir VMIS3P0
 repartiese repartir VMSI1S0 repartir VMSI3S0
 repartiesen repartir VMSI3P0
@@ -220448,6 +220805,7 @@ ressuelue resolver VMIP3S0 resolver VMM02S0
 ressueluen resolver VMIP3P0
 ressuena resonar VMIP3S0 resonar VMM02S0
 ressuenan resonar VMIP3P0
+ressultaua resultar VMII1S0 resultar VMII3S0
 ressuntiuas resumptivo AQ0FP0
 ressurection resurrección NCFS000
 ressurgido resurgir VMP00SM
@@ -220487,7 +220845,7 @@ restabrados restaurar VMP00PM
 restado restar VMP00SM
 restan restar VMIP3P0
 restana restañar VMIP3S0 restañar VMM02S0
-restanada restar VMP00SF
+restanada restañar VMP00SF
 restanado restañar VMP00SM
 restanar restañar VMN0000
 restancara estancar VMIF3S0 estancar VMSI1S0 estancar VMSI3S0
@@ -220619,6 +220977,7 @@ restituye restituir VMIP3S0 restituir VMM02S0
 restituyen restituir VMIP3P0
 restituyendo restituir VMG0000
 restituyera restituir VMSI1S0 restituir VMSI3S0
+restituyere restituir VMSF1S0 restituir VMSF3S0
 restituyeron restituir VMIS3P0
 restituyes restituir VMIP2S0
 restituyese restituir VMSI1S0 restituir VMSI3S0
@@ -221707,6 +222066,7 @@ retringida restringir VMP00SF
 retriplicados retriplicar VMP00PM
 retrjbujr retribuir VMN0000
 retro retro AQ0CN0
+retrocan retrocar VMIP3P0
 retrocede retroceder VMIP3S0 retroceder VMM02S0
 retroceden retroceder VMIP3P0
 retroceder retroceder VMN0000
@@ -221739,7 +222099,9 @@ retruxiesse retraer VMSI1S0 retraer VMSI3S0
 retruxiessen traer VMSI3P0
 retruxo retraer VMIS3S0
 retta recto AQ0FS0
+retto recto AQ0MS0
 rettorica retórica NCFS000 retórico AQ0FS0 retórico NCFS000
+rettos recto AQ0MP0
 retubo retener VMIS3S0
 retuercen retorcer VMIP3P0
 retuerta retuerto AQ0FS0
@@ -222438,6 +222800,7 @@ rezentare recentar VMSF1S0 recentar VMSF3S0 recentar VMIF1S0
 rezentaron recentar VMIS3P0
 rezentaua recentar VMII1S0 recentar VMII3S0
 rezento recentar VMIS3S0
+rezes rezar VMSP2S0
 rezia recio AQ0FS0
 rezial recial NCMS000
 reziament reciamente RM
@@ -222721,6 +223084,7 @@ reçidiuan recidivar VMIP3P0
 reçidiuara recidivar VMSI3P0 recidivar VMIF3P0
 reçidiue recidivar VMSP1S0 recidivar VMSP3S0 recidivar VMM03S0 recidivar VMIS1S0
 reçidiuo recidivo AQ0MS0 recidivar VMIP1S0 recidivar VMIS3S0
+reçien recién RG
 reçiente reciente AQ0CS0
 reçillados recillar VMP00PM recillado AQ0MP0
 reçinto recinto NCMS000
@@ -225553,6 +225917,7 @@ rrecuenta recontar VMIP3S0 recontar VMM02S0
 rrecuentan recontar VMIP3P0
 rrecuente recontar VMM03S0 recontar VMSP1S0 recontar VMSP3S0
 rrecuentos recuento NCMP000
+rrecuentro reencuentro NCMS000
 rrecuentros reecuentro NCMP000
 rrecuerda recordar VMIP3S0 recordar VMM02S0
 rrecuerdan recordar VMIP3P0
@@ -228661,6 +229026,7 @@ rreyria reír VMIC1S0 reír VMIC3S0
 rreyriades reír VMIC2P0
 rreyrr reír VMN0000
 rreys rey NCMP000
+rreystes reír VMIS2P0
 rreyteran reiterar VMIP3P0
 rreyterar reiterar VMN0000
 rreyña reina NCFS000
@@ -228781,7 +229147,7 @@ rreçebtado recetar VMP00SM
 rreçebtas receta NCFP000
 rreçebtores receptor AQ0MP0 receptor NCMP000
 rreçebudo recibir VMP00SM
-rreçeby recibir VMIS1S0 recibí NCMS000
+rreçeby recibir VMIS1S0
 rreçebya recibir VMII1S0 recibir VMII3S0
 rreçebyda recibir VMP00SF
 rreçebydas recibir VMP00PF
@@ -229600,6 +229966,7 @@ rronpya romper VMII1S0 romper VMII3S0
 rronquedad ronquedad NCFS000
 rronquedat ronquedad NCFS000
 rronquidos roncar VMP00PM
+rronçasvalles Roncesvalles NP000G0
 rronçaσvaleσ Roncesvalles NP000G0
 rronçaσvalles Roncesvalles NP000G0
 rronçaσvalleσ Roncesvalles NP000G0
@@ -231154,6 +231521,7 @@ saduçeos saduceo AQ0MP0 saduceo NCMP000
 saecta saeta NCFS000
 sael Sael NP000P0
 saellada sellar VMP00SF
+saenz Sáenz NP000P0
 saeta saeta NCFS000
 saetada saetada NCFS000
 saetadas saetada NCFP000
@@ -233091,6 +233459,8 @@ santoña Santoña NP000G0
 santoσ santo AQ0MP0 santo NCMP000
 santpronjo Sempronio NP000P0
 santson Sansón NP000P0
+santta santo AQ0FS0 santo NCFS000
+santtas santo AQ0FP0 santo NCFP000
 santtiago Santiago NP000P0 Santiago NP000G0
 santto santo AQ0MS0 santo NCMS000
 santtyago Santiago NP000P0 Santiago NP000G0
@@ -233283,6 +233653,7 @@ saraças zarazas NCFP000
 sarcacola sarcocola NCFS000
 sarcacolla sarcocola NCFS000
 sarcagola sarcocola NCFS000
+sarcasmos sarcasmo NCMP000
 sarcenados sarcenar VMP00PM
 sarceno sarceno NCMS000
 sarcia sarcia NCFS000
@@ -234561,6 +234932,7 @@ sculpida esculpir VMP00SF
 sculpidas esculpir VMP00PF
 sculpido esculpir VMP00SM
 sculpir esculpir VMN0000
+sculptor escultor NCMS000
 sculptos esculpir VMP00PM
 scumadera escumadero AQ0FS0
 scupen escupir VMIP3P0
@@ -234721,6 +235093,7 @@ secatiuo secativo AQ0MS0
 secaua secar VMII1S0 secar VMII3S0
 secauan secar VMII3P0
 secava secar VMII1S0 secar VMII3S0
+secazes secuaz AQ0CP0 secuaz NCCP000
 secazino secacino AQ0MS0
 secca seca NCFS000 secar VMIP3S0 secar VMM02S0 seco AQ0FS0
 seccado secado NCMS000 secar VMP00SM
@@ -235110,6 +235483,7 @@ seguiente siguiente AQ0CS0
 seguientemente siguientemente RM
 seguientes siguiente AQ0CP0
 seguier siquiera CC siquiera RG
+seguiera seguir VMSI1S0 seguir VMSI3S0
 seguierades seguir VMSI2P0
 seguiere seguir VMSF1S0 seguir VMSF3S0
 seguieren seguir VMSF3P0
@@ -236550,6 +236924,7 @@ senziellos sencillo AQ0MP0
 senzilla sencillo AQ0FS0
 senzillas sencillo AQ0FP0
 senzillez sencillez NCFS000
+senzilleza sencillez NCFS000
 senzillo sencillo AQ0MS0
 senzillos sencillo AQ0MP0
 senzjlla sencillo AQ0FS0
@@ -236835,6 +237210,7 @@ serbidores servidor NCMP000
 serbidos servir VMP00PM
 serbidumbre servidumbre NCFS000
 serbidunbre servidumbre NCFS000
+serbientas sirviente NCFP000
 serbientes sirviente AQ0CP0 sirviente NCCP000
 serbiera servir VMSI1S0 servir VMSI3S0
 serbiles servil AQ0CP0
@@ -237846,6 +238222,7 @@ sezilia Sicilia NP000G0
 sezilla Sicilia NP000G0
 sezillia Sicilia NP000G0
 sezjlla Sicilia NP000G0
+sezo seso NCMS000
 sezylla Sicilia NP000G0
 seçilia Sicilia NP000G0
 seçilja Sicilia NP000G0
@@ -238078,6 +238455,7 @@ sibernia Sibernia NP000G0
 sibido súbito AQ0MS0
 sibien si+bien CS+RG
 sibila sibila NCFS000
+sibilas sibila NCFP000
 sibiles Sibiles NP000G0
 sibilia sibilia NCFS000
 sibilinos sibilino AQ0MP0
@@ -238656,6 +239034,7 @@ sigujria seguir VMIC1S0 seguir VMIC3S0
 sigujriamos seguir VMIC1P0
 sigujse seguir VMSI1S0 seguir VMSI3S0
 sigujssen seguir VMSI3P0
+sigujstes seguir VMIS2P0
 sigun según RG según SPS00
 sigund según RG según SPS00
 sigunda segundo MOFS00
@@ -238958,6 +239337,7 @@ simulachro simulacro NCMS000
 simulachros simulacro NCMP000
 simulacio simulación NCFS000
 simulacion simulación NCFS000
+simulaciones similación NCFP000
 simulacro simulacro NCMS000
 simulacros simulacro NCMP000
 simulada simular VMP00SF
@@ -242421,6 +242801,7 @@ soplicante suplicante AQ0CS0 suplicante NCCS000
 soplicar suplicar VMN0000
 soplico suplicar VMIP1S0 suplicar VMIS3S0
 soplido soplido NCMS000
+soplillo soplillo NCMS000
 soplir suplir VMN0000
 soplireys suplir VMIF2P0
 soplo soplar VMIP1S0 soplar VMIS3S0 soplo NCMS000
@@ -243347,7 +243728,9 @@ souacadas socavar VMP00PF
 souada sobar VMP00SF sobado AQ0FS0
 souadas sobar VMP00PF sobado AQ0FP0
 souado sobar VMP00SM sobado AQ0MS0
+souaiar sobajar VMN0000
 souaiaron sobajar VMIS3P0
+souajada sobajar VMP00SF
 souajaron sobajar VMIS3P0
 soual Sobal NP000P0
 souar sobar VMN0000
@@ -243440,6 +243823,7 @@ soyaziente subyacente AQ0CS0
 soyo suyo PX3MS000 suyo PX3NS000
 soys ser VSIP2P0
 soyσ ser VSIP2P0
+sozio sucio AQ0MS0
 sozjugada sojuzgar VMP00SF
 sozjugadas sojuzgar VMP00PF
 sozjugados sojuzgar VMP00PM
@@ -243462,6 +243846,7 @@ soñadas soñar VMP00PF
 soñades soñar VMIP2P0
 soñado soñar VMP00SM
 soñador soñador AQ0MS0 soñador NCMS000
+soñadores soñador AQ0MP0 soñador NCMP000
 soñamos soñar VMIP1P0 soñar VMIS1P0
 soñando soñar VMG0000
 soñante soñar VMPP0SC
@@ -243934,6 +244319,7 @@ spolada espolada NCFS000
 spoliar expoliar VMN0000
 spolio expolio NCMS000
 spolon espolón NCMS000
+spondaica espondaico AQ0FS0
 spondeo espondeo NCMS000
 spondeos espondeo NCMP000
 spondgiosa esponjoso AQ0FS0
@@ -243997,6 +244383,7 @@ spusenens Spusenens NP000P0
 sputo esputo NCMS000
 spyritus espíritu NCMP000
 squadra escuadra NCFS000
+squalido escuálido AQ0MS0
 squamas escama NCFP000
 squartizados descuartizar VMP00PM
 squassezas escasez NCFP000
@@ -244387,6 +244774,7 @@ ssandalos sándalo NCMP000
 ssandez sandez NCFS000
 ssandia sandio AQ0FS0
 ssandias sandio AQ0FP0
+ssandino Sandino NP000G0
 ssandio sandio AQ0MS0
 ssane sanar VMSP1S0 sanar VMSP3S0 sanar VMM03S0 sanar VMIS1S0
 ssanen sanar VMSP3P0
@@ -245505,6 +245893,7 @@ ssopiessen saber VMSI3P0
 ssopieσen saber VMSI3P0
 ssopiste saber VMIS2S0
 ssopla soplar VMIP3S0 soplar VMM02S0
+ssoplicad suplicar VMM02P0
 ssoplicando suplicar VMG0000
 ssopo saber VMIS3S0
 ssoportan soportar VMIP3P0
@@ -246037,6 +246426,7 @@ stauamos estar VAII1P0
 stauan estar VAII3P0
 stays estar VAIP2P0
 staçionarios estacionario NCMP000
+stañadas restañar VMP00PF
 stañar estañar VMN0000
 staño estaño NCMS000
 staños estaño NCMP000
@@ -246185,6 +246575,7 @@ stodier estar VASF1S0 estar VASF3S0
 stodiesse estar VASI1S0 estar VASI3S0
 stoi estar VAIP1S0
 stoico estoico AQ0MS0 estoico NCMS000
+stoicos estoico AQ0MP0 estoico NCMP000
 stol estol NCMS000
 stola estola NCFS000
 stolas estola NCFP000
@@ -247005,6 +247396,8 @@ subsistir subsistir VMN0000
 subsisto subsistir VMIP1S0
 subsjdjo subsidio NCMS000
 subsolano subsolano NCMS000
+subspender suspender VMN0000
+subspendia suspender VMII1S0 suspender VMII3S0
 subsscribo subscribir VMIP1S0
 subssidio subsidio NCMS000
 substancia sustancia NCFS000
@@ -247097,6 +247490,7 @@ subtosos subtoso AQ0MP0
 subtracion sustracción NCFS000
 subtraemos sustraer VMIP1P0
 subtraer sustraer VMN0000
+subtraher sustraer VMN0000
 subtrahera sustraer VMIF3S0
 subtratiua subtrativo AQ0FS0
 subtraxeren sustraer VMSF3P0
@@ -247167,6 +247561,7 @@ subçesores sucesor AQ0MP0 sucesor NCMP000
 subçesso suceso NCMS000
 subçessores sucesor AQ0MP0 sucesor NCMP000
 subçesyon sucesión NCFS000
+subçesyones sucesión NCFP000
 suca Suca NP000G0
 sucarrada socarrar VMP00SF
 succeda suceder VMSP1S0 suceder VMSP3S0 suceder VMM03S0
@@ -247787,6 +248182,7 @@ sugeto sujeto AQ0MS0 sujeto NCMS000
 sugetos sujeto AQ0MP0 sujeto NCMP000
 sugeçidos sujetar VMP00PM
 sugeçion sujeción NCFS000
+suggestion sugestión NCFS000
 suggestiones sugestión NCFP000
 sugo jugo NCMS000
 suha suyo PX3FS000
@@ -248351,6 +248747,7 @@ suppliendo suplir VMG0000
 supplimiento suplimiento NCMS000
 supplio suplir VMIS3S0
 supplique suplicar VMSP1S0 suplicar VMSP3S0 suplicar VMM03S0 suplicar VMIS1S0
+supplir suplir VMN0000
 suppliçio suplicio NCMS000
 suppliçios suplicio NCMP000
 suppljco suplicar VMIP1S0 suplicar VMIS3S0
@@ -249446,7 +249843,8 @@ syrja Siria NP000G0
 syro siro AQ0MS0 siro NCMS000
 syros siro AQ0MP0 siro NCMP000
 syrra Sirra NP000G0
-syrtes sirte NCMP000
+syrte Sidra NP000G0
+syrtes Sidra NP000G0
 syrua servir VMSP1S0 servir VMSP3S0 servir VMM03S0
 syruades servir VMSP2P0
 syruamos servir VMM01P0 servir VMSP1P0
@@ -249531,6 +249929,7 @@ szaz Szaz NP000G0
 sçelerado celerado AQ0MS0
 sçelerados celerado AQ0MP0
 sçena escena NCFS000 Escena NP000P0
+sçenicos escénico AQ0MP0
 sçepion Escipión NP000P0
 sçeptro cetro NCMS000
 sçerrada cerrada NCFS000 cerrar VMP00SF
@@ -251369,6 +251768,7 @@ temeis temer VMIP2P0
 tememos temer VMIP1P0
 temen temer VMIP3P0
 temencia temencia NCFS000
+temendo temer VMG0000
 temente temer VMPP0SC
 temençia temencia NCFS000
 temer temer VMN0000
@@ -253175,6 +253575,7 @@ texeran tejer VMIF3P0
 texere tejer VMSF1S0 tejer VMSF3S0
 texereys tejer VMIF2P0
 texeron tejer VMIS3P0
+texeys tejer VMIP2P0
 texi tejer VMIS1S0
 texia tejer VMII1S0 tejer VMII3S0
 texian tejer VMII3P0
@@ -253360,7 +253761,7 @@ thartaros tártaro AQ0MP0 tártaro NCMP000
 thasalia Tesalia NP000G0
 thasi tasi NCMS000
 thasso Taso NP000G0
-thath Tot NP000P0
+thath Thot NP000P0
 thau tau NCMS000
 thaua Thaba NP000G0
 thaur tahúr AQ0CS0 tahúr NCMS000
@@ -253470,6 +253871,7 @@ thenedor tenedor NCMS000
 thenemos tener VMIP1P0
 thenençia tenencia NCFS000
 thener tener VMN0000
+theneth Thot NP000P0
 thenido tener VMP00SM
 thenidos tener VMP00PM
 theniendo tener VMG0000
@@ -253487,6 +253889,7 @@ thenorio Tenorio NP000P0
 thenorios Tenorio NP000P0
 thenoyro Tenorio NP000P0
 thenporales temporal AQ0CP0 temporal NCMP000
+thentatis Thot NP000P0
 thenuda tener VMP00SF tenida NCFS000
 thenudo tener VMP00SM
 thenudos tener VMP00PM
@@ -253673,6 +254076,7 @@ theta teta NCFS000 theta NCFS000
 thetano tétanos NCMS000
 thetanus tétanos NCMS000
 thetemoylin Thetemoylin NP000P0
+theti Tetis NP000P0
 thetica thetica NCMS000
 thetis Tetis NP000P0
 thetragones tetrágono NCMP000
@@ -254091,7 +254495,9 @@ tijera tijera NCFS000
 tijeras tijera NCFP000
 tijeruelas tijera NCFP000
 tijuelo tejuelo NCMS000
+tildassen tildar VMSI3P0
 tilde tilde NCFS000
+tilden tildar VMM03P0 tildar VMSP3P0
 tilla tilla NCFS000
 tillas tilla NCFP000
 tillo Tillo NP000P0
@@ -254285,6 +254691,7 @@ tios tío NCMP000
 tiphon Tifón NP000P0
 tiphoueo Tifoveo NP000P0
 tipica típico AQ0FS0
+tipico típico AQ0MS0
 tiple tiple NCCS000
 tiples tiple NCCP000
 tipo tipo NCMS000
@@ -255371,6 +255778,7 @@ toral Toral NP000G0
 torales toral NCMP000
 toranz Taranz NP000G0
 torançio Torancio NP000G0
+toranço Toranzo NP000G0
 toras torá NCFP000
 torat Torat NP000P0
 torax tórax NCMS000
@@ -255494,6 +255902,7 @@ torionda toriondo AQ0FS0
 toriondas toriondo AQ0FP0
 toriondos toriondo AQ0MP0
 torismundo Turismundo NP000P0
+torjbjo Toribio NP000P0
 tormendo tormento NCMS000
 tormenta tormenta NCFS000 atormentar VMIP3S0 atormentar VMM02S0
 tormentada atormentar VMP00SF
@@ -256738,6 +257147,7 @@ traeçioneσ traición NCFP000
 traeσ traer VMIP2S0
 trafaga tráfaga NCFS000
 trafagado trafagar VMP00SM
+trafagador trafagador NCMS000
 trafagan trafagar VMIP3P0
 trafagando trafagar VMG0000
 trafagar trafagar VMN0000
@@ -257033,6 +257443,7 @@ tranquyno Tarquinio NP000P0
 transacion transacción NCFS000
 transaciones transacción NCFP000
 transalpina transalpino AQ0FS0
+transalpino transalpino AQ0MS0
 transationes transacción NCFP000
 transcenda trascender VMM03S0 trascender VMSP1S0 trascender VMSP3S0
 transcendamos trascender VMM01P0 trascender VMSP1P0
@@ -258627,6 +259038,7 @@ tremblosas tembloso AQ0FP0
 trembloso tembloso AQ0MS0
 tremblosos tembloso AQ0MP0
 treme tremer VMIP3S0 tremer VMM02S0
+tremebunda tremebundo AQ0FS0
 tremecen Tremecén NP000G0
 tremecer tremecer VMN0000
 tremecio tremecer VMIS3S0
@@ -259100,8 +259512,8 @@ tributos tributo NCMP000
 tributoσ tributo NCMP000
 tribuyda atribuir VMP00SF
 tribuydo atribuir VMP00SM
-tribuyera atribuir VMSI1S0 tribuir VMSI3S0
-tribuyo tribuir VMIP1S0
+tribuyera atribuir VMSI1S0 atribuir VMSI3S0
+tribuyo atribuir VMIP1S0 atribuir VMIS3S0
 tricesima tricésimo MOFS00
 tricesimo tricésimo MOMS00
 tricesimotercio tricesimotercio MOMS00
@@ -259803,6 +260215,7 @@ tropieçan tropezar VMIP3P0
 tropieço tropiezo NCMS000
 tropieços tropiezo NCMP000
 tropo tropo NCMS000
+tropologico tropológico AQ0MS0
 tropos tropo NCMP000
 troqua trocar VMIP3S0 trocar VMM02S0
 troquado trocar VMP00SM
@@ -259832,6 +260245,7 @@ trotaconuentos trotaconventos NCFN000
 trotaconuentoσ trotaconventos NCFN000
 trotaconventos trotaconventos NCFN000
 trotaconventoσ trotaconventos NCFN000
+trotado trotar VMP00SM
 trotando trotar VMG0000
 trotante trotar VMPP0SC
 trotar trotar VMN0000
@@ -260083,6 +260497,9 @@ truncado truncar VMP00SM
 truncados truncar VMP00PM
 truncando truncar VMG0000
 truncar truncar VMN0000
+trunfando triunfar VMG0000
+trunfar triunfar VMN0000
+trunfo triunfo NCMS000
 trusiando Trusiando NP000P0
 trusio Trusio NP000P0
 trutor tutor NCMS000
@@ -260563,7 +260980,7 @@ turcomano turcomano NCMS000
 turcomanos turcomano NCMP000
 turcos turco AQ0MP0 turco NCMP000
 turdigas túrdiga NCFP000
-ture aturar VMSP1S0 aturar VMSP3S0 aturar VMM03S0 aturar VMIS1S0
+ture aturar VMSP1S0 aturar VMSP3S0 aturar VMM03S0 aturar VMIS1S0 ture NCMS000
 turen aturar VMM03P0 aturar VMSP3P0
 turendos Turendos NP000P0
 turenos tureno NCMP000
@@ -260719,6 +261136,7 @@ turvia turbio AQ0FS0
 turvias turbio AQ0FP0
 turvio turbio AQ0MS0
 turvionadas turbionada NCFP000
+turysmundo Turismundo NP000P0
 turçio Turcio NP000P0
 turçios Turcios NP000P0
 turçioσ Turcios NP000P0
@@ -260966,6 +261384,7 @@ tyntos tinto AQ0MP0 tinto NCMP000
 tyntura tintura NCFS000
 tynya tiña NCFS000
 tyo tío NCMS000
+tyodorigo Teodorico NP000P0
 tyopia Etiopia NP000G0
 tyos tío NCMP000
 typha Thypha NP000G0 tifa NCFS000
@@ -260987,6 +261406,7 @@ tyrana tirano AQ0FS0
 tyranamente tiranamente RM
 tyranas tirano AQ0FP0
 tyrando tirar VMG0000
+tyraneando tiranear VMG0000
 tyrania tiranía NCFS000
 tyranias tiranía NCFP000
 tyranica tiránico AQ0FS0
@@ -263329,6 +263749,7 @@ uinaças vinaza NCFP000
 uinaσ viña NCFP000
 uinbres mimbre NCMP000
 uincencia Vicencia NP000P0
+uincencio Vicente NP000P0
 uincente Vicente NP000P0
 uincieron vencer VMIS3P0
 uincies vencer VMSI1S0 vencer VMSI3S0
@@ -265029,6 +265450,7 @@ vachillerejo bachiller NCMS000
 vacia vacío AQ0FS0
 vaciamjento vaciamiento NCMS000
 vaciar vaciar VMN0000
+vacila vacilar VMIP3S0 vacilar VMM02S0
 vacilando vacilar VMG0000
 vacilaua vacilar VMII1S0 vacilar VMII3S0
 vacin bacín NCMS000
@@ -266967,6 +267389,7 @@ venceriamos vencer VMIC1P0
 vencerian vencer VMIC3P0
 vencerias vencer VMIC2S0
 vencerien vencer VMIC3P0
+vencerleys vencer+le+eys VM+PP+VA
 vences vencer VMIP2S0
 venceys vencer VMIP2P0
 venci vencer VMIS1S0
@@ -267324,6 +267747,7 @@ vengays vengar VMIP2P0 venir VMSP2P0
 vengaσ venir VMSP2S0
 vengedes vengar VMSP2P0
 vengemos vengar VMM01P0 vengar VMSP1P0
+vengen vengar VMSP3P0
 vengo vengar VMIP1S0 vengar VMIS3S0 venir VMIP1S0
 vengua venir VMM03S0 venir VMSP1S0 venir VMSP3S0
 venguança venganza NCFS000
@@ -268420,6 +268844,7 @@ vespertino vespertino AQ0MS0 vespertino NCMS000
 vespertjna vespertino AQ0FS0
 vespesiano Vespasiano NP000P0
 vespet huésped NCMS000
+vesphalia Westfalia NP000G0
 vesquiera vivir VMSI1S0 vivir VMSI3S0
 vesquieres vivir VMSF2S0
 vesquiese vivir VMSI1S0 vivir VMSI3S0
@@ -268510,6 +268935,7 @@ vestis vestir VMIP2P0
 vestiste vestir VMIS2S0
 vestisted vestiste+te VM+PP
 vestistes vestir VMIS2P0
+vestisturas vestidura NCFP000
 vestit vestir VMM02P0
 vestite vestir VMIS2S0
 vestito vestido NCMS000
@@ -268698,6 +269124,7 @@ veyente veyente AQ0CS0 ver VMPP0SC
 veyentes ver VMPP0PC
 veyer ver NCMS000 ver VMN0000
 veyera ver VMSI1S0 ver VMSI3S0
+veyere ver VMSF1S0 ver VMSF3S0
 veyeren ver VMSF3P0
 veyeron ver VMIS3P0
 veyes ver VMIP2S0
@@ -269281,6 +269708,7 @@ vigesima vigésimo MOFS00
 vigesimo vigésimo MOMS00
 vigesimosegundo vigesimosegundo MOMS00
 vigessima vigésimo MOFS00
+vigessimo vigésimo MOMS00
 vigila Vigila NP000G0
 vigilancia vigilancia NCFS000
 vigilancio Vigilancio NP000P0
@@ -269299,6 +269727,7 @@ vigilla vigilia NCFS000
 vigillas vigilia NCFP000
 vigillia vigilia NCFS000
 vigillias vigilia NCFP000
+vigilo vigilar VMIP1S0 vigilar VMIS3S0
 vigitables vegetal AQ0CP0 vegetal NCMP000
 vigitar visitar VMN0000
 vigo Vigo NP000G0
@@ -269430,6 +269859,7 @@ villafranca Villafranca NP000G0
 villagran Villagrán NP000P0
 villagrassa Villagrasa NP000G0
 villaheliche Villaheliche NP000G0
+villaie villaje NCMS000
 villajes villaje NCMP000
 villalar Villalar NP000G0
 villaldamjro Villaldamiro NP000G0
@@ -270391,6 +270821,7 @@ viuar Vivar NP000G0
 viuas vivir VMSP2S0 vivo AQ0FP0
 viuasse avivar VMSI1S0 avivar VMSI3S0
 viuays vivir VMSP2P0
+viuaçidad vivacidad NCFS000
 viuaσ vivir VMSP2S0 vivo AQ0FP0
 viuda viudo AQ0FS0 viudo NCFS000
 viudas viudo AQ0FP0 viudo NCFP000
@@ -270592,6 +271023,7 @@ vizinos vecino AQ0MP0 vecino NCMP000
 vizio vicio NCMS000
 vizios vicio NCMP000
 viziosos vicioso AQ0MP0
+vizitadas visitar VMP00PF
 vizma bizma NCFS000
 vizmas bizma NCFP000
 viznaga biznaga NCFS000
@@ -271041,6 +271473,7 @@ vlfin Ulfín NP000P0
 vlgada holgar VMP00SF
 vlicornio unicornio NCMS000
 vlid Ulit NP000P0
+vliginoso uliginoso AQ0MS0
 vlit Olite NP000G0
 vlite Olite NP000G0
 vlix Ulix NP000G0
@@ -271581,6 +272014,7 @@ vocablos vocablo NCMP000
 vocabulario vocabulario NCMS000
 vocabularios vocabulario NCMP000
 vocabulista vocabulista NCMS000
+vocabulistas vocabulista NCCP000
 vocabulo vocablo NCMS000
 vocacio Boccaccio NP000P0
 vocacion vocación NCFS000
@@ -271974,6 +272408,7 @@ vrbanil Urbanil NP000P0
 vrbano urbano AQ0MS0 Urbano NP000P0
 vrbançia Urbancia NP000G0
 vrbel Urbel NP000G0
+vrberlanda Uberlandia NP000G0
 vrbicaria Vrbicaria NP000P0
 vrcas urca NCFP000
 vrdan urdir VMM03P0 urdir VMSP3P0
@@ -272163,6 +272598,7 @@ vse usar VMSP1S0 usar VMSP3S0 usar VMM03S0 usar VMIS1S0
 vsebio Eusebio NP000P0
 vsedes usar VMSP2P0
 vsegodos visigodo AQ0MP0 visigodo NCMP000
+vseis usar VMSP2P0
 vsemos usar VMSP1P0
 vsen usar VMSP3P0
 vsenda Isenda NP000P0
@@ -272454,6 +272890,7 @@ vulle bullir VMIP3S0 bullir VMM02S0
 vullon Bouillon NP000G0
 vulnera vulnera NCFS000
 vulneracion vulneración NCFS000
+vulnerado vulnerar VMP00SM
 vulneras vulnera NCFP000
 vulno vulno NCMS000
 vulnos vulno NCMP000
@@ -273056,6 +273493,7 @@ xersez Jerjes NP000P0
 xersis Jerjes NP000P0
 xersses Jerjes NP000P0
 xeruac xeruac NCMS000
+xerxe Jerjes NP000P0
 xerxes Jerjes NP000P0
 xerçes Jerjes NP000P0
 xeta seta NCFS000
@@ -274851,6 +275289,7 @@ yles yles NCMP000
 ylesa ileso AQ0FS0
 ylesja iglesia NCFS000
 yleso ileso AQ0MS0
+ylesos ileso AQ0MP0
 ylesso ileso AQ0MS0
 yleus íleo NCMP000
 yleyda Lérida NP000G0
@@ -277128,6 +277567,7 @@ yrremjsibles irremisible AQ0CP0
 yrreparabiles irreparable AQ0CP0
 yrreparable irreparable AQ0CS0
 yrreparables irreparable AQ0CP0
+yrreuerencia irreverencia NCFS000
 yrreuerente irreverente AQ0CS0 irreverente NCCS000
 yrreuerençia irreverencia NCFS000
 yrreuerençias irreverencia NCFP000
@@ -278891,6 +279331,7 @@ zyudad ciudad NCFS000
 çenagales cenagal NCMP000
 çenagosa cenagoso AQ0FS0
 çenagoso cenagoso AQ0MS0
+çenagosos cenagoso AQ0MP0
 çenahoria zanahoria NCFS000
 çenahorias zanahoria NCFP000
 çenan cenar VMIP3P0
@@ -279133,6 +279574,7 @@ zyudad ciudad NCFS000
 çeraya cerraja NCFS000
 çerazfacoz çerazfacoz NCCS000
 çerbal cerval AQ0CS0
+çerbantes Cervantes NP000P0
 çerbatos cervato NCMP000
 çerbera Cervera NP000G0
 çerberas cervero AQ0FP0
@@ -279162,6 +279604,7 @@ zyudad ciudad NCFS000
 çercando cercar VMG0000
 çercania cercanía NCFS000
 çercanja cercanía NCFS000
+çercanna cercano AQ0FS0
 çercannos cercano AQ0MP0 cercano NCMP000
 çercano cercano AQ0MS0
 çercanos cercano AQ0MP0
@@ -280709,6 +281152,7 @@ zyudad ciudad NCFS000
 çurradores zurrador NCMP000
 çurrados zurrar VMP00PM
 çurran zurrar VMIP3P0
+çurrapas zurrapa NCFP000
 çurrar zurrar VMN0000
 çurre zurrar VMSP1S0 zurrar VMSP3S0 zurrar VMM03S0 zurrar VMIS1S0
 çurriaga zurriaga NCFS000
