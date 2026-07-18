@@ -1,83 +1,262 @@
 library(shiny)
 library(bslib)
 
+APP_VERSION <- "0.1.0"
+
 # ============================================================
 # REGLAS DE SUSTITUCIÓN
 # ============================================================
 #
-# U+0020 se ha convertido en un espacio real.
-# Las reglas se aplican secuencialmente en el orden indicado.
-#
-# En replacement:
-#   \\1 representa el primer grupo de captura.
+# IMPORTANTE:
+# - Guardar este fichero R con codificación UTF-8.
+# - Las reglas se aplican secuencialmente.
+# - El orden evita que una regla general impida aplicar
+#   posteriormente otra más específica.
 # ============================================================
 
-reglas <- data.frame(
-  numero = seq_len(17),
+patron <- c(
+  "--------------- .* ---------------\\r\\n",
+  "\\{CB([0-9]+)\\.",  # 1
+  "\\{HD([0-9]*)\\.",  # 2
+  "⊂",                 # 3
+  "⊃",                 # 4
+  "＜",                 # 5
+  "＞",                 # 6
+  "\\(\\(",             # 7
+  "\\)\\)",             # 8
+  "%",                 # 9
+  "([a-z])`",          # 10
+  "c'",                # 11
+  "C'",                # 12
+  "n~",                # 13
+  "N~",                # 14
+  "cͥ",                 # 15
+  "qͥs",                # 16: antes de la regla general ͥ
+  "ͥ",                   # 17
+  "oẽ",                # 18: antes de ẽ
+  "tiẽp",              # 19: antes de ẽ
+  "ẽ",                 # 20
+  "õe",                # 21: antes de õ
+  "õs",                # 22: antes de õ
+  "õ",                 # 23
+  "ã",                 # 24
+  "ĩ",                 # 25
+  "ũ",                 # 26
+  "q̃r",                # 27: antes de q̃
+  "q̃",                 # 28
+  "om̃e",               # 29
+  "om̃s",               # 30
+  "m̃t",                # 31
+  "ꝰ",                 # 32
+  "⁊",                 # 33
+  "at̾",                # 34: antes de la regla general ̾
+  "̾",                  # 35
+  "Qnͣ",                # 36: antes de la regla general ͣ
+  "qnͣd",               # 37: antes de la regla general ͣ
+  "qͣ",                 # 38: antes de la regla general ͣ
+  "tͣ",                 # 39: antes de la regla general ͣ
+  "ͣ",                  # 40
+  "ꝑa",                # 41: antes de la regla general ꝑ
+  "ꝑd",                # 42: antes de la regla general ꝑ
+  "ꝑ",                 # 43
+  "ç",                 # 44
+  " ꝯ",                # 45: espacio U+0020 antes de ꝯ
+  "ꝯ ",                # 46: espacio U+0020 después de ꝯ
+  "ꝓ",                 # 47
+  "głi",                # 48
+  "cłi",                # 49
+  "cłp",                # 50
+  "q̈",                 # 51
+  "ñ",                 # 52
+  "ẜ",                 # 53
+  "pła",                # 54
+  "ᷤ",                  # 55
+  "ͦ"                   # 56
+)
 
+reemplazo <- c(
+  "",
+  "\r\n{CB\\1.\r\n",    # 1
+  "\r\n{HD\\1.",        # 2
+  "<",                  # 3
+  ">",                  # 4
+  "<",                  # 5
+  ">",                  # 6
+  "≺",                  # 7
+  "≻",                  # 8
+  "¶",                  # 9
+  "<<\\1>>",            # 10
+  "ç",                  # 11
+  "Ç",                  # 12
+  "ñ",                  # 13
+  "Ñ",                  # 14
+  "c<r><<i>>",          # 15
+  "q<u><<i>>s",         # 16
+  "<r><<i>>",           # 17
+  "o<mn>e",             # 18
+  "tie<n>p",            # 19
+  "e<n>",               # 20
+  "o<mn>e",             # 21
+  "o<mne>s",            # 22
+  "o<n>",               # 23
+  "a<n>",               # 24
+  "i<n>",               # 25
+  "u<n>",               # 26
+  "q<u><<a>>r",         # 27
+  "q<ue>",              # 28
+  "om<n>e",             # 29
+  "om<ne>s",            # 30
+  "m<en>t",             # 31
+  "<os>",                # 32
+  "&",                   # 33
+  "at<ur>",              # 34
+  "<er>",                # 35
+  "Q<u><<a>>n",         # 36
+  "q<u><<a>>nd",        # 37
+  "q<u><<a>>",          # 38
+  "t<r><<a>>",          # 39
+  "<<a>>",               # 40
+  "p<ar>a",             # 41
+  "p<er>d",              # 42
+  "p<or>",               # 43
+  "ç",                   # 44
+  " c<on>",              # 45
+  "<os> ",               # 46
+  "p<ro>",               # 47
+  "gl<es>i",             # 48
+  "cl<er>i",             # 49
+  "c<u>lp",              # 50
+  "q<u><<a>>",          # 51
+  "ñ",                   # 52
+  "s<er>",               # 53
+  "pl<anet>a",           # 54
+  "<<s>>",               # 55
+  "<<o>>"                # 56
+)
+
+descripcion <- c(
+  "Eliminar la línea separadora de sección",
+  "Añadir saltos de línea antes y después de la etiqueta CB",
+  "Añadir saltos de línea antes y después de la etiqueta HD",
+  "Convertir el símbolo ⊂ en <",
+  "Convertir el símbolo ⊃ en >",
+  "Convertir el signo menor que de ancho completo en <",
+  "Convertir el signo mayor que de ancho completo en >",
+  "Convertir (( en ≺",
+  "Convertir )) en ≻",
+  "Convertir % en ¶",
+  "Marcar una letra volada",
+  "Convertir c seguida de apóstrofo en ç",
+  "Convertir C seguida de apóstrofo en Ç",
+  "Convertir n seguida de virgulilla en ñ",
+  "Convertir N seguida de virgulilla en Ñ",
+  "Expandir c con i volada",
+  "Expandir q con i volada seguida de s",
+  "Expandir el signo general de i volada",
+  "Expandir oe con virgulilla",
+  "Expandir tie con virgulilla seguida de p",
+  "Expandir e con virgulilla",
+  "Expandir o con virgulilla seguida de e",
+  "Expandir o con virgulilla seguida de s",
+  "Expandir o con virgulilla",
+  "Expandir a con virgulilla",
+  "Expandir i con virgulilla",
+  "Expandir u con virgulilla",
+  "Expandir q con virgulilla seguida de r",
+  "Expandir q con virgulilla",
+  "Expandir om con virgulilla seguida de e",
+  "Expandir om con virgulilla seguida de s",
+  "Expandir m con virgulilla seguida de t",
+  "Expandir el signo de abreviación ꝰ",
+  "Convertir el signo tironiano ⁊ en ampersand",
+  "Expandir at con signo de abreviación",
+  "Expandir el signo general de abreviación er",
+  "Expandir Qn con a volada",
+  "Expandir qn con a volada seguida de d",
+  "Expandir q con a volada",
+  "Expandir t con a volada",
+  "Expandir el signo general de a volada",
+  "Expandir ꝑ seguida de a",
+  "Expandir ꝑ seguida de d",
+  "Expandir el signo general ꝑ",
+  "Normalizar c con cedilla combinada como ç",
+  "Expandir ꝯ precedido de un espacio",
+  "Expandir ꝯ seguido de un espacio",
+  "Expandir el signo ꝓ",
+  "Expandir głi",
+  "Expandir cłi",
+  "Expandir cłp",
+  "Expandir q con diéresis",
+  "Normalizar n con virgulilla combinada como ñ",
+  "Expandir el carácter ẜ",
+  "Expandir pła",
+  "Convertir el signo de s volada",
+  "Convertir el signo de o volada"
+)
+
+stopifnot(
+  length(patron) == length(reemplazo),
+  length(patron) == length(descripcion)
+)
+
+reglas <- data.frame(
+  numero = seq_along(patron),
+  patron = patron,
+  reemplazo = reemplazo,
+  descripcion = descripcion,
+  stringsAsFactors = FALSE
+)
+
+reglas_espacios <- data.frame(
   patron = c(
-    "--------------- .* ---------------\\r\\n",
-    "\\{CB([0-9]+)\\.",
-	"\\{HD([0-9]*)\\.",
-    "⊂",
-    "⊃",
-    "＜",
-    "＞",
-	"%",
-    "([a-z])`",
-    "c'",
-    "C'",
-    "n~",
-    "N~",
-    "  ",                   # U+0020 U+0020
-    " \\r\\n",              # U+0020 seguido de CRLF
-    "\\r\\nrn ",            # Interpretación literal de la regla recibida
-    "\\r\\n\\r\\n"
+    "\\x09",  # TAB U+0009
+    "\u200B",
+    " {2,}",
+    " +(\\r\\n|\\n|\\r)",
+    "(\\r\\n|\\n|\\r) +",
+    "(\\r\\n|\\n|\\r)(?:\\r\\n|\\n|\\r)+"
   ),
 
   reemplazo = c(
-    "",
-    "\r\n{CB\\1.\r\n",
-    "\r\n{HD\\1.",
-	"<",
-    ">",
-    "<",
-    ">",
-	"¶",
-    "<<\\1>>",
-    "ç",
-    "Ç",
-    "ñ",
-    "Ñ",
-    " ",                    # U+0020
-    "\r\n",
-    "\r\n",
-    "\r\n"
+    " ",
+    " ",
+    " ",
+    "\\1",
+    "\\1",
+    "\\1"
   ),
 
   descripcion = c(
-    "Eliminar separador y sustituirlo por un espacio",
-    "Añadir saltos de línea alrededor de la etiqueta CB",
-    "Añadir saltos de línea alrededor de la etiqueta HD",
-	"Convertir ⊂ en <",
-    "Convertir ⊃ en >",
-	"Convertir ＜ en <",
-    "Convertir ＞ en >",
-    "Convertir % en ¶",	
-    "Convertir letra volada",
-    "Convertir c' en ç",
-    "Convertir C' en Ç",
-    "Convertir n~ en ñ",
-    "Convertir N~ en Ñ",
-    "Reducir dos espacios a uno",
-    "Eliminar espacio antes de salto de línea",
-    "Eliminar la secuencia indicada antes de un espacio",
-    "Reducir dos saltos de línea a uno"
+    "Convertir tabulación U+0009 en un espacio en blanco",
+    "Convertir el espacio de ancho cero U+200B en un espacio en blanco",
+    "Reducir dos o más espacios en blanco a uno",
+    "Eliminar espacios antes de un salto de línea",
+    "Eliminar espacios después de un salto de línea",
+    "Reducir dos o más saltos de línea consecutivos a uno"
   ),
 
   stringsAsFactors = FALSE
 )
 
+# Incorporar estas reglas a la tabla que procesa la aplicación
+reglas_espacios$numero <- seq.int(
+  from = nrow(reglas) + 1L,
+  length.out = nrow(reglas_espacios)
+)
+
+reglas_espacios <- reglas_espacios[, c(
+  "numero",
+  "patron",
+  "reemplazo",
+  "descripcion"
+)]
+
+reglas <- rbind(
+  reglas,
+  reglas_espacios
+)
+
+stopifnot(nrow(reglas) == 63L)
 
 # ============================================================
 # FUNCIONES AUXILIARES
@@ -212,13 +391,16 @@ ui <- navbarPage(
     "HSMS Text Processor"
   ),
 
+  # ==========================================================
+  # PESTAÑA DE PROCESAMIENTO
+  # ==========================================================
+
   tabPanel(
     "Procesamiento / Processing",
 
     sidebarLayout(
 
       sidebarPanel(
-
         fileInput(
           inputId = "file",
           label = "Seleccionar fichero / Select file",
@@ -258,11 +440,9 @@ ui <- navbarPage(
       ),
 
       mainPanel(
-
         uiOutput("summary"),
 
         tabsetPanel(
-
           tabPanel(
             "Resultado / Result",
             br(),
@@ -283,6 +463,131 @@ ui <- navbarPage(
             br(),
             tableOutput("rules")
           )
+        )
+      )
+    )
+  ),
+
+  # ==========================================================
+  # PESTAÑA ACERCA DE
+  # ==========================================================
+
+  tabPanel(
+    "Acerca de / About",
+
+    fluidPage(
+      br(),
+
+      h2("HSMS Text Processor"),
+
+      p(
+        paste("Versión / Version:", APP_VERSION)
+      ),
+
+      hr(),
+
+      h3("Descripción / Description"),
+
+      p(
+        paste(
+          "Esta aplicación procesa ficheros de texto plano",
+          "mediante la aplicación secuencial de expresiones",
+          "regulares y reglas de sustitución."
+        )
+      ),
+
+      p(
+        paste(
+          "This application processes plain-text files by",
+          "sequentially applying regular expressions and",
+          "replacement rules."
+        )
+      ),
+
+      hr(),
+
+      h3("Funcionamiento / How it works"),
+
+      tags$ul(
+        tags$li(
+          paste(
+            "Carga y valida ficheros de texto codificados",
+            "en UTF-8."
+          )
+        ),
+        tags$li(
+          paste(
+            "Normaliza los finales de línea y aplica todas",
+            "las reglas de sustitución en el orden establecido."
+          )
+        ),
+        tags$li(
+          paste(
+            "Muestra una previsualización y un informe",
+            "de las coincidencias encontradas."
+          )
+        ),
+        tags$li(
+          paste(
+            "Genera un nuevo fichero de texto codificado",
+            "en UTF-8 con finales de línea CRLF."
+          )
+        )
+      ),
+
+      tags$ul(
+        tags$li(
+          "Uploads and validates UTF-8 plain-text files."
+        ),
+        tags$li(
+          paste(
+            "Normalizes line endings and applies all",
+            "replacement rules in the specified order."
+          )
+        ),
+        tags$li(
+          paste(
+            "Displays a preview and a report of the",
+            "matches found."
+          )
+        ),
+        tags$li(
+          paste(
+            "Generates a new UTF-8 text file with CRLF",
+            "line endings."
+          )
+        )
+      ),
+
+      hr(),
+
+      h3("Codificación / Encoding"),
+
+      p(
+        paste(
+          "Los ficheros de entrada deben estar codificados",
+          "en UTF-8. El fichero resultante también se genera",
+          "en UTF-8."
+        )
+      ),
+
+      p(
+        paste(
+          "Input files must use UTF-8 encoding.",
+          "The resulting file is also generated in UTF-8."
+        )
+      ),
+
+      hr(),
+
+      h3("Proyecto / Project"),
+
+      p(
+        tags$a(
+          href = "https://oldspanishtextualarchive.org/",
+          target = "_blank",
+          rel = "noopener noreferrer",
+          "Old Spanish Textual Archive"
         )
       )
     )
@@ -440,33 +745,46 @@ server <- function(input, output, session) {
   })
 
 
-  output$preview <- renderText({
+output$preview <- renderText({
+  req(input$file)
 
-    req(input$file)
+  resultado <- processing_result()
 
-    resultado <- processing_result()
-
-    validate(
-      need(
-        resultado$ok,
-        resultado$error
-      )
+  validate(
+    need(
+      resultado$ok,
+      resultado$error
     )
+  )
 
-    limite <- 20000
-    texto <- resultado$texto
+  # Normalizar a LF únicamente para mostrar el texto en el navegador.
+  texto_vista <- gsub(
+    "\r\n",
+    "\n",
+    resultado$texto,
+    fixed = TRUE
+  )
 
-    if (nchar(texto, type = "chars") > limite) {
-      paste0(
-        substr(texto, 1, limite),
-        "\n\n",
-        "[Previsualización limitada a 20.000 caracteres / ",
-        "Preview limited to 20,000 characters]"
-      )
-    } else {
-      texto
-    }
-  })
+  texto_vista <- gsub(
+    "\r",
+    "\n",
+    texto_vista,
+    fixed = TRUE
+  )
+
+  limite <- 20000
+
+  if (nchar(texto_vista, type = "chars") > limite) {
+    paste0(
+      substr(texto_vista, 1, limite),
+      "\n\n",
+      "[Previsualización limitada a 20.000 caracteres / ",
+      "Preview limited to 20,000 characters]"
+    )
+  } else {
+    texto_vista
+  }
+})
 
 
   output$report <- renderTable({
@@ -543,45 +861,58 @@ server <- function(input, output, session) {
   }, striped = TRUE, bordered = TRUE, spacing = "s")
 
 
-  output$download <- downloadHandler(
+output$download <- downloadHandler(
+  filename = function() {
+    req(input$file)
 
-    filename = function() {
+    nombre_base <- tools::file_path_sans_ext(
+      basename(input$file$name)
+    )
 
-      req(input$file)
+    paste0(
+      nombre_base,
+      "_procesado.txt"
+    )
+  },
 
-      nombre_base <- tools::file_path_sans_ext(
-        basename(input$file$name)
+  content = function(file) {
+    resultado <- processing_result()
+
+    validate(
+      need(
+        resultado$ok,
+        resultado$error
       )
+    )
 
-      paste0(
-        nombre_base,
-        "_procesado.txt"
-      )
-    },
+    texto_descarga <- resultado$texto
 
-    content = function(file) {
+    # Unificar primero todos los finales de línea como LF.
+    texto_descarga <- gsub(
+      pattern = "\r\n|\r|\n",
+      replacement = "\n",
+      x = texto_descarga,
+      perl = TRUE,
+      useBytes = FALSE
+    )
 
-      resultado <- processing_result()
+    # Convertir después LF a CRLF.
+    texto_descarga <- gsub(
+      pattern = "\n",
+      replacement = "\r\n",
+      x = texto_descarga,
+      fixed = TRUE,
+      useBytes = FALSE
+    )
 
-      validate(
-        need(
-          resultado$ok,
-          resultado$error
-        )
-      )
+    writeBin(
+      object = charToRaw(enc2utf8(texto_descarga)),
+      con = file
+    )
+  },
 
-      # Se escribe UTF-8 sin BOM y sin modificar el contenido
-      # producido por las expresiones regulares.
-      writeBin(
-        object = charToRaw(
-          enc2utf8(resultado$texto)
-        ),
-        con = file
-      )
-    },
-
-    contentType = "text/plain; charset=UTF-8"
-  )
+  contentType = "text/plain; charset=UTF-8"
+)
 }
 
 
