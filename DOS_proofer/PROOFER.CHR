@@ -1,0 +1,151 @@
+
+/*   John Nitti changed chr table for Portuguese ~ on 11/5/97
+/*   Legal Character Table for PROOFER -- January, 1997
+/*   Last edited:  J.Lentz; 11-3-97:
+/*        added feature which allows parts of multi-byte
+/*        characters to be inserted or deleted.
+/*   Purpose of table:  supplies Legal Characters
+/*        for manuscript transcription.
+/* 
+/*     Legal Characters are tagged as either part of the 
+/*     ALPHABET or as PUNCTUATION. 
+/*     Any characters to be parsed as alphabet characters
+/*     must be listed in the group below headed by the "ALPHABET" label;
+/*     any characters to be parsed as punctuation characters
+/*     must be listed in the group below headed by the "PUNCUATION" label.
+/*                            
+/*                   
+
+/*   Note:  All characters are unicased during processing, 
+/*          therefore, enter only one case, either upper
+/*          or lower for each character.
+
+/*       If a character is extended ASCII, designate it by one of two ways:
+/*            1. extended ASCI, or    
+/*            2. # plus the ASCII numeric value 
+/* 
+/*               E.g., "‚" or "#130"
+/*
+/*
+/*            3. Designate the cross hatch character
+/*                by entering two cross hatches:
+/*               
+/*               E.g., "##" will be interpreted as "#" 
+/*                     "####' will be interpreted as "##" 
+/*
+/*   In the second column, you can specify a portion of the character than 
+/*   could be inserted or deleted.  E.g., "c'" for c-cedilla could be found
+/*   as 1. "c'", 2. "c[']", or 3. "c(')". Therefore, you would enter the
+/*   apostrophe character "'" in the second column.
+/*
+    
+/* Alphabet Characters
+
+ALPHABET             Can be inserted or deleted:
+
+     [~]
+     (~)  
+     &
+     &'
+     a
+     a~
+     a@`
+     a@^
+     a@'
+/*     @##a    
+     b
+     c
+     c'                         '
+     c''
+     ch
+     ch~                        ~
+     d
+     e
+     e~
+     e@`
+     e@^
+     e@'
+/*     @##e    
+     f
+     g
+     h
+     h~                       ~
+     i
+     i~
+     i@`
+     i@^
+     i@'
+/*     @##i    
+     j
+     k
+     l
+     ll
+/*     ll~                        ~
+     m
+     n
+     n~                         ~
+     o
+     o~
+     o@`
+     o@^
+     o@'
+/*     @##o    
+     p 
+     q
+     r
+     s
+     s'
+/*     s~                         ~
+     t
+     t'
+     u
+     u~
+     u@`
+     u@^
+     u@'
+/*     @##u    
+     v
+     w
+     x
+     x~                         ~
+     y
+/*     y~                         ~
+     z
+     z'
+     0
+     1
+     2
+     3
+     4
+     5
+     6
+     7
+     8
+     9
+	 
+/* Punctuation
+
+PUNCTUATION
+
+     .
+     :
+     ,
+     ;
+     ./
+     /.
+     ?
+     /
+     \
+     !
+          
+/*  The following punctuation characters need special processing
+/*  and are listed in the functional character table:  PROOFER.FNC.
+/*   - (hyphen)
+/*   % (calderon and its variants)
+/*   (( )) (double parentheses)
+    
+ 
+/* End of PROOFER.CHR
+
+
+

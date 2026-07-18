@@ -1,0 +1,171 @@
+/*  FILE:  PROOFER.MNE
+
+/*  Table of transcription mnemonics  --  January, 1997
+
+/*  Purpose of table:
+/*            1. provides the list of legal mnemonics in
+/*               the manuscript, and
+/*            2. instructs PROOFER in the parsing of
+/*               the mnemonics and their textual components.
+
+/*  Instructions for coding the processing of mnemonics:
+
+/*     Position of mnemonic:
+/*        1    mnemonic must be within column mnemonic
+/*        2    mnemonic must be outside column mnemonic
+/*        3    mnemonic can occur anywhere
+
+/*     Contents of mnemonic:
+/*        1    mnemonic must not have text
+/*        2    mnemonic must have text
+/*        3    mnemonic must have inserted text
+/*        4    mnemonic may or may not have text
+/*        5    mnemonic must have remark
+
+/*        Note:  Any mnemonic can have comments.
+
+/*         The mnemonic must be in the first column and the
+/*         first character of the mnemonic must be an open
+/*         brace '{'.  The code for the position of the
+/*         mnemonic and the contents of the mnemonic must
+/*         be in columns 2 and 3, respectively.
+
+/* General processing:
+/*        1.  mnemonic cannot be within []
+/*        2.  mnemonic cannot be within ()
+/*        3.  mnemonic must be closed before end of column boundary
+/*        4.  any mnemonic continued must have " +" before ending "}"
+/*        5.  any mnemonic must be followed by
+/*               "." (except for remarks mnemonic)
+/*                  - or - 
+/*               ":"
+/*                  - or - 
+/*               "1" thru "9" (for column boundary,
+/*                             headword, initial mnemonics)
+/*                  - or - 
+/*               "=" (for miniature and diagram mnemonics)
+/*        6.  any mnemonic must be preceded by
+/*               "{"
+/*                  - or - 
+/*               "{=" (for miniature and diagram mnemonics)
+ 
+/* Special processing:
+
+/* 0  No special processing
+
+/* 1  Addendum and Gloss (currently {AD.} and {GL.})
+/*    mnemonic must be immediately followed by space + [^ + text
+
+/* 2  Blank (currently {BLNK.})
+/*        no more than one blank mnemonic in a row
+
+/* 3  Catchword (currently {CW.})
+/*        must be on separate line
+/*        must be after end of column boundary
+/*       "[...]" can be after catchword, but not before
+
+/* 4  Column Boundary (currently {CB.})
+
+/* 5  Diagram (currently {DIAG.})
+/*       bad format for "|"
+/*           should be: |blah|blah|blah|}
+
+/* 6  Headword (currently {HD.})
+
+/* 7  Initial (currently {IN.})
+/*       must be followed by space and capital letter;
+/*         - or -
+/*       must be followed by capital letter within (, (^, [, or [^
+/*         - or -
+/*       must be followed by miniature mnemonic
+
+/* 8  Miniature (currently {MIN.})
+
+/* 9  Remarks (currently {RMK.})
+/*       can not be on a line by itself within text
+/*       can be by itself at beginning of manuscript
+
+/* 10 Rubric (currently {RUB.})
+
+/* 11 Symbol (currently {SYMB.})
+
+/* 12 Signature (currently {SG.})
+/*        must be on separate line
+/*        must be after end of column boundary
+/*       "[...]" can be after catchword, but not before
+
+
+
+/*********************************************************************************************************/
+
+/*  Text descriptors:                   
+/*  mnemonic            position      contents    can span   can       numbered      can have   special
+/*                                                lines      continue                vectors    processing
+
+     {BLNK                 1             1          N          N          N             N            2
+
+     {CB                   3             4          Y          Y          Y             N            4
+
+     {CW                   2             2          N          N          N             N            3
+     
+     {DIAG                 1             4          N          Y          N             Y            5
+
+     {HD                   2             2          Y          Y          Y/N           N            6
+
+     {IN                   1             1          N          N          Y             N            7
+
+     {ILL                  1             4          Y          N          N             N            0
+   
+     {MIN                  1             4          Y          N          N             Y            8
+     
+     {RUB                  1             4          Y          Y          N             N           10
+
+     {SYMB                 1             5          Y          N          N             N           11
+
+     {SG                   2             2          N          N          N             N            3
+     
+/*  Scribal or editorial additions:
+/*  mnemonic            position      contents    can span   can       numbered     can have     special
+/*                                                lines      continue               vectors      processing
+
+                                                                                                     
+     {AD                   1             3          Y          Y           N             N           1
+
+                                                                                                     
+     {GL                   1             3          Y          Y           N             N           1
+
+/*  Languages:
+/*  mnemonic            position      contents    can span   can       numbered     can have     special
+/*                                                lines      continue                vectors     processing
+
+
+     {ARB                  1             2          Y          Y         N            N             0
+     {ARG                  1             2          Y          Y         N            N             0
+     {ARM                 1             2          Y          Y         N            N             0
+     {BAS                  1             2          Y          Y         N            N             0
+     {CAL                  1             2          Y          Y         N            N             0
+     {CAT                  1             2          Y          Y         N            N             0
+     {ENG                  1             2          Y          Y         N            N             0
+     {FRN                  1             2          Y          Y         N            N             0
+     {GAL                  1             2          Y          Y         N            N             0
+     {GER                  1             2          Y          Y         N            N             0
+     {GRK                  1             2          Y          Y         N            N             0
+     {HEB                  1             2          Y          Y         N            N             0
+     {ITL                  1             2          Y          Y         N            N             0
+     {LAM                  1             2          Y          Y         N            N             0
+     {LAT                  1             2          Y          Y         N            N             0
+     {PRT                  1             2          Y          Y         N            N             0
+     {PRV                  1             2          Y          Y         N            N             0
+
+/*  Remarks:
+/*  mnemonic            position      contents    can span   can       numbered     can have    special
+/*                                                lines      continue                vectors    processing
+
+     {RMK                  3             5          Y          N         N            N             9
+
+
+
+
+
+/* End of PROOFER.MNE
+

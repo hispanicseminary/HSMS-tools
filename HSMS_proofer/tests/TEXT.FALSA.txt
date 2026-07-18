@@ -1,0 +1,372 @@
+{RMK: HSMS-0154.}
+{RMK: Alfonso XI, rey de Castilla y León.}
+{RMK: [OA1] Ordenamiento de Alcalá.}
+{RMK:.}
+{RMK: Madrid | Biblioteca Nacional de España | VIT/15/7.}
+{RMK: Franklin Waltman, Patricia Martínez de la Vega Mansilla.}
+[fol. 1r]
+{HD1. DEL SOL}
+{HD2. DE UENUS}
+{CB1.
+texto normal}
+{CW. {LAT. sequitur}}
+{SG. {SYMB. cross} j}
+[fol. 1v]
+{HD. texto \ antiguo}
+{CB1.
+texto}
+{RMK:.}
+{XYZ. etiqueta falsa}
+{BAD: otra etiqueta falsa}
+
+{LAT1. texto latino}
+{RMK1: observación falsa}
+{RUB2. rúbrica falsa}
+
+{CB.}
+{IN.}
+{HD.}
+
+{RMK. observación con punto}
+{LAT: texto latino con dos puntos}
+{CB1: delimitador falso}
+[fol. 2r]
+{CB1.
+texto normal}
+{HD. encabezado tardío}
+{CB3. texto indebido}
+{CB4.}
+[fol. 3r]
+{CB1.
+{CW. catchword dentro de columna}
+texto}
+texto {SG. signatura mal situada}
+{SG. signatura correcta}
+[fol. 4r]
+{CB1.
+texto}
+{CW.
+{SG.
+{CW. palabra
+{SG. a ii
+{CW. palabra}
+{SG. a ii}
+{RMK: comentario aislado indebido}
+[fol. 5r]
+{CB1.
+texto}
+{CW. catchword demasiado pronto}
+{CB2.
+texto}
+[fol. 6r]
+{CB1.}
+[fol. 6v]
+<<texto suprascrito>>
+((texto entre paréntesis))
+<<texto suprascrito mal cerrado>
+((texto paréntesis mal cerrado)
+??
+???
+????
+?????
+{LAT. texto continuado +}
+texto + texto
+{LAT. texto + más texto}
++
+{MIN=miniatura con vector}
+{DIAG=diagrama con vector}
+texto = texto
+{LAT. texto = texto}
+{AD. [^texto añadido]}
+{GL. [^glosa añadida]}
+{AD. texto añadido sin marca}
+{GL. glosa sin marca}
+{AD.[^sin espacio]}
+{MIN.}
+{=MIN.}
+{MIN=.}
+{=MIN=.}
+{DIAG.}
+{=DIAG.}
+{DIAG=.}
+{=DIAG=.}
+{=MIN.}
+{MIN=.}
+{=MIN=.}
+{=DIAG.}
+{DIAG=.}
+{=DIAG=.}
+{LAT=. texto}
+{=LAT. texto}
+texto = texto
+{cb1.
+{Lat.
+{rMk:
+{=diag=.}
+{MIN.}
+{RUB. texto +}
+{HD. encabezado +}
+{CB1. texto +}
+texto + texto
+[+]
+{RUB. texto que continúa +}
+{HD. encabezado que continúa +}
+{RUB. continuación válida}
+{LAT.}
+{ENG.}
+{CAT.}
+{AD.}
+{GL.}
+{GL. {RMK: marginal gloss in Latin.}}
+{DIAG. +}
+{DIAG. continuación}
+{DIAG. +}
+{ILL.}
+{ILL. }
+{ILL.   }
+{ILL. {RMK: right margin.}}
+{IN1.}
+{IN6. {ILL.}}
+{IN10. {MIN.}}
+{IN1.
+{IN3. texto}
+{IN1.}
+{IN6. {ILL.}}
+{IN10. {MIN.}}
+{IN3. }
+{IN3.
+{BLNK.}
+{BLNK.}
+{BLNK: 12 lines left blank.}
+{SYMB.}
+{SYMB. {BLNK.}}
+{SYMB. {RMK: symbol illegible.}}
+{SYMB: transliterated Arabic characters. texto}
+{RUB. +}
+{RUB. continuación válida}
+{RUB. +}
+
+{DIAG. |seg1|seg2|seg3|}
+{DIAG. |A|B|}
+
+{DIAG. |}
+{DIAG. ||}
+{DIAG. |seg1|}
+{DIAG. seg1|seg2|}
+{DIAG. |seg1|seg2}
+{DIAG. |seg1||seg3|}
+{DIAG. |seg1|seg2| +}
+{DIAG. |seg1|seg2| }
+{RMK. comentario con punto}
+{RMK. comentario con punto final.}
+{RMK: comentario sin punto}
+{RMK: comentario con coma,}
+{RMK: comentario sin cierre
+{RMK: HSMS-0577}
+{RMK: París|Philippe Pigouchet|1499-11-22.}
+{RMK: París |Philippe Pigouchet | 1499-11-22.}
+{RMK: París | Philippe Pigouchet| 1499-11-22.}
+{RMK: | París | Philippe Pigouchet | 1499-11-22.}
+{RMK: París | Philippe Pigouchet | 1499-11-22 |}
+{RMK: comentario. interno.}
+{RMK: comentario: interno.}
+{RMK: París | Biblioteca: Signatura.}
+{IN10. {MIN.}} A
+{IN6. {ILL.}} A
+{IN10. {MIN.}}
+{IN10. {ILL.}}
+{IN10. {RUB.}}
+{CW. {LAT. sequitur}}
+{SG. {SYMB: cross.} j}
+texto con abreviatura abierta <q
+texto con abreviatura cerrada q>
+texto con superescrito abierto <<o
+texto con superescrito cerrado o>>
+texto con abreviatura correcta q<ue>
+texto con superescrito correcto iiij<<o>>
+q<>
+q< >
+q<u e>
+q< ue>
+q<ue >
+q<u<e>>
+q<<>>
+q<< >>
+q<<u e>>
+q<< ue>>
+q<<ue >>
+q<<u<<e>>>>
+q<u><<a>>nto
+q<u><<a>>-nto
+q<<u>>
+[]
+()
+[^ texto]
+(^ texto)
+[^2 #texto]
+[^2# texto]
+[^texto]
+(^texto)
+[^2#texto]
+[texto]
+(texto)
+[*]
+[* texto]
+[*^ texto]
+[*^2 #texto]
+[*^2# texto]
+[*^texto]
+[*recabdaras]
+[*^2#texto]
+[*^3#texto]
+[?]
+[????]
+[? ?]
+[?? ?]
+[? ???]
+[?? texto]
+(????)
+(?)
+(^????)
+(^? ?)
+[??]
+[???]
+[?? ???]
+(??)
+(???)
+(^??)
+(^???)
+del(^o) [^a]s otras
+despues faras una li(m) [nn]a
+la ($h) [h]onrra perdida
+del(^o)[^a]s otras
+despues faras una li(m)[nn]a
+la ($h)[h]onrra perdida
+(^claro & limpio) [^limpio & claro]
+[^texto {RUB. texto}]
+( texto {RUB. texto} )
+
+[{LAT. texto}]
+({HD. texto})
+
+[^texto correcto]
+(texto correcto)
+
+{RUB. [^texto correcto]}
+{HD. (texto correcto)}
+{LAT. texto [añadido]}
+{LAT. texto (borrado)}
+{MIN. texto [añadido]}
+{MIN. texto (borrado)}
+{RUB. texto [añadido]}
+
+{LAT. texto [}
+añadido]
+{MIN. texto (}
+borrado)
+{RUB. texto [}
+añadido]
+{CB1.
+texto [añadido}
+{CB1.
+texto (borrado}
+{HD. texto [añadido
+}
+{RUB. texto (borrado
+}
+(())
+(( texto))
+((texto ))
+((texto))
+((texto
+continúa))
+{RUB. {BLNK.}}
+{RUB. {BLNK: 3 lines left blank.}}
+
+{IN1.} A
+{IN6. {ILL.}} A
+{IN10. {MIN.}} A
+
+{IN3.} (^H)[^P]riuilegio
+{IN3.} (N)[L]a ladera
+{IN7.} [R]Obi es piedra
+{IN4.} (l)[L]Os engañadores
+{IN6. {ILL.}} [E]Ste capítulo
+{IN10. {MIN.}} (a)[A]Gora
+
+
+texto%texto
+texto %texto
+texto% texto
+texto % texto
+
+texto%2texto
+texto %2texto
+texto%2 texto
+texto %2 texto
+
+texto%3texto
+texto %3texto
+texto%3 texto
+texto %3 texto
+texto % texto
+texto %2 texto
+texto %3 texto
+texto [%] texto
+texto [^%] texto
+texto [%2] texto
+texto [^%2] texto
+texto [%3] texto
+texto [^%3] texto
+
+texto \ texto
+{LAT. texto \ texto}
+{RUB. texto \ texto}
+(^2 #texto)
+(^2# texto)
+(^2#texto)
+
+texto # texto
+# texto
+texto #
+[^#texto]
+[*^#texto]
+
+ç
+
+texto¶texto
+texto ¶texto
+texto¶ texto
+texto ¶ texto
+
+texto¶2texto
+texto ¶2texto
+texto¶2 texto
+texto ¶2 texto
+
+texto¶3texto
+texto ¶3texto
+texto¶3 texto
+texto ¶3 texto
+
+texto [¶] texto
+texto [^¶] texto
+texto [¶2] texto
+texto [^¶2] texto
+texto [¶3] texto
+texto [^¶3] texto
+
+{HD. texto \ antiguo}
+{HD1. texto \ antiguo}
+{HD2. texto \ antiguo}
+{HD3. texto \ antiguo}
+{LAT. texto \ texto}
+texto \ texto
+
+{GL. [^{CB. texto}]}
+{GL. [^{HD. texto}]}
+{GL. [^{CW. texto}]}
+{GL. [^{SG. texto}]}
+{AD. [^{CB. texto}]}
+{LAT. [^{RUB. texto}]}
+
