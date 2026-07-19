@@ -1,4 +1,4 @@
-# HTR_to_HSMS
+# HTR to HSMS
 
 Validation and proofing tool for HSMS manuscript transcriptions.
 
@@ -7,7 +7,7 @@ HTR_to_HSMS Proofer is a Shiny application that processes plain text files, conv
 ## Authors
 
 * Francisco Gago Jover (The College of the Holy Cross)
-* * José Manuel Fradejas Rueda (Universidad de Valladolid)
+* José Manuel Fradejas Rueda (Universidad de Valladolid)
 
 ## Features
 
