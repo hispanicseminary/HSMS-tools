@@ -140,7 +140,7 @@ reemplazo <- c(
 descripcion <- c(
   "Eliminar la línea separadora de sección",
   "Añadir saltos de línea antes y después de la etiqueta CB",
-  "Añadir saltos de línea antes y después de la etiqueta HD",
+  "Añadir saltos de línea antes de la etiqueta HD",
   "Convertir el símbolo ⊂ en <",
   "Convertir el símbolo ⊃ en >",
   "Convertir el signo menor que de ancho completo en <",
