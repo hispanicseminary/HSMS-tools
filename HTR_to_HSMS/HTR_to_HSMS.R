@@ -28,6 +28,8 @@ patron <- c(
   "\\(\\(",             # 7
   "\\)\\)",             # 8
   "%",                 # 9
+  "¶2",                 # 9a
+  "¶3",                 # 9b  
   "([a-z])`",          # 10
   "c'",                # 11
   "C'",                # 12
@@ -88,6 +90,8 @@ reemplazo <- c(
   "≺",                  # 7
   "≻",                  # 8
   "¶",                  # 9
+  "%2",                  # 9a
+  "%3",                  # 9b
   "<<\\1>>",            # 10
   "ç",                  # 11
   "Ç",                  # 12
@@ -148,6 +152,8 @@ descripcion <- c(
   "Convertir (( en ≺",
   "Convertir )) en ≻",
   "Convertir % en ¶",
+  "Convertir ¶2 en %2",
+  "Convertir ¶3 en %3",
   "Marcar una letra volada",
   "Convertir c seguida de apóstrofo en ç",
   "Convertir C seguida de apóstrofo en Ç",
@@ -259,7 +265,7 @@ reglas <- rbind(
   reglas_espacios
 )
 
-stopifnot(nrow(reglas) == 63L)
+stopifnot(nrow(reglas) == 65L)
 
 # ============================================================
 # FUNCIONES AUXILIARES
