@@ -1441,14 +1441,31 @@ check_illegible_marker_length <- function(filepath) {
 # Regla editorial/funcional HSMS:
 #
 #   El signo "+" indica continuación lógica del texto
-#   contenido en una etiqueta.
+#   contenido en un mnemónico.
 #
 # Reglas:
 #
 #   1. Debe aparecer como " +}".
-#   2. La etiqueta debe permitir continuación según
+#   2. Debe estar dentro de un mnemónico.
+#   3. El mnemónico debe permitir continuación según
 #      hsms_structural_tag_catalog()$can_continue.
-#   3. Se ignora "[+]", que es otro signo funcional.
+#   4. La etiqueta puede haberse abierto en una línea
+#      anterior y cerrarse en la línea actual.
+#
+# ---------------------------------------------------------
+# Caso documentado:
+#
+#   {RUB. texto rubricado interrumpido +
+#   } texto no rubricado {RUB. continuación}
+#
+# En la práctica puede aparecer como:
+#
+#   {RUB. ¶ Memoria d<e> to-
+#   dos los sanctos como aueys echo a maytynes. +}
+#   Sanctos de dios to. {RUB. co<n>(n) esta. Oracion.}
+#
+# Proofer debe entender que el "+}" pertenece a RUB,
+# aunque "{RUB." no esté en la misma línea física.
 #
 # =========================================================
 
@@ -1461,132 +1478,145 @@ check_mnemonic_continuation_plus <- function(filepath) {
   )
   
   catalog <- hsms_structural_tag_catalog()
-  mnemonics <- extract_hsms_mnemonics(lines)
+  
+  continuation_tags <- catalog$tag[
+    catalog$can_continue %in% TRUE
+  ]
   
   issues <- list()
+  
+  mnemonic_pattern <- "^\\{=?([A-Za-z]+)[0-9]*=?[\\.:]"
+  
+  mnemonic_stack <- list()
   
   for (line_no in seq_along(lines)) {
     
     line <- lines[[line_no]]
-    line_trimmed <- trimws(line, which = "both")
     
-    if (line_trimmed == "") {
+    chars <- strsplit(
+      line,
+      "",
+      fixed = TRUE
+    )[[1]]
+    
+    if (length(chars) == 0) {
       next
     }
     
-    plus_positions <- gregexpr(
-      "\\+",
-      line,
-      perl = TRUE
-    )[[1]]
+    i <- 1
     
-    if (plus_positions[1] == -1) next
-    
-    for (pos in plus_positions) {
+    while (i <= length(chars)) {
       
-      # ---------------------------------------------
-      # Excepción: [+]
-      # ---------------------------------------------
-      
-      if (pos > 1 && pos < nchar(line)) {
-        
-        if (substr(line, pos - 1, pos - 1) == "[" &&
-            substr(line, pos + 1, pos + 1) == "]") {
-          next
-        }
-      }
-      
-      # ---------------------------------------------
-      # Debe ser " +}"
-      # ---------------------------------------------
-      
-      before_plus <- if (pos > 1) {
-        substr(line, pos - 1, pos - 1)
-      } else {
-        ""
-      }
-      
-      after_plus <- substr(
+      ch <- chars[[i]]
+      rest <- substr(
         line,
-        pos + 1,
+        i,
         nchar(line)
       )
       
-      valid_local_form <-
-        before_plus == " " &&
-        grepl("^\\s*\\}", after_plus, perl = TRUE)
+      # ---------------------------------------------
+      # Apertura de mnemónico
+      # ---------------------------------------------
       
-      if (!valid_local_form) {
+      m <- regexec(
+        mnemonic_pattern,
+        rest,
+        perl = TRUE
+      )
+      
+      r <- regmatches(
+        rest,
+        m
+      )[[1]]
+      
+      if (length(r) > 0) {
         
-        issues[[length(issues) + 1]] <- list(
+        tag <- toupper(r[[2]])
+        
+        mnemonic_stack[[length(mnemonic_stack) + 1]] <- list(
+          tag = tag,
           line = line_no,
-          col = pos,
-          type = "invalid_mnemonic_continuation_plus",
-          text = line,
-          explanation =
-            "El signo '+' de continuación debe escribirse como ' +}' al final de la etiqueta."
+          col = i
         )
         
+        i <- i + 1
         next
       }
       
       # ---------------------------------------------
-      # Localizar la etiqueta que contiene el +
+      # Cierre de mnemónico
       # ---------------------------------------------
       
-      line_mnemonics <- mnemonics[
-        mnemonics$line == line_no &
-          mnemonics$col < pos,
-        ,
-        drop = FALSE
-      ]
-      
-      if (nrow(line_mnemonics) == 0) {
+      if (ch == "}") {
         
-        issues[[length(issues) + 1]] <- list(
-          line = line_no,
-          col = pos,
-          type = "continuation_plus_without_mnemonic",
-          text = line,
-          explanation =
-            "El signo '+' de continuación debe pertenecer a una etiqueta."
+        has_plus_before_closing <- (
+          i > 1 &&
+            chars[[i - 1]] == "+"
         )
         
-        next
-      }
-      
-      current_mnemonic <- line_mnemonics[
-        nrow(line_mnemonics),
-        ,
-        drop = FALSE
-      ]
-      
-      tag <- current_mnemonic$tag[[1]]
-      
-      if (!tag %in% catalog$tag) {
-        next
-      }
-      
-      tag_info <- catalog[
-        catalog$tag == tag,
-        ,
-        drop = FALSE
-      ]
-      
-      if (!isTRUE(tag_info$can_continue[[1]])) {
-        
-        issues[[length(issues) + 1]] <- list(
-          line = line_no,
-          col = pos,
-          type = "continuation_not_allowed_for_mnemonic",
-          text = line,
-          explanation = paste0(
-            "La etiqueta {",
-            tag,
-            " no permite continuación con '+'."
+        if (has_plus_before_closing) {
+          
+          has_required_space <- (
+            i > 2 &&
+              chars[[i - 2]] == " "
           )
-        )
+          
+          current_tag <- if (length(mnemonic_stack) > 0) {
+            mnemonic_stack[[length(mnemonic_stack)]]$tag
+          } else {
+            NA_character_
+          }
+          
+          plus_col <- i - 1
+          
+          if (!has_required_space) {
+            
+            issues[[length(issues) + 1]] <- list(
+              line = line_no,
+              col = plus_col,
+              type = "continuation_plus_wrong_format",
+              text = line,
+              explanation =
+                "El signo '+' de continuación debe aparecer como ' +}' antes de la llave de cierre."
+            )
+            
+          } else if (is.na(current_tag)) {
+            
+            issues[[length(issues) + 1]] <- list(
+              line = line_no,
+              col = plus_col,
+              type = "continuation_plus_without_mnemonic",
+              text = line,
+              explanation =
+                "El signo '+' de continuación debe pertenecer a una etiqueta."
+            )
+            
+          } else if (!(current_tag %in% continuation_tags)) {
+            
+            issues[[length(issues) + 1]] <- list(
+              line = line_no,
+              col = plus_col,
+              type = "continuation_plus_not_allowed",
+              text = line,
+              explanation =
+                paste0(
+                  "El mnemónico {",
+                  current_tag,
+                  ".} no permite continuación con '+'."
+                )
+            )
+          }
+        }
+        
+        if (length(mnemonic_stack) > 0) {
+          mnemonic_stack <- mnemonic_stack[-length(mnemonic_stack)]
+        }
+        
+        i <- i + 1
+        next
       }
+      
+      i <- i + 1
     }
   }
   
@@ -1601,7 +1631,14 @@ check_mnemonic_continuation_plus <- function(filepath) {
     ))
   }
   
-  do.call(rbind, lapply(issues, as.data.frame))
+  do.call(
+    rbind,
+    lapply(
+      issues,
+      as.data.frame,
+      stringsAsFactors = FALSE
+    )
+  )
 }
 
 
