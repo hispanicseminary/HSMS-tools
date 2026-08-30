@@ -77,7 +77,23 @@ patron <- c(
   "ẜ",                 # 53
   "pła",                # 54
   "ᷤ",                  # 55
-  "ͦ"                   # 56
+  "ͦ",                   # 56
+  "a\u0300",
+  "e\u0300",
+  "i\u0300",
+  "o\u0300",
+  "u\u0300",
+  "a\u0301",
+  "e\u0301",
+  "i\u0301",
+  "o\u0301",
+  "u\u0301",
+  "a\u0302",
+  "e\u0302",
+  "i\u0302",
+  "o\u0302",
+  "u\u0302"
+
 )
 
 reemplazo <- c(
@@ -140,7 +156,22 @@ reemplazo <- c(
   "s<er>",               # 53
   "pl<anet>a",           # 54
   "<<s>>",               # 55
-  "<<o>>"                # 56
+  "<<o>>",                # 56
+  "à",
+  "è",
+  "ì",
+  "ò",
+  "ù",
+  "á",
+  "é",
+  "í",
+  "ó",
+  "ú",
+  "â",
+  "ê",
+  "î",
+  "ô",
+  "û"
 )
 
 descripcion <- c(
@@ -203,7 +234,22 @@ descripcion <- c(
   "Expandir el carácter ẜ",
   "Expandir pła",
   "Convertir el signo de s volada",
-  "Convertir el signo de o volada"
+  "Convertir el signo de o volada",
+  "Convertir vocal a con grave compuesto",
+  "Convertir vocal e con grave compuesto",
+  "Convertir vocal i con grave compuesto",
+  "Convertir vocal o con grave compuesto",
+  "Convertir vocal u con grave compuesto",
+  "Convertir vocal a con agudo compuesto",
+  "Convertir vocal e con agudo compuesto",
+  "Convertir vocal i con agudo compuesto",
+  "Convertir vocal o con agudo compuesto",
+  "Convertir vocal u con agudo compuesto",
+  "Convertir vocal a con circumflejo compuesto",
+  "Convertir vocal e con circumflejo compuesto",
+  "Convertir vocal i con circumflejo compuesto",
+  "Convertir vocal o con circumflejo compuesto",
+  "Convertir vocal u con circumflejo compuesto"
 )
 
 stopifnot(
@@ -268,7 +314,7 @@ reglas <- rbind(
   reglas_espacios
 )
 
-stopifnot(nrow(reglas) == 66L)
+stopifnot(nrow(reglas) == 81L)
 
 # ============================================================
 # FUNCIONES AUXILIARES
