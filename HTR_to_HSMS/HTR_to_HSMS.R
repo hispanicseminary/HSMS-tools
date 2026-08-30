@@ -20,7 +20,8 @@ APP_VERSION <- "0.1.0"
 patron <- c(
   "--------------- .* ---------------\\r\\n",
   "\\{CB([0-9]+)\\.",  # 1
-  "\\{HD([0-9]*)\\.",  # 2
+  "\\{HD([0-9]*)\\.",  # 1a
+  "(\\[fol\\.[^\\r\\n\\]]*\\])", #2
   "⊂",                 # 3
   "⊃",                 # 4
   "＜",                 # 5
@@ -82,7 +83,8 @@ patron <- c(
 reemplazo <- c(
   "",
   "\r\n{CB\\1.\r\n",    # 1
-  "\r\n{HD\\1.",        # 2
+  "\r\n{HD\\1.",        # 1a
+  "\r\n\\1\r\n",        # 2
   "<",                  # 3
   ">",                  # 4
   "<",                  # 5
@@ -145,6 +147,7 @@ descripcion <- c(
   "Eliminar la línea separadora de sección",
   "Añadir saltos de línea antes y después de la etiqueta CB",
   "Añadir saltos de línea antes de la etiqueta HD",
+  "Colocar la etiqueta [fol.] en una línea independiente",
   "Convertir el símbolo ⊂ en <",
   "Convertir el símbolo ⊃ en >",
   "Convertir el signo menor que de ancho completo en <",
@@ -265,7 +268,7 @@ reglas <- rbind(
   reglas_espacios
 )
 
-stopifnot(nrow(reglas) == 65L)
+stopifnot(nrow(reglas) == 66L)
 
 # ============================================================
 # FUNCIONES AUXILIARES
