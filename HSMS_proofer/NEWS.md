@@ -21,6 +21,7 @@
 
 * Added a warning for grave accents (`) used as UVa-HSMS models HTR markers for superscript letters, reminding editors to replace them with the HSMS `<<...>>` notation.
 * Added a warning for provisional HTR abbreviation markers (`＜...＞` and `⊂...⊃`), reminding editors to convert them to the HSMS `<...>` notation before final validation and analysis.
+* Fixed validation of continuation plus signs (`+}`) in multiline mnemonics, so that cases such as interrupted `{RUB. ... +}` sections are correctly recognized even when the mnemonic opens on a previous physical line.
 
 ### Technical checks
 
@@ -49,6 +50,7 @@
 * Marked legacy `((` and `))` as obsolete real-parenthesis markers.
 * Stopped validating spacing for legacy `((...))`, which is now kept only as a historical fossil.
 * Clarified the handling of `{GL.}` and `{AD.}` insertions in container-crossing checks, avoiding false reports when non-structural internal mnemonics such as `{RMK: ...}` occur inside scribal insertions.
+
 
 ### RMK
 
