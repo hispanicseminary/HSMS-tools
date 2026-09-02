@@ -35,6 +35,7 @@ patron <- c(
   "c'",                # 11
   "C'",                # 12
   "n~",                # 13
+  "n\u0303",           # 13a
   "N~",                # 14
   "cͥ",                 # 15
   "qͥs",                # 16: antes de la regla general ͥ
@@ -92,8 +93,8 @@ patron <- c(
   "e\u0302",
   "i\u0302",
   "o\u0302",
-  "u\u0302"
-
+  "u\u0302",
+  "¬"
 )
 
 reemplazo <- c(
@@ -114,6 +115,7 @@ reemplazo <- c(
   "ç",                  # 11
   "Ç",                  # 12
   "ñ",                  # 13
+  "ñ",                  # 13a
   "Ñ",                  # 14
   "c<r><<i>>",          # 15
   "q<u><<i>>s",         # 16
@@ -171,7 +173,8 @@ reemplazo <- c(
   "ê",
   "î",
   "ô",
-  "û"
+  "û",
+  "-"
 )
 
 descripcion <- c(
@@ -192,6 +195,7 @@ descripcion <- c(
   "Convertir c seguida de apóstrofo en ç",
   "Convertir C seguida de apóstrofo en Ç",
   "Convertir n seguida de virgulilla en ñ",
+  "Convertir n seguida de virgulilla compuesta en ñ",
   "Convertir N seguida de virgulilla en Ñ",
   "Expandir c con i volada",
   "Expandir q con i volada seguida de s",
@@ -249,7 +253,8 @@ descripcion <- c(
   "Convertir vocal e con circumflejo compuesto",
   "Convertir vocal i con circumflejo compuesto",
   "Convertir vocal o con circumflejo compuesto",
-  "Convertir vocal u con circumflejo compuesto"
+  "Convertir vocal u con circumflejo compuesto",
+  "Cambiar ¬ a - en el final del renglón"
 )
 
 stopifnot(
@@ -314,7 +319,7 @@ reglas <- rbind(
   reglas_espacios
 )
 
-stopifnot(nrow(reglas) == 81L)
+stopifnot(nrow(reglas) == 83L)
 
 # ============================================================
 # FUNCIONES AUXILIARES
