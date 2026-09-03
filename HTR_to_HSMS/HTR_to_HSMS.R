@@ -43,16 +43,16 @@ patron <- c(
   "oẽ",                # 18: antes de ẽ
   "tiẽp",              # 19: antes de ẽ
   "ẽ",                 # 20
-  "õe",                # 21: antes de õ
-  "õs",                # 22: antes de õ
+  " õe",                # 21: antes de õ
+  " õs",                # 22: antes de õ
   "õ",                 # 23
   "ã",                 # 24
   "ĩ",                 # 25
   "ũ",                 # 26
   "q̃r",                # 27: antes de q̃
   "q̃",                 # 28
-  "om̃e",               # 29
-  "om̃s",               # 30
+  " om̃e",               # 29
+  " om̃s",               # 30
   "m̃t",                # 31
   "ꝰ",                 # 32
   "⁊",                 # 33
@@ -123,16 +123,16 @@ reemplazo <- c(
   "o<mn>e",             # 18
   "tie<n>p",            # 19
   "e<n>",               # 20
-  "o<mn>e",             # 21
-  "o<mne>s",            # 22
+  " o<mn>e",             # 21
+  " o<mne>s",            # 22
   "o<n>",               # 23
   "a<n>",               # 24
   "i<n>",               # 25
   "u<n>",               # 26
   "q<u><<a>>r",         # 27
   "q<ue>",              # 28
-  "om<n>e",             # 29
-  "om<ne>s",            # 30
+  " om<n>e",             # 29
+  " om<ne>s",            # 30
   "m<en>t",             # 31
   "<os>",                # 32
   "&",                   # 33
