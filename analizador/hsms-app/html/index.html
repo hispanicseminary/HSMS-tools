@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>analizador Corpus OSTA v.2.0 [textos antiguos]</title>
+<title>analizador Corpus OSTA v.2.1 [textos antiguos]</title>
 <link rel="stylesheet" type="text/css" media="all" href="../css/widget.css" />
 <link rel="stylesheet" type="text/css" media="all" href="../css/jquery-impromptu.min.css" />
 <link href="osta.css" type=text/css rel=stylesheet>
@@ -15,97 +15,275 @@
 <script type="text/javascript" src="../js/hsms.js"></script>
 
 <style type="text/css">
-#filescont {float:left; margin:10px;}
-#files {padding-right: 10px; padding-left: 20px; cursor:pointer;}
-#content {float:left; margin:10px; width: 98%;}
-#formulario {float:left; margin:10px;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-#select_folder, #select_corpus, #select_file {
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    text-align: center;
-    margin: 0 auto;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Solo habrá scroll en #content */
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    color: #3E3F3A;
+    background-color: #FFFFFF;
+}
+
+/* Igualar anchura de los contenedores laterales y central */
+#filescont, #formulario {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f8f9fa; /* Color arena de Sandstone (sustituye a paper.gif) */
+    border: 1px solid #DFD7CA;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+#files {
+    padding-right: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#content {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #DFD7CA;
+    border-radius: 4px;
+}
+
+/* Barra superior estilo Navbar de Sandstone */
+/* Contenedor superior con Flexbox */
+#barra {
+    width: 100%;
+    min-height: 150px;
+    box-sizing: border-box;
+    background-color: #f8f5f0;
+    border-bottom: 1px solid #2b2c28;
+    padding: 12px 24px;
+    border-radius: 0;
+
+    /* Alinea el logo a la izquierda, pone el título arriba y centra los botones debajo */
+    display: flex;
+    flex-wrap: wrap;        /* Permite que el título ocupe la línea superior */
+    align-items: center;
+    align-content: center;  /* Centra verticalmente el conjunto (título + botones) en los 130px */
+    justify-content: center;
     position: relative;
-    width: 16em;
-    top: 40%;
-    padding: 1em;
-	background-color: #c6c6c6;
-    /*background: #a13f43;*/
-    border-radius: 2em;
-    border: solid 1px #c6c6c6;
-    color: black;
-	/*float:left;*/
-	display: inline-block;
+}
+
+/* Inserta la imagen a la izquierda de #barra automáticamente vía CSS */
+#barra::before {
+    content: "";
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 160px;  /* Ajusta este ancho según la proporción que prefieras */
+    height: 110px; /* Altura fija dentro de la barra */
+    background-image: url('../img/hsms.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+/* Inserta el título centrado encima de los tres botones */
+#barra::after {
+    content: "Analizador Corpus OSTA v.2.1 [textos antiguos]";
+    order: -1;          /* Hace que aparezca antes (encima) de los botones */
+    flex-basis: 100%;   /* Ocupa todo el ancho de la primera fila */
+    text-align: center;
+    color: #3E3F3A;     /* Gris oscuro Sandstone para que contraste con tu fondo #f8f5f0 */
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px; /* Separación entre el título y los botones */
+}
+
+/* Botones superiores con tamaño fijo e inmutable */
+#select_folder, #select_corpus, #select_file {
+    /* Dimensiones fijas que nunca cambian */
+    width: 240px;
+    height: 42px;
+    flex: 0 0 240px;
+    box-sizing: border-box;
+
+    /* Centrado perfecto del texto interior */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap; /* Impide que el texto pase a dos líneas */
+
+    margin: 0 8px;
+    padding: 0 12px;
+    background-color: #29abe0; /* Azul Sandstone */
+    border-radius: 4px;
+    border: 1px solid #2b4f73;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s ease-in-out;
 }
 
 #select_folder:hover, #select_corpus:hover, #select_file:hover {
-    box-shadow: 0px 0px 20px #c6c6c6;
+    background-color: #264666;
     cursor: pointer;
+    /* Mantiene exactamente el mismo tamaño al pasar el ratón */
+    box-shadow: none;
 }
-#fileSelector {
-    display: none;
-}
-#folderSelector {
-    display: none;
-}
-#corpusSelector {
+
+#fileSelector, #folderSelector, #corpusSelector {
     display: none;
 }
 
-input[type=text] {
-    padding:5px; 
-    border:2px solid #ccc; 
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+/* Inputs y Textarea estilo Sandstone */
+input[type=text], textarea {
+    padding: 6px 10px;
+    border: 1px solid #DFD7CA;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #3E3F3A;
+    font-family: inherit;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
-input[type=text]:focus {
-    border-color:#333;
+/* Ajustar inputs dentro de #formulario para que no desborden */
+#formulario input[type=text], #formulario textarea {
+    width: 100%;
+    margin-top: 4px;
 }
 
-input[type=submit] {
-    padding:5px 15px; 
-    background:#ccc; 
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
+/* Excepción para el input #pos que va acompañado del botón "?" */
+#formulario #pos {
+    width: calc(100% - 40px);
+    display: inline-block;
 }
 
-button {
-    padding:5px 15px; 
-    background:#ccc; 
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
+input[type=text]:focus, textarea:focus {
+    outline: none;
+    border-color: #325D88;
+    box-shadow: 0 0 0 2px rgba(50, 93, 136, 0.2);
 }
 
-#barra {
-	width: 96%;
-	text-align: center;
-	border-radius: 25px;
-	background: linear-gradient(to bottom, rgb(160, 1, 0) 0%, rgb(70, 1, 0) 100%);
-/*	background: linear-gradient(to bottom, rgba(73,149,161,1) 0%, rgba(0,62,71,1) 100%);*/
-    padding: 20px; 
+/* Botones generales estilo Sandstone */
+input[type=submit], input[type=button], button {
+    padding: 6px 14px;
+    background-color: #93C54B; /* Verde oliva Sandstone */
+    color: #FFFFFF;
+    border: 1px solid #82b23d;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s ease-in-out;
 }
 
-#filescont, #formulario {
-    border-radius: 25px;
-    background: url(../img/paper.gif);
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 20px; 
+input[type=submit]:hover, input[type=button]:hover, button:hover {
+    background-color: #7fae3b;
 }
 
-.borderClass{
-  border-color: darkBlue;
-  border-width:2px;
-  border-style: solid;
-  background-color: #ADD8E6;
+input[type=button]:disabled, button:disabled {
+    background-color: #DFD7CA;
+    border-color: #d1c6b4;
+    color: #8E8C84;
+    cursor: not-allowed;
+}
+
+/* Resaltado de coincidencias del buscador */
+.borderClass {
+    border: 2px solid #325D88;
+    background-color: #d9edf7;
 }
 
 match {
-  background-color: #ADD8E6;
+    background-color: #d9edf7;
+    padding: 1px 2px;
+    border-radius: 2px;
+}
+#barra span,
+#barra span:hover,
+#select_file:hover span,
+#select_corpus:hover span,
+#select_folder:hover span {
+    color: inherit !important;
+    background-color: transparent !important;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td {
+    padding: 0;
+}
+/* Fuerza la alineación a la izquierda y compacta el contenedor */
+#formulario,
+#formulario form {
+    text-align: left !important;
+    line-height: 1.2;
+}
+
+/* Elimina los saltos de línea duplicados del HTML original dentro de #formulario */
+#formulario br {
+    display: none;
+}
+
+/* Separa ligeramente el enlace "Ver análisis múltiple" */
+#formulario #verdes {
+    display: inline-block;
+    margin: 6px 0 4px 0;
+}
+
+/* Etiquetas (Forma, Lema propuesto, etc.) compactas y alineadas a la izquierda */
+#formulario b {
+    display: block;
+    margin-left: 0 !important;
+    margin-top: 8px;    /* Pequeña separación entre un bloque y el siguiente */
+    margin-bottom: 2px; /* Muy pegado a su propia caja de texto */
+    font-size: 13px;
+    text-align: left;
+}
+
+/* Cajas de texto y textarea compactas y alineadas al margen izquierdo */
+#formulario input[type=text],
+#formulario textarea {
+    display: block;
+    width: 100%;
+    margin: 0 !important;
+    padding: 4px 8px;   /* Relleno interior más compacto */
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+/* Mantiene "Etiqueta asignada" (#pos) en la misma línea que el botón "?" */
+#formulario #pos {
+    display: inline-block;
+    width: calc(100% - 36px);
+    margin: 0 !important;
+    vertical-align: middle;
+}
+
+#formulario #ayudaPoS {
+    display: inline-block;
+    width: 30px;
+    margin: 0 0 0 4px !important;
+    padding: 4px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Botones Guardar y Reanalizar compactos */
+#formulario button {
+    display: inline-block;
+    margin: 8px 6px 0 0 !important;
+    padding: 5px 12px;
 }
 </style>
 </head>
@@ -118,7 +296,7 @@ match {
     <span>Procesar corpus completo</span>
 </div>
 <div id="select_folder">
-    <span>Listar textos</span>
+    <span>Listar textos procesados</span>
 </div>
 </div>
 <script type="text/javascript">
@@ -131,14 +309,14 @@ document.write('<input type="file" nwdirectory nwworkingdir="' + hsmsDir + '" id
 document.write('<input type="file" nwdirectory nwworkingdir="' + hsmsDir + '" id="corpusSelector"/>');
 //process.env.FREELINGSHARE = "C:\Users\Javier\Desktop\perl\apps\coser\freeling-3.1-c\data";
 </script>
-<div style="display: flex; align-items: center;"><input type="text" placeholder="Buscar" spellcheck="false" class="text-input" name="find" id="find" value=""><input style="padding: 5px;" value="Buscar" title="Buscar" id="buscar" type="button"/><input style="margin-left: 10px; padding: 5px;" value="Limpiar" title="Limpiar" id="limpiar_buscar" type="button"/><input style="padding: 5px;" value="Anterior" id="prev" type="button"/><input style="padding: 5px;" value="Siguiente" id="next" type="button"/><div style="color:blue;padding-left:10px;padding-right:10px;" id="ocurrencias"></div><div style="color:red;" id="warning"></div></div>
+<div style="display: flex; align-items: center; margin: 10px 10px 10px 10px;"><input type="text" placeholder="Buscar" spellcheck="false" class="text-input" name="find" id="find" value=""><input style="padding: 5px;" value="Buscar" title="Buscar" id="buscar" type="button"/><input style="margin-left: 10px; padding: 5px;" value="Limpiar" title="Limpiar" id="limpiar_buscar" type="button"/><input style="padding: 5px;" value="Anterior" id="prev" type="button"/><input style="padding: 5px;" value="Siguiente" id="next" type="button"/><div style="color:blue;padding-left:10px;padding-right:10px;" id="ocurrencias"></div><div style="color:red;" id="warning"></div></div>
 <table width="100%" height="100%">
 <tr>
-<td valign="top" width="20%"><div id="filescont" style="height: 480px; overflow-x: auto; overflow-y: auto;"><ul id="files"><b>Cargar los textos mediante los botones superiores de la aplicación</b></ul></div></td>
-<td valign="top" width="65%"><div id="content" style="height: 100vh; overflow-x: auto; overflow-y: auto;"></div></td>
+<td valign="top" width="15%"><div id="filescont" style="height: calc(100vh - 220px); overflow-x: auto; overflow-y: auto;"><ul id="files"><b>Cargar los textos mediante los botones superiores de la aplicación</b></ul></div></td>
+<td valign="top" width="70%"><div id="content" style="height: calc(100vh - 180px); overflow-x: auto; overflow-y: auto;"></div></td>
 <td valign="top" width="15%">
 	<div id="formulario">
-		<div style="text-align: center; width="100%""><img src="../img/ysop.png" alt="HSMS" width="70%"></div><BR>
+		<div style="text-align: center; width="100%"><img src="../img/ysop.png" alt="HSMS" width="70%"></div><BR>
 		<div><a id="verdes" onclick="verdes()" href="#" style="color: #279394">Ver análisis múltiple</a></div>
 		<BR>
 		<form>  <b>Forma:</b><br>
